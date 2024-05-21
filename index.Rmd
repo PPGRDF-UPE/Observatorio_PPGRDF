@@ -2035,6 +2035,7 @@ title(main = "Membros de projetos de pesquisa",
       outer = TRUE,
       cex.main = 1.7)
 
+
 # file path to save the wordclouds
 dir.path <- file.path(getwd(), "index_files", "figure-html")
 dir.create(dir.path, recursive = TRUE)
@@ -2045,19 +2046,19 @@ source("Scripts/read-xlsx-sucupira.R", local = knitr::knit_global())
 sucupira.raw <- sucupira.raw[!duplicated(sucupira.raw),]
 IES <- sucupira.raw$`Instituição de Origem`
 IES <- IES[!is.na(IES)]
-países <- na.omit(sucupira.raw$`País da Instituição de Origem`)
-mundo <-
-  na.omit(sucupira.raw$`País da Instituição de Origem`[sucupira.raw$`País da Instituição de Origem` != "Brasil"])
+países <- sucupira.raw$`País da Instituição de Origem`
+países <- países[!is.na(países)]
+mundo <- sucupira.raw$`País da Instituição de Origem`[sucupira.raw$`País da Instituição de Origem` != "Brasil"]
+mundo <- mundo[!is.na(mundo)]
 
-part.ext.nac <-
-  na.omit(sucupira.raw$`Nome do Participante`[sucupira.raw$`País da Instituição de Origem` == "Brasil"])
-part.ext.inter <-
-  na.omit(sucupira.raw$`Nome do Participante`[sucupira.raw$`País da Instituição de Origem` != "Brasil"])
-
-IES.nac <-
-  na.omit(sucupira.raw$`Instituição de Origem`[sucupira.raw$`País da Instituição de Origem` == "Brasil"])
-IES.inter <-
-  na.omit(sucupira.raw$`Instituição de Origem`[sucupira.raw$`País da Instituição de Origem` != "Brasil"])
+part.ext.nac <- sucupira.raw$`Nome do Participante`[sucupira.raw$`País da Instituição de Origem` == "Brasil"]
+part.ext.nac <- part.ext.nac[!is.na(part.ext.nac)]
+part.ext.inter <- sucupira.raw$`Nome do Participante`[sucupira.raw$`País da Instituição de Origem` != "Brasil"]
+part.ext.inter <- part.ext.inter[!is.na(part.ext.inter)]
+IES.nac <- sucupira.raw$`Instituição de Origem`[sucupira.raw$`País da Instituição de Origem` == "Brasil"]
+IES.nac <- IES.nac[!is.na(IES.nac)]
+IES.inter <- sucupira.raw$`Instituição de Origem`[sucupira.raw$`País da Instituição de Origem` != "Brasil"]
+IES.inter <- IES.inter[!is.na(IES.inter)]
 
 # get initials
 data.to.abbrev <- IES
@@ -2078,16 +2079,16 @@ data.to.cloud <- ranked.ies
 cloud.title <- "Instituições"
 source("Scripts/docs-to-wordcloud.R", local = knitr::knit_global())
 
+# plot 3
+# plot area setup
+layout.m <- c(1)
+source("Scripts/plot-margins.R", local = knitr::knit_global())
+
+# plot area setup
+par(mar = c(1.5, 15, 1, 1))
+
 # check if there are IES
 if (length(IES.nac) > 0) {
-  # plot 3
-  # plot area setup
-  layout.m <- c(1)
-  source("Scripts/plot-margins.R", local = knitr::knit_global())
-  
-  # plot area setup
-  par(mar = c(1.5, 15, 1, 1))
-  
   top <- min(length(IES.nac), 10)
   data.nac <-
     na.omit(data.frame(name = names(sort(
@@ -2115,19 +2116,27 @@ if (length(IES.nac) > 0) {
     outer = TRUE,
     cex.main = 1.7
   )
+} else {
+  # plot empty plot
+  plot.new()
+  title(
+    main = "Top-10 nacionais",
+    outer = TRUE,
+    cex.main = 1.7
+  )
 }
+
+# plot 4
+
+# plot area setup
+layout.m <- c(1)
+source("Scripts/plot-margins.R", local = knitr::knit_global())
+
+# plot area setup
+par(mar = c(1.5, 15, 1, 1))
 
 # check if there are IES
 if (length(IES.inter) > 0) {
-  # plot 4
-  
-  # plot area setup
-  layout.m <- c(1)
-  source("Scripts/plot-margins.R", local = knitr::knit_global())
-  
-  # plot area setup
-  par(mar = c(1.5, 15, 1, 1))
-  
   top <- min(length(IES.inter), 10)
   data.inter <-
     na.omit(data.frame(name = names(sort(
@@ -2155,18 +2164,26 @@ if (length(IES.inter) > 0) {
     outer = TRUE,
     cex.main = 1.7
   )
+} else {
+  # plot empty plot
+  plot.new()
+  title(
+    main = "Top-10 internacionais",
+    outer = TRUE,
+    cex.main = 1.7
+  )
 }
+
+# plot 5
+# plot area setup
+layout.m <- c(1)
+source("Scripts/plot-margins.R", local = knitr::knit_global())
+
+# plot area setup
+par(mar = c(1.5, 15, 1, 1))
 
 # check if there are mundo
 if (length(mundo) > 0) {
-  # plot 5
-  # plot area setup
-  layout.m <- c(1)
-  source("Scripts/plot-margins.R", local = knitr::knit_global())
-  
-  # plot area setup
-  par(mar = c(1.5, 15, 1, 1))
-  
   top <- min(length(mundo), 10)
   data.pais <-
     na.omit(data.frame(name = names(sort(
@@ -2194,7 +2211,16 @@ if (length(mundo) > 0) {
     outer = TRUE,
     cex.main = 1.7
   )
+} else {
+  # plot empty plot
+  plot.new()
+  title(main = "Top-10 países",
+        outer = TRUE,
+        cex.main = 1.7)
+}
   
+# check if there are mundo
+if (length(mundo) > 0) {
   # plot 6 (geospatial plot of participantes externos)
   paises <- as.data.frame(table(as.character(mundo)))
   source("Scripts/worldmap.R", local = knitr::knit_global())
@@ -2241,19 +2267,25 @@ if (length(mundo) > 0) {
       )
     ) +
     ggplot2::ggtitle("Distribuição global de Participantes Externos")
+} else {
+  # plot empty plot
+  plot.new()
+  title(main = "Distribuição global de Participantes Externos",
+        outer = TRUE,
+        cex.main = 1.7)
 }
 
 # plot 7 (summary table in plot)
 
 # calculate summary statistics for IES
 summ.table.ies <-
-  cbind(
-    length(unique(na.omit(IES.nac))) + length(unique(na.omit(IES.inter))),
-    length(unique(na.omit(IES.nac))),
-    length(unique(na.omit(IES.inter))),
-    length(unique(na.omit(part.ext.nac))) + length(unique(na.omit(part.ext.inter))),
-    length(unique(na.omit(part.ext.nac))),
-    length(unique(na.omit(part.ext.inter)))
+  c(
+    length(unique(IES.nac)) + length(unique(IES.inter)),
+    length(unique(IES.nac)),
+    length(unique(IES.inter)),
+    length(unique(part.ext.nac)) + length(unique(part.ext.inter)),
+    length(unique(part.ext.nac)),
+    length(unique(part.ext.inter))
   )
 
 names(summ.table.ies) <-

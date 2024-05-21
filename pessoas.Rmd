@@ -1239,7 +1239,7 @@ for (j in 1:dim(periodos)[1]) {
       color = NA,
       size = .15
     ) +
-    sggplot2::cale_fill_distiller(
+    ggplot2::scale_fill_distiller(
       palette = "Spectral",
       name = "Egressos, n",
       limits = c(min(0, UF$Freq), max(UF$Freq)),
