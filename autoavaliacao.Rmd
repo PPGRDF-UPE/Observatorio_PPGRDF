@@ -443,6 +443,13 @@ summ.missing.wider <- tidyr::pivot_wider(
   values_from = `Dados perdidos`
 )
 
+summ.duplicates.wider <- tidyr::pivot_wider(
+  summ.df,
+  id_cols = Ano,
+  names_from = Aba,
+  values_from = `Dados duplicados`
+)
+
 # percent of missing data
 summ.missing.wider <- summ.missing.wider / (summ.data.wider + summ.data.wider) * 100
 summ.missing.wider$Ano <- quadrienal.vigente
