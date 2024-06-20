@@ -35,22 +35,6 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet" />
-<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
-<link href="site_libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
-<script src="site_libs/datatables-binding-0.33/datatables.js"></script>
-<link href="site_libs/dt-core-1.13.6/css/jquery.dataTables.min.css" rel="stylesheet" />
-<link href="site_libs/dt-core-1.13.6/css/jquery.dataTables.extra.css" rel="stylesheet" />
-<script src="site_libs/dt-core-1.13.6/js/jquery.dataTables.min.js"></script>
-<script src="site_libs/pdfmake-1.13.6/pdfmake.js"></script>
-<script src="site_libs/pdfmake-1.13.6/vfs_fonts.js"></script>
-<link href="site_libs/dt-ext-buttons-1.13.6/css/buttons.dataTables.min.css" rel="stylesheet" />
-<script src="site_libs/dt-ext-buttons-1.13.6/js/dataTables.buttons.min.js"></script>
-<script src="site_libs/dt-ext-buttons-1.13.6/js/buttons.html5.min.js"></script>
-<script src="site_libs/dt-ext-buttons-1.13.6/js/buttons.colVis.min.js"></script>
-<script src="site_libs/dt-ext-buttons-1.13.6/js/buttons.print.min.js"></script>
-<link href="site_libs/crosstalk-1.2.1/css/crosstalk.min.css" rel="stylesheet" />
-<script src="site_libs/crosstalk-1.2.1/js/crosstalk.min.js"></script>
 <link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
 <link rel="shortcut icon" href="favicon_io/android-chrome-192x192.png" sizes="192x192" type="image/png">
@@ -508,9 +492,6 @@ div.tocify {
       <a href="bibliografica.html#artigo-periodico">Artigo em periódico</a>
     </li>
     <li>
-      <a href="bibliografica.html#retratacao">Retratação</a>
-    </li>
-    <li>
       <a href="bibliografica.html#livro">Livro</a>
     </li>
     <li>
@@ -790,11 +771,11 @@ $(document).ready(function() {
 <!--script for sharing-->
 <p align="right">
 <a
-href="https://twitter.com/share?url="><svg preserveAspectRatio="none" aria-hidden="true" role="img" viewBox="0 0 448 512" style="height:2em;width:2em;vertical-align:-0.125em;margin-left:0.2em;margin-right:0.2em;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zM351.3 199.3v0c0 86.7-66 186.6-186.6 186.6c-37.2 0-71.7-10.8-100.7-29.4c5.3 .6 10.4 .8 15.8 .8c30.7 0 58.9-10.4 81.4-28c-28.8-.6-53-19.5-61.3-45.5c10.1 1.5 19.2 1.5 29.6-1.2c-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3c-9-6-16.4-14.1-21.5-23.6s-7.8-20.2-7.7-31c0-12.2 3.2-23.4 8.9-33.1c32.3 39.8 80.8 65.8 135.2 68.6c-9.3-44.5 24-80.6 64-80.6c18.9 0 35.9 7.9 47.9 20.7c14.8-2.8 29-8.3 41.6-15.8c-4.9 15.2-15.2 28-28.8 36.1c13.2-1.4 26-5.1 37.8-10.2c-8.9 13.1-20.1 24.7-32.9 34c.2 2.8 .2 5.7 .2 8.5z"/></svg></a>
+href="https://twitter.com/share?url=https://github.com/FerreiraAS"><svg preserveAspectRatio="none" aria-hidden="true" role="img" viewBox="0 0 448 512" style="height:2em;width:2em;vertical-align:-0.125em;margin-left:0.2em;margin-right:0.2em;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zM351.3 199.3v0c0 86.7-66 186.6-186.6 186.6c-37.2 0-71.7-10.8-100.7-29.4c5.3 .6 10.4 .8 15.8 .8c30.7 0 58.9-10.4 81.4-28c-28.8-.6-53-19.5-61.3-45.5c10.1 1.5 19.2 1.5 29.6-1.2c-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3c-9-6-16.4-14.1-21.5-23.6s-7.8-20.2-7.7-31c0-12.2 3.2-23.4 8.9-33.1c32.3 39.8 80.8 65.8 135.2 68.6c-9.3-44.5 24-80.6 64-80.6c18.9 0 35.9 7.9 47.9 20.7c14.8-2.8 29-8.3 41.6-15.8c-4.9 15.2-15.2 28-28.8 36.1c13.2-1.4 26-5.1 37.8-10.2c-8.9 13.1-20.1 24.7-32.9 34c.2 2.8 .2 5.7 .2 8.5z"/></svg></a>
 <a
-href="https://www.facebook.com/sharer.php?u="><svg preserveAspectRatio="none" aria-hidden="true" role="img" viewBox="0 0 448 512" style="height:2em;width:2em;vertical-align:-0.125em;margin-left:0.2em;margin-right:0.2em;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"/></svg></a>
+href="https://www.facebook.com/sharer.php?u=https://github.com/FerreiraAS"><svg preserveAspectRatio="none" aria-hidden="true" role="img" viewBox="0 0 448 512" style="height:2em;width:2em;vertical-align:-0.125em;margin-left:0.2em;margin-right:0.2em;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"/></svg></a>
 <a
-href="https://www.linkedin.com/shareArticle?mini=true&amp;url="><svg preserveAspectRatio="none" aria-hidden="true" role="img" viewBox="0 0 448 512" style="height:2em;width:2em;vertical-align:-0.125em;margin-left:0.2em;margin-right:0.2em;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></a>
+href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://github.com/FerreiraAS"><svg preserveAspectRatio="none" aria-hidden="true" role="img" viewBox="0 0 448 512" style="height:2em;width:2em;vertical-align:-0.125em;margin-left:0.2em;margin-right:0.2em;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></a>
 </p>
 <!--script for generating ALTMETRIC badges-->
 <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
@@ -820,10 +801,8 @@ href="https://www.linkedin.com/shareArticle?mini=true&amp;url="><svg preserveAsp
 <h2 class="tabset"><strong>Produções: Visibilidade</strong></h2>
 <!--script for generating HORIZONTAL LINE-->
 <hr style="height:2px;border-width:0;color:black;background-color:black">
-<div class="datatables html-widget html-fill-item" id="htmlwidget-99fd7360f3f29da26a58" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-99fd7360f3f29da26a58">{"x":{"filter":"none","vertical":false,"extensions":["Buttons"],"caption":"<caption>14/06/2024<\/caption>","data":[["5","4","7","11","10","3","6","9","2","8","1"],["dos Santos EEP, de Araújo RC, Candow DG, et al. Efficacy of Creatine Supplementation Combined with Resistance Training on Muscle Strength and Muscle Mass in Older Females: A Systematic Review and Meta-Analysis. Nutrients. 2021;13(11):3757. doi:10.3390/nu13113757\n","Carvalho RGS, Silva MF, Dias JM, et al. Effectiveness of additional deep-water running for disability, lumbar pain intensity, and functional capacity in patients with chronic low back pain: A randomised controlled trial with 3-month follow-up. Musculoskeletal Science and Practice. 2020;49:102195. doi:10.1016/j.msksp.2020.102195\n","Matos TS, do Nascimento VA, do Carmo RF, Moreno de Oliveira Fernandes TR, de Souza CDF, da Silva TFA. Impact of the COVID‐19 pandemic on the diagnosis of new leprosy cases in Northeastern Brazil, 2020. International Journal of Dermatology. 2021;60(8):1003-1006. doi:10.1111/ijd.15705\n","Cappato de Araújo R, Andrade da Silva H, Pereira dos Passos MH, Alves de Oliveira VM, Rodarti Pitangui AC. Use of unstable exercises in periscapular muscle activity: A systematic review and meta-analysis of electromyographic studies. Journal of Bodywork and Movement Therapies. 2021;26:318-328. doi:10.1016/j.jbmt.2020.12.010\n","Coutinho HS, Silva JO, Santana GB de A, et al. Temporal trend, space risk and factors associated with the occurrence of dengue in northeast Brazil, 2009–2018. Transactions of The Royal Society of Tropical Medicine and Hygiene. 2022;116(9):853-867. doi:10.1093/trstmh/trac027\n","Paz Â de A, Aidar FJ, de Matos DG, et al. Comparison of Post-Exercise Hypotension Responses in Paralympic Powerlifting Athletes after Completing Two Bench Press Training Intensities. Medicina. 2020;56(4):156. doi:10.3390/medicina56040156\n","Silva RR de S, Matos TS, Silva TFA da, et al. Enfrentamento da hanseníase em tempos de COVID-19. Revista Brasileira de Medicina de Família e Comunidade. 2023;18(45):3232. doi:10.5712/rbmfc18(45)3232\n","Tavares LF, Brusaca LA, Calixtre LB, Locks F, Oliveira AB. O.3.2-8 Sedentary behaviour, physical activity, and sleep patterns of women with chronic temporomandibular disorders on days with and without pain: a cross-sectional study. European Journal of Public Health. 2023;33(Supplement_1). doi:10.1093/eurpub/ckad133.153\n","Baad VMA, Bezerra LR, de Holanda NCP, et al. Body Composition, Sarcopenia and Physical Performance After Bariatric Surgery: Differences Between Sleeve Gastrectomy and Roux-En-Y Gastric Bypass. Obesity Surgery. 2022;32(12):3830-3838. doi:10.1007/s11695-022-06335-y\n","de Maio Nascimento M, da Silva Neto HR, de Fátima Carreira Moreira Padovez R, Neves VR. Impacts of Social Isolation on the Physical and Mental Health of Older Adults During Quarantine: A Systematic Review. Clinical Gerontologist. 2022;46(5):648-668. doi:10.1080/07317115.2022.2141166\n","de Oliveira VMA, Pirauá ALT, Cavalcante BR, et al. Additional Functional Performance Gains After 24-Week Unstable Strength Training With Cognitive Training in Community-Dwelling Healthy Older Adults: A Randomized Trial. Journal of Aging and Physical Activity. 2021;29(3):412-422. doi:10.1123/japa.2020-0050\n"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>ID<\/th>\n      <th>Reference<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"colReorder":false,"pageLength":0,"scrolX":false,"dom":"B","searchHighlight":false,"buttons":[{"extend":"copy","text":"Copiar","filename":"Produção de destaque - Atenção e visibilidade"},{"extend":"csv","text":"CSV","filename":"Produção de destaque - Atenção e visibilidade"},{"extend":"pdf","text":"PDF","title":"Produção de destaque - Atenção e visibilidade","filename":"Produção de destaque - Atenção e visibilidade"}],"headerCallback":"function(thead, display){\n$(thead).remove();\n}","columnDefs":[{"name":"ID","targets":0},{"name":"Reference","targets":1}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[0,10,25,50,100]},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":["options.headerCallback"],"jsHooks":[]}</script>
 <!-- -->
-<p><strong>Produtos (n = 11) e Impactos (Altmetric<sup>1</sup>,
+<p><strong>Produtos (n = 13) e Impactos (Altmetric<sup>1</sup>,
 Dimensions<sup>2</sup>, PlumX<sup>3</sup>, CiteScore<sup>4</sup>,
 SJR<sup>5</sup>, Qualis<sup>6</sup>, Open
 Access<sup>7</sup>)</strong></p>
@@ -837,7 +816,7 @@ Access<sup>7</sup>)</strong></p>
 <table class="tb" style="width:100%;">
 <tr>
 <th>
-Produtos (n = 11) e Impactos (Altmetric<sup>1</sup>,
+Produtos (n = 13) e Impactos (Altmetric<sup>1</sup>,
 Dimensions<sup>2</sup>, PlumX<sup>3</sup>, CiteScore<sup>4</sup>,
 SJR<sup>5</sup>, Qualis<sup>6</sup>, Open Access<sup>7</sup>)
 </th>
@@ -1033,6 +1012,102 @@ style="height: 4px; background-color: rgb(0, 115, 152); width:57%;">
 </div>
 </a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" href="https://www.scimagojr.com/journalsearch.php?q=16788&amp;tip=sid&amp;exact=no" target="_blank" title="SCImago Journal &amp; Country Rank"><img border="0" height="64px;" src="https://www.scimagojr.com/journal_img.php?id=16788" alt="SCImago Journal &amp; Country Rank"  /></a><a style="border-radius:10%; border-style: solid; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em; text-decoration:none; text-align: center; display:inline-block; float:left; color:black;">
 Qualis <br>A2</a></nobr>
+</div>
+</tr>
+<tr>
+<td valign=top;>
+<br> <a href="http://dx.doi.org/10.3233/wor-210851"
+target="_blank"><strong>Association between the time of physical laboral
+activities and leisure over shoulder pain in fruitculture workers: A
+cross-sectional study.</strong></a><br>Gabriel de Amorim Batista,
+Francisco Locks, Sol Patricia Beltrán Picón, Heloísa Jácome Correia,
+Zalane Cristina Marques Ferraz, Ana Carolina Rodarti Pitangui, Rodrigo
+Cappato de Araújo<br>2023  -  <em>Work</em><br>
+<div style="vertical-align: middle; display: inline-block;">
+<nobr><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" class="altmetric-embed" data-badge-type="donut" data-badge-popover="right" data-doi="10.3233/wor-210851"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" data-legend="hover-right" class="__dimensions_badge_embed__" data-doi="10.3233/wor-210851" data-style="small_circle"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; padding:0.5em 0.3em 0.5em 0.3em;" class="plumx-plum-print-popup" href="https://plu.mx/plum/a/?doi=10.3233/wor-210851" data-popup="right" data-size="medium" data-site="plum"></a><a href="https://www.scopus.com/sourceid/12480?dgcid=sc_widget-citescore" style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; text-decoration:none;color:#505050">
+<div
+style="height:64px;width:160px;font-family:Arial, Verdana, helvetica, sans-serif;background-color:#ffffff;display:inline-block">
+<div style="padding: 0px 16px;">
+<div style="padding-top:3px;line-height:1;">
+<div style="float:left;font-size:28px">
+<span id="citescoreVal"
+style="letter-spacing: -2px;display: inline-block;padding-top: 7px;line-height: .75;">2.60</span>
+</div>
+<div
+style="float:right;font-size:14px;padding-top:3px;text-align: right;">
+<span id="citescoreYearVal" style="display:block;">2022</span>CiteScore
+</div>
+</div>
+<div style="clear:both;">
+
+</div>
+<div style="padding-top:3px;">
+<div style="height:4px;background-color:#DCDCDC;">
+<div id="percentActBar"
+style="height: 4px; background-color: rgb(0, 115, 152); width:58%;">
+ 
+</div>
+</div>
+<div style="font-size:11px;">
+<span id="citescorePerVal">58th percentile</span>
+</div>
+</div>
+<div style="font-size:12px;text-align:right;">
+
+</div>
+</div>
+</div>
+</a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" href="https://www.scimagojr.com/journalsearch.php?q=12480&amp;tip=sid&amp;exact=no" target="_blank" title="SCImago Journal &amp; Country Rank"><img border="0" height="64px;" src="https://www.scimagojr.com/journal_img.php?id=12480" alt="SCImago Journal &amp; Country Rank"  /></a><a style="border-radius:10%; border-style: solid; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em; text-decoration:none; text-align: center; display:inline-block; float:left; color:black;">
+Qualis <br>A4</a></nobr>
+</div>
+</tr>
+<tr>
+<td valign=top;>
+<br><a style="display: inline-block; float: left; margin:0.0em 0.2em 0.0em 0.0em; padding:0.0em 0.2em 0.0em 0.0em;" href="http://dx.doi.org/10.1177/19417381221139343" target="_blank"><img height="18px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Open_Access_logo_PLoS_white.svg/256px-Open_Access_logo_PLoS_white.svg.png"></a>
+<a href="http://dx.doi.org/10.1177/19417381221139343"
+target="_blank"><strong>Effect of High-Intensity Interval Training on
+Exercise Capacity, Blood Pressure, and Autonomic Responses in Patients
+With Hypertension: A Systematic Review and
+Meta-analysis</strong></a><br>Fabricio Olinda de Souza Mesquita, Bruno
+Bavaresco Gambassi, Marcio de Oliveira Silva, Sérgio Rodrigues Moreira,
+Victor Ribeiro Neves, Mansueto Gomes-Neto, Paulo Adriano
+Schwingel<br>2022  -  <em>Sports Health</em><br>
+<div style="vertical-align: middle; display: inline-block;">
+<nobr><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" class="altmetric-embed" data-badge-type="donut" data-badge-popover="right" data-doi="10.1177/19417381221139343"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" data-legend="hover-right" class="__dimensions_badge_embed__" data-doi="10.1177/19417381221139343" data-style="small_circle"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; padding:0.5em 0.3em 0.5em 0.3em;" class="plumx-plum-print-popup" href="https://plu.mx/plum/a/?doi=10.1177/19417381221139343" data-popup="right" data-size="medium" data-site="plum"></a><a href="https://www.scopus.com/sourceid/19900193557?dgcid=sc_widget-citescore" style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; text-decoration:none;color:#505050">
+<div
+style="height:64px;width:160px;font-family:Arial, Verdana, helvetica, sans-serif;background-color:#ffffff;display:inline-block">
+<div style="padding: 0px 16px;">
+<div style="padding-top:3px;line-height:1;">
+<div style="float:left;font-size:28px">
+<span id="citescoreVal"
+style="letter-spacing: -2px;display: inline-block;padding-top: 7px;line-height: .75;">6.30</span>
+</div>
+<div
+style="float:right;font-size:14px;padding-top:3px;text-align: right;">
+<span id="citescoreYearVal" style="display:block;">2022</span>CiteScore
+</div>
+</div>
+<div style="clear:both;">
+
+</div>
+<div style="padding-top:3px;">
+<div style="height:4px;background-color:#DCDCDC;">
+<div id="percentActBar"
+style="height: 4px; background-color: rgb(0, 115, 152); width:86%;">
+ 
+</div>
+</div>
+<div style="font-size:11px;">
+<span id="citescorePerVal">86th percentile</span>
+</div>
+</div>
+<div style="font-size:12px;text-align:right;">
+
+</div>
+</div>
+</div>
+</a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" href="https://www.scimagojr.com/journalsearch.php?q=19900193557&amp;tip=sid&amp;exact=no" target="_blank" title="SCImago Journal &amp; Country Rank"><img border="0" height="64px;" src="https://www.scimagojr.com/journal_img.php?id=19900193557" alt="SCImago Journal &amp; Country Rank"  /></a><a style="border-radius:10%; border-style: solid; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em; text-decoration:none; text-align: center; display:inline-block; float:left; color:black;">
+Qualis <br>A1</a></nobr>
 </div>
 </tr>
 <tr>
@@ -1396,8 +1471,6 @@ href="https://doaj.org"><strong>DOAJ</strong></a><br><br><br><a style="float:rig
 <h2 class="tabset"><strong>Produções: Prestígio</strong></h2>
 <!--script for generating HORIZONTAL LINE-->
 <hr style="height:2px;border-width:0;color:black;background-color:black">
-<div class="datatables html-widget html-fill-item" id="htmlwidget-7edee8747e0a0541d6b9" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-7edee8747e0a0541d6b9">{"x":{"filter":"none","vertical":false,"extensions":["Buttons"],"caption":"<caption>14/06/2024<\/caption>","data":[["18","15","5","7","2","8","23","22","13","17","6","4","24","9","3","1","14","16","10","11"],["Marques HB, Machado EDG, Souza EP de, Cavalcante TCF, Silva AAM da. Associação entre esgotamento profissional e alterações do cortisol em profissionais de saúde: Uma revisão sistemática. Research, Society and Development. 2023;12(8):e7712842864. doi:10.33448/rsd-v12i8.42864\n","Sousa DSF, de Farias WM, de Amorim Batista G, et al. Activation of upper limb muscles in subjects with scapular dyskinesis during bench-press and dumbbell fly on stable and unstable surfaces. Journal of Back and Musculoskeletal Rehabilitation. 2022;35(6):1289-1297. doi:10.3233/bmr-210243\n","dos Santos EEP, de Araújo RC, Candow DG, et al. Efficacy of Creatine Supplementation Combined with Resistance Training on Muscle Strength and Muscle Mass in Older Females: A Systematic Review and Meta-Analysis. Nutrients. 2021;13(11):3757. doi:10.3390/nu13113757\n","Matos TS, do Nascimento VA, do Carmo RF, Moreno de Oliveira Fernandes TR, de Souza CDF, da Silva TFA. Impact of the COVID‐19 pandemic on the diagnosis of new leprosy cases in Northeastern Brazil, 2020. International Journal of Dermatology. 2021;60(8):1003-1006. doi:10.1111/ijd.15705\n","Baad VMA, Bezerra LR, de Holanda NCP, et al. Body Composition, Sarcopenia and Physical Performance After Bariatric Surgery: Differences Between Sleeve Gastrectomy and Roux-En-Y Gastric Bypass. Obesity Surgery. 2022;32(12):3830-3838. doi:10.1007/s11695-022-06335-y\n","de Maio Nascimento M, da Silva Neto HR, de Fátima Carreira Moreira Padovez R, Neves VR. Impacts of Social Isolation on the Physical and Mental Health of Older Adults During Quarantine: A Systematic Review. Clinical Gerontologist. 2022;46(5):648-668. doi:10.1080/07317115.2022.2141166\n","Melo KCB, Santos GA dos, Araujo F de S, Moreira SR. Detraining period of the PILATES method on functional capacity of elderly women with type 2 diabetes: A randomized clinical trial. Journal of Bodywork and Movement Therapies. 2022;31:77-83. doi:10.1016/j.jbmt.2022.03.012\n","Dos Passos MHP, Pícon SPB, Novaes WA, Silva YA, Pitangui ACR, De Araújo RC. CONFIABILIDADE DA MEDIDA DE MOVIMENTO DE ROTAÇÃO DO OMBRO MENSURADA PELO APLICATIVO CLINÔMETRO PARA SMARTPHONE. Revista Brasileira de Ciência e Movimento. 2022;29(4). doi:10.31501/rbcm.v29i4.12521\n","Oliveira NFF de, Jorge CH, Sunemi MMO, Pitangui ACR, Driusso P. 6º Congresso Brasileiro de Fisioterapia na Saúde da Mulher (VI COBRAFISM). Fisioterapia Brasil. 2023;24(5):S1-S138. doi:10.33233/fb.v24i5.5553\n","Araújo RC de. Answer to the Letter “An illustration of how harmful the degree of freedom of the researcher is using the article entitled ‘Reliability and validity of the Brazilian version of the Pittsburgh Sleep Quality Index in adolescents’ as an example.” Jornal de Pediatria. 2021;97(2):250-251. doi:10.1016/j.jped.2020.12.001\n","Silva RR de S, Matos TS, Silva TFA da, et al. Enfrentamento da hanseníase em tempos de COVID-19. Revista Brasileira de Medicina de Família e Comunidade. 2023;18(45):3232. doi:10.5712/rbmfc18(45)3232\n","Carvalho RGS, Silva MF, Dias JM, et al. Effectiveness of additional deep-water running for disability, lumbar pain intensity, and functional capacity in patients with chronic low back pain: A randomised controlled trial with 3-month follow-up. Musculoskeletal Science and Practice. 2020;49:102195. doi:10.1016/j.msksp.2020.102195\n","Trombini-Souza F, de Maio Nascimento M, da Silva TFA, de Araújo RC, Perracini MR, Sacco ICN. Dual-task training with progression from variable- to fixed-priority instructions versus dual-task training with variable-priority on gait speed in community-dwelling older adults: A protocol for a randomized controlled trial. BMC Geriatrics. 2020;20(1). doi:10.1186/s12877-020-1479-2\n","Tavares LF, Brusaca LA, Calixtre LB, Locks F, Oliveira AB. O.3.2-8 Sedentary behaviour, physical activity, and sleep patterns of women with chronic temporomandibular disorders on days with and without pain: a cross-sectional study. European Journal of Public Health. 2023;33(Supplement_1). doi:10.1093/eurpub/ckad133.153\n","Paz Â de A, Aidar FJ, de Matos DG, et al. Comparison of Post-Exercise Hypotension Responses in Paralympic Powerlifting Athletes after Completing Two Bench Press Training Intensities. Medicina. 2020;56(4):156. doi:10.3390/medicina56040156\n","de Oliveira VMA, Pirauá ALT, Cavalcante BR, et al. Additional Functional Performance Gains After 24-Week Unstable Strength Training With Cognitive Training in Community-Dwelling Healthy Older Adults: A Randomized Trial. Journal of Aging and Physical Activity. 2021;29(3):412-422. doi:10.1123/japa.2020-0050\n","Cavalcante BB, Novaes ARA, Barboza RR, et al. A importância do diagnóstico clínico para auxílio na saúde dos indivíduos / The importance of clinical diagnosis to help individuals health. Brazilian Journal of Health Review. 2022;5(1):2573-2581. doi:10.34119/bjhrv5n1-230\n","ALVES FLEXA RIBEIRO D, LOPES DE SIQUEIRA AF, SOUZA LIMA ROCHA A, et al. Acute effects of dynamic explosive-type resistance exercise performed with elastic bands on blood pressure in stroke survivors. Medicina dello Sport. 2022;75(2). doi:10.23736/s0025-7826.22.04150-3\n","Coutinho HS, Silva JO, Santana GB de A, et al. Temporal trend, space risk and factors associated with the occurrence of dengue in northeast Brazil, 2009–2018. Transactions of The Royal Society of Tropical Medicine and Hygiene. 2022;116(9):853-867. doi:10.1093/trstmh/trac027\n","Cappato de Araújo R, Andrade da Silva H, Pereira dos Passos MH, Alves de Oliveira VM, Rodarti Pitangui AC. Use of unstable exercises in periscapular muscle activity: A systematic review and meta-analysis of electromyographic studies. Journal of Bodywork and Movement Therapies. 2021;26:318-328. doi:10.1016/j.jbmt.2020.12.010\n"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>ID<\/th>\n      <th>Reference<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"colReorder":false,"pageLength":0,"scrolX":false,"dom":"B","searchHighlight":false,"buttons":[{"extend":"copy","text":"Copiar","filename":"Produção de destaque - Prestígio do peridódico"},{"extend":"csv","text":"CSV","filename":"Produção de destaque - Prestígio do peridódico"},{"extend":"pdf","text":"PDF","title":"Produção de destaque - Prestígio do peridódico","filename":"Produção de destaque - Prestígio do peridódico"}],"headerCallback":"function(thead, display){\n$(thead).remove();\n}","columnDefs":[{"name":"ID","targets":0},{"name":"Reference","targets":1}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[0,10,25,50,100]},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":["options.headerCallback"],"jsHooks":[]}</script>
 <!-- -->
 <p><strong>Produtos (n = 20) e Impactos (Altmetric<sup>1</sup>,
 Dimensions<sup>2</sup>, PlumX<sup>3</sup>, CiteScore<sup>4</sup>,
@@ -1464,6 +1537,55 @@ style="height: 4px; background-color: rgb(0, 115, 152); width:93%;">
 </div>
 </div>
 </a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" href="https://www.scimagojr.com/journalsearch.php?q=19700188323&amp;tip=sid&amp;exact=no" target="_blank" title="SCImago Journal &amp; Country Rank"><img border="0" height="64px;" src="https://www.scimagojr.com/journal_img.php?id=19700188323" alt="SCImago Journal &amp; Country Rank"  /></a><a style="border-radius:10%; border-style: solid; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em; text-decoration:none; text-align: center; display:inline-block; float:left; color:black;">
+Qualis <br>A1</a></nobr>
+</div>
+</tr>
+<tr>
+<td valign=top;>
+<br><a style="display: inline-block; float: left; margin:0.0em 0.2em 0.0em 0.0em; padding:0.0em 0.2em 0.0em 0.0em;" href="http://dx.doi.org/10.1177/19417381221139343" target="_blank"><img height="18px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Open_Access_logo_PLoS_white.svg/256px-Open_Access_logo_PLoS_white.svg.png"></a>
+<a href="http://dx.doi.org/10.1177/19417381221139343"
+target="_blank"><strong>Effect of High-Intensity Interval Training on
+Exercise Capacity, Blood Pressure, and Autonomic Responses in Patients
+With Hypertension: A Systematic Review and
+Meta-analysis</strong></a><br>Fabricio Olinda de Souza Mesquita, Bruno
+Bavaresco Gambassi, Marcio de Oliveira Silva, Sérgio Rodrigues Moreira,
+Victor Ribeiro Neves, Mansueto Gomes-Neto, Paulo Adriano
+Schwingel<br>2022  -  <em>Sports Health</em><br>
+<div style="vertical-align: middle; display: inline-block;">
+<nobr><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" class="altmetric-embed" data-badge-type="donut" data-badge-popover="right" data-doi="10.1177/19417381221139343"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" data-legend="hover-right" class="__dimensions_badge_embed__" data-doi="10.1177/19417381221139343" data-style="small_circle"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; padding:0.5em 0.3em 0.5em 0.3em;" class="plumx-plum-print-popup" href="https://plu.mx/plum/a/?doi=10.1177/19417381221139343" data-popup="right" data-size="medium" data-site="plum"></a><a href="https://www.scopus.com/sourceid/19900193557?dgcid=sc_widget-citescore" style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; text-decoration:none;color:#505050">
+<div
+style="height:64px;width:160px;font-family:Arial, Verdana, helvetica, sans-serif;background-color:#ffffff;display:inline-block">
+<div style="padding: 0px 16px;">
+<div style="padding-top:3px;line-height:1;">
+<div style="float:left;font-size:28px">
+<span id="citescoreVal"
+style="letter-spacing: -2px;display: inline-block;padding-top: 7px;line-height: .75;">6.30</span>
+</div>
+<div
+style="float:right;font-size:14px;padding-top:3px;text-align: right;">
+<span id="citescoreYearVal" style="display:block;">2022</span>CiteScore
+</div>
+</div>
+<div style="clear:both;">
+
+</div>
+<div style="padding-top:3px;">
+<div style="height:4px;background-color:#DCDCDC;">
+<div id="percentActBar"
+style="height: 4px; background-color: rgb(0, 115, 152); width:86%;">
+ 
+</div>
+</div>
+<div style="font-size:11px;">
+<span id="citescorePerVal">86th percentile</span>
+</div>
+</div>
+<div style="font-size:12px;text-align:right;">
+
+</div>
+</div>
+</div>
+</a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" href="https://www.scimagojr.com/journalsearch.php?q=19900193557&amp;tip=sid&amp;exact=no" target="_blank" title="SCImago Journal &amp; Country Rank"><img border="0" height="64px;" src="https://www.scimagojr.com/journal_img.php?id=19900193557" alt="SCImago Journal &amp; Country Rank"  /></a><a style="border-radius:10%; border-style: solid; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em; text-decoration:none; text-align: center; display:inline-block; float:left; color:black;">
 Qualis <br>A1</a></nobr>
 </div>
 </tr>
@@ -1854,22 +1976,22 @@ Qualis <br>A3</a></nobr>
 </tr>
 <tr>
 <td valign=top;>
-<br> <a href="http://dx.doi.org/10.1016/j.jbmt.2020.12.010"
-target="_blank"><strong>Use of unstable exercises in periscapular muscle
-activity: A systematic review and meta-analysis of electromyographic
-studies</strong></a><br>Rodrigo Cappato de Araújo, Hítalo Andrade da
-Silva, Muana Hiandra Pereira Dos Passos, Valéria Mayaly Alves de
-Oliveira, Ana Carolina Rodarti Pitangui<br>2020  -  <em>Journal of
-Bodywork &amp; Movement Therapies</em><br>
+<br> <a href="http://dx.doi.org/10.3233/wor-210851"
+target="_blank"><strong>Association between the time of physical laboral
+activities and leisure over shoulder pain in fruitculture workers: A
+cross-sectional study.</strong></a><br>Gabriel de Amorim Batista,
+Francisco Locks, Sol Patricia Beltrán Picón, Heloísa Jácome Correia,
+Zalane Cristina Marques Ferraz, Ana Carolina Rodarti Pitangui, Rodrigo
+Cappato de Araújo<br>2023  -  <em>Work</em><br>
 <div style="vertical-align: middle; display: inline-block;">
-<nobr><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" class="altmetric-embed" data-badge-type="donut" data-badge-popover="right" data-doi="10.1016/j.jbmt.2020.12.010"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" data-legend="hover-right" class="__dimensions_badge_embed__" data-doi="10.1016/j.jbmt.2020.12.010" data-style="small_circle"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; padding:0.5em 0.3em 0.5em 0.3em;" class="plumx-plum-print-popup" href="https://plu.mx/plum/a/?doi=10.1016/j.jbmt.2020.12.010" data-popup="right" data-size="medium" data-site="plum"></a><a href="https://www.scopus.com/sourceid/16788?dgcid=sc_widget-citescore" style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; text-decoration:none;color:#505050">
+<nobr><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" class="altmetric-embed" data-badge-type="donut" data-badge-popover="right" data-doi="10.3233/wor-210851"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" data-legend="hover-right" class="__dimensions_badge_embed__" data-doi="10.3233/wor-210851" data-style="small_circle"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; padding:0.5em 0.3em 0.5em 0.3em;" class="plumx-plum-print-popup" href="https://plu.mx/plum/a/?doi=10.3233/wor-210851" data-popup="right" data-size="medium" data-site="plum"></a><a href="https://www.scopus.com/sourceid/12480?dgcid=sc_widget-citescore" style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; text-decoration:none;color:#505050">
 <div
 style="height:64px;width:160px;font-family:Arial, Verdana, helvetica, sans-serif;background-color:#ffffff;display:inline-block">
 <div style="padding: 0px 16px;">
 <div style="padding-top:3px;line-height:1;">
 <div style="float:left;font-size:28px">
 <span id="citescoreVal"
-style="letter-spacing: -2px;display: inline-block;padding-top: 7px;line-height: .75;">2.50</span>
+style="letter-spacing: -2px;display: inline-block;padding-top: 7px;line-height: .75;">2.60</span>
 </div>
 <div
 style="float:right;font-size:14px;padding-top:3px;text-align: right;">
@@ -1882,12 +2004,12 @@ style="float:right;font-size:14px;padding-top:3px;text-align: right;">
 <div style="padding-top:3px;">
 <div style="height:4px;background-color:#DCDCDC;">
 <div id="percentActBar"
-style="height: 4px; background-color: rgb(0, 115, 152); width:57%;">
+style="height: 4px; background-color: rgb(0, 115, 152); width:58%;">
  
 </div>
 </div>
 <div style="font-size:11px;">
-<span id="citescorePerVal">57th percentile</span>
+<span id="citescorePerVal">58th percentile</span>
 </div>
 </div>
 <div style="font-size:12px;text-align:right;">
@@ -1895,23 +2017,21 @@ style="height: 4px; background-color: rgb(0, 115, 152); width:57%;">
 </div>
 </div>
 </div>
-</a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" href="https://www.scimagojr.com/journalsearch.php?q=16788&amp;tip=sid&amp;exact=no" target="_blank" title="SCImago Journal &amp; Country Rank"><img border="0" height="64px;" src="https://www.scimagojr.com/journal_img.php?id=16788" alt="SCImago Journal &amp; Country Rank"  /></a><a style="border-radius:10%; border-style: solid; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em; text-decoration:none; text-align: center; display:inline-block; float:left; color:black;">
-Qualis <br>A2</a></nobr>
+</a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" href="https://www.scimagojr.com/journalsearch.php?q=12480&amp;tip=sid&amp;exact=no" target="_blank" title="SCImago Journal &amp; Country Rank"><img border="0" height="64px;" src="https://www.scimagojr.com/journal_img.php?id=12480" alt="SCImago Journal &amp; Country Rank"  /></a><a style="border-radius:10%; border-style: solid; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em; text-decoration:none; text-align: center; display:inline-block; float:left; color:black;">
+Qualis <br>A4</a></nobr>
 </div>
 </tr>
 <tr>
 <td valign="top;">
-<br><a style="display: inline-block; float: left; margin:0.0em 0.2em 0.0em 0.0em; padding:0.0em 0.2em 0.0em 0.0em;" href="http://dx.doi.org/10.1249/01.mss.0000876496.10863.ba" target="_blank"><img height="18px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Open_Access_logo_PLoS_white.svg/256px-Open_Access_logo_PLoS_white.svg.png"></a>
-<a href="https://doi.org/10.1249/01.mss.0000876496.10863.ba"
-target="_blank"><strong>Effects Of Creatine Supplementation And
-Resistance Training On Muscle Strength In Older Females: Systematic
-Review/meta-analysis</strong></a><br>Joao P. Botero, Ellem Eduarda
-Pinheiro dos Santos, Rodrigo Cappato de Araújo, Darren G. Candow, Scott
-C. Forbes, Jaddy Antunes Guijo, Carla Caroliny de Almeida Santana,
-Wagner Luiz do Prado<br>2022  -  <em>Medicine &amp; Science in Sports
-&amp; Exercise</em><br>
+<br> <a href="https://doi.org/NA" target="_blank"><strong>Effects Of
+Creatine Supplementation And Resistance Training On Muscle Strength In
+Older Females: Systematic Review/meta-analysis</strong></a><br>Joao P.
+Botero, Ellem Eduarda Pinheiro dos Santos, Rodrigo Cappato de Araújo,
+Darren G. Candow, Scott C. Forbes, Jaddy Antunes Guijo, Carla Caroliny
+de Almeida Santana, Wagner Luiz do Prado<br>2022  -  <em>Medicine &amp;
+Science in Sports &amp; Exercise</em><br>
 <div style="vertical-align: middle; display: inline-block;">
-<nobr><img style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" src="https://badges.altmetric.com/?score=?&types=????????"><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" data-legend="hover-right" class="__dimensions_badge_embed__" data-doi="10.1249/01.mss.0000876496.10863.ba" data-style="small_circle"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em;" class="plumx-plum-print-popup" href="https://plu.mx/plum/a/?doi=10.1249/01.mss.0000876496.10863.ba" data-popup="right" data-size="medium" data-site="plum"></a><a href="https://www.scopus.com/sourceid/19894?dgcid=sc_widget-citescore" style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; text-decoration:none;color:#505050">
+<nobr><img style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" src="https://badges.altmetric.com/?score=?&types=????????"><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" data-legend="hover-right" class="__dimensions_badge_embed__" data-doi="NA" data-style="small_circle"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em;" class="plumx-plum-print-popup" href="https://plu.mx/plum/a/?doi=NA" data-popup="right" data-size="medium" data-site="plum"></a><a href="https://www.scopus.com/sourceid/19894?dgcid=sc_widget-citescore" style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; text-decoration:none;color:#505050">
 <div
 style="height:64px;width:160px;font-family:Arial, Verdana, helvetica, sans-serif;background-color:#ffffff;display:inline-block">
 <div style="padding: 0px 16px;">
@@ -1951,15 +2071,13 @@ Qualis <br>A1</a></nobr>
 </tr>
 <tr>
 <td valign="top;">
-<br><a style="display: inline-block; float: left; margin:0.0em 0.2em 0.0em 0.0em; padding:0.0em 0.2em 0.0em 0.0em;" href="http://dx.doi.org/10.1109/access.2021.3139527" target="_blank"><img height="18px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Open_Access_logo_PLoS_white.svg/256px-Open_Access_logo_PLoS_white.svg.png"></a>
-<a href="https://doi.org/10.1109/access.2021.3139527"
-target="_blank"><strong>Classification of Older Adults Undergoing Two
-Dual-Task Training Protocols Based on Artificial Intelligent
-Methods</strong></a><br>Rebeca Sarai, Francis Trombini-Souza, Vitoria
-Thaysa Gomes de Moura, Rafael Caldas, Fernando Buarque<br>2022  -
- <em>IEEE Access</em><br>
+<br> <a href="https://doi.org/NA" target="_blank"><strong>Classification
+of Older Adults Undergoing Two Dual-Task Training Protocols Based on
+Artificial Intelligent Methods</strong></a><br>Rebeca Sarai, Francis
+Trombini-Souza, Vitoria Thaysa Gomes de Moura, Rafael Caldas, Fernando
+Buarque<br>2022  -  <em>IEEE Access</em><br>
 <div style="vertical-align: middle; display: inline-block;">
-<nobr><img style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" src="https://badges.altmetric.com/?score=?&types=????????"><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" data-legend="hover-right" class="__dimensions_badge_embed__" data-doi="10.1109/access.2021.3139527" data-style="small_circle"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em;" class="plumx-plum-print-popup" href="https://plu.mx/plum/a/?doi=10.1109/access.2021.3139527" data-popup="right" data-size="medium" data-site="plum"></a><a href="https://www.scopus.com/sourceid/21100374601?dgcid=sc_widget-citescore" style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; text-decoration:none;color:#505050">
+<nobr><img style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" src="https://badges.altmetric.com/?score=?&types=????????"><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" data-legend="hover-right" class="__dimensions_badge_embed__" data-doi="NA" data-style="small_circle"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em;" class="plumx-plum-print-popup" href="https://plu.mx/plum/a/?doi=NA" data-popup="right" data-size="medium" data-site="plum"></a><a href="https://www.scopus.com/sourceid/21100374601?dgcid=sc_widget-citescore" style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; text-decoration:none;color:#505050">
 <div
 style="height:64px;width:160px;font-family:Arial, Verdana, helvetica, sans-serif;background-color:#ffffff;display:inline-block">
 <div style="padding: 0px 16px;">
@@ -1999,15 +2117,14 @@ Qualis <br>A3</a></nobr>
 </tr>
 <tr>
 <td valign="top;">
-<br><a style="display: inline-block; float: left; margin:0.0em 0.2em 0.0em 0.0em; padding:0.0em 0.2em 0.0em 0.0em;" href="http://dx.doi.org/10.1093/eurpub/ckad133.150" target="_blank"><img height="18px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Open_Access_logo_PLoS_white.svg/256px-Open_Access_logo_PLoS_white.svg.png"></a>
-<a href="https://doi.org/10.1093/eurpub/ckad133.150"
+<br> <a href="https://doi.org/NA"
 target="_blank"><strong>O.3.2-5 24-hour compositions of physical
 (in)activity of women with temporomandibular
 disorders</strong></a><br>Luiz A Brusaca, Luiz Felipe Tavares, Letícia
 Bojikian Calixtre, Francisco Locks, Ana Beatriz Oliveira<br>2023  -
  <em>European Journal of Public Health</em><br>
 <div style="vertical-align: middle; display: inline-block;">
-<nobr><img style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" src="https://badges.altmetric.com/?score=?&types=????????"><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" data-legend="hover-right" class="__dimensions_badge_embed__" data-doi="10.1093/eurpub/ckad133.150" data-style="small_circle"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em;" class="plumx-plum-print-popup" href="https://plu.mx/plum/a/?doi=10.1093/eurpub/ckad133.150" data-popup="right" data-size="medium" data-site="plum"></a><a href="https://www.scopus.com/sourceid/20733?dgcid=sc_widget-citescore" style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; text-decoration:none;color:#505050">
+<nobr><img style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" src="https://badges.altmetric.com/?score=?&types=????????"><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" data-legend="hover-right" class="__dimensions_badge_embed__" data-doi="NA" data-style="small_circle"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em;" class="plumx-plum-print-popup" href="https://plu.mx/plum/a/?doi=NA" data-popup="right" data-size="medium" data-site="plum"></a><a href="https://www.scopus.com/sourceid/20733?dgcid=sc_widget-citescore" style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; text-decoration:none;color:#505050">
 <div
 style="height:64px;width:160px;font-family:Arial, Verdana, helvetica, sans-serif;background-color:#ffffff;display:inline-block">
 <div style="padding: 0px 16px;">
@@ -2047,20 +2164,19 @@ Qualis <br>A1</a></nobr>
 </tr>
 <tr>
 <td valign="top;">
-<br><a style="display: inline-block; float: left; margin:0.0em 0.2em 0.0em 0.0em; padding:0.0em 0.2em 0.0em 0.0em;" href="http://dx.doi.org/10.3390/ijerph20054019" target="_blank"><img height="18px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Open_Access_logo_PLoS_white.svg/256px-Open_Access_logo_PLoS_white.svg.png"></a>
-<a href="https://doi.org/10.3390/ijerph20054019"
-target="_blank"><strong>Negligible Effects of Nutraceuticals from
-Beetroot Extract on Cardiovascular and Autonomic Recovery Response
-following Submaximal Aerobic Exercise in Physically Active Healthy
-Males: A Randomized Trial</strong></a><br>Cicero Jonas R. Benjamim,
-Francisco Welington de Sousa Júnior, Andrey Alves Porto, Camila Venancia
-Guerra Andrade, Maria Íris L. Saraiva de Figueiredo, Cicera Josilânia R.
-Benjamim, Guilherme da Silva Rodrigues, Elida M. Braga Rocha, Taisy
-Ferro Cavalcante, David M. Garner, Vitor Engracia Valenti, Carlos R.
-Bueno Júnior<br>2023  -  <em>International Journal of Environmental
-Research and Public Health</em><br>
+<br> <a href="https://doi.org/NA" target="_blank"><strong>Negligible
+Effects of Nutraceuticals from Beetroot Extract on Cardiovascular and
+Autonomic Recovery Response following Submaximal Aerobic Exercise in
+Physically Active Healthy Males: A Randomized
+Trial</strong></a><br>Cicero Jonas R. Benjamim, Francisco Welington de
+Sousa Júnior, Andrey Alves Porto, Camila Venancia Guerra Andrade, Maria
+Íris L. Saraiva de Figueiredo, Cicera Josilânia R. Benjamim, Guilherme
+da Silva Rodrigues, Elida M. Braga Rocha, Taisy Ferro Cavalcante, David
+M. Garner, Vitor Engracia Valenti, Carlos R. Bueno Júnior<br>2023  -
+ <em>International Journal of Environmental Research and Public
+Health</em><br>
 <div style="vertical-align: middle; display: inline-block;">
-<nobr><img style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" src="https://badges.altmetric.com/?score=?&types=????????"><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" data-legend="hover-right" class="__dimensions_badge_embed__" data-doi="10.3390/ijerph20054019" data-style="small_circle"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em;" class="plumx-plum-print-popup" href="https://plu.mx/plum/a/?doi=10.3390/ijerph20054019" data-popup="right" data-size="medium" data-site="plum"></a><a href="https://www.scopus.com/sourceid/144989?dgcid=sc_widget-citescore" style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; text-decoration:none;color:#505050">
+<nobr><img style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" src="https://badges.altmetric.com/?score=?&types=????????"><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" data-legend="hover-right" class="__dimensions_badge_embed__" data-doi="NA" data-style="small_circle"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em;" class="plumx-plum-print-popup" href="https://plu.mx/plum/a/?doi=NA" data-popup="right" data-size="medium" data-site="plum"></a><a href="https://www.scopus.com/sourceid/144989?dgcid=sc_widget-citescore" style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; text-decoration:none;color:#505050">
 <div
 style="height:64px;width:160px;font-family:Arial, Verdana, helvetica, sans-serif;background-color:#ffffff;display:inline-block">
 <div style="padding: 0px 16px;">
@@ -2100,16 +2216,14 @@ Qualis <br>A1</a></nobr>
 </tr>
 <tr>
 <td valign="top;">
-<br><a style="display: inline-block; float: left; margin:0.0em 0.2em 0.0em 0.0em; padding:0.0em 0.2em 0.0em 0.0em;" href="http://dx.doi.org/10.1016/j.jped.2020.12.001" target="_blank"><img height="18px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Open_Access_logo_PLoS_white.svg/256px-Open_Access_logo_PLoS_white.svg.png"></a>
-<a href="https://doi.org/10.1016/j.jped.2020.12.001"
-target="_blank"><strong>Answer to the Letter “An illustration of how
-harmful the degree of freedom of the researcher is using the article
-entitled “Reliability and validity of the Brazilian version of the
-Pittsburgh Sleep Quality Index in adolescents” as an
-example”</strong></a><br>Rodrigo Cappato de Araújo<br>2021  -
- <em>Jornal De Pediatria</em><br>
+<br> <a href="https://doi.org/NA" target="_blank"><strong>Answer to the
+Letter “An illustration of how harmful the degree of freedom of the
+researcher is using the article entitled “Reliability and validity of
+the Brazilian version of the Pittsburgh Sleep Quality Index in
+adolescents” as an example”</strong></a><br>Rodrigo Cappato de
+Araújo<br>2021  -  <em>Jornal De Pediatria</em><br>
 <div style="vertical-align: middle; display: inline-block;">
-<nobr><img style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" src="https://badges.altmetric.com/?score=?&types=????????"><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" data-legend="hover-right" class="__dimensions_badge_embed__" data-doi="10.1016/j.jped.2020.12.001" data-style="small_circle"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em;" class="plumx-plum-print-popup" href="https://plu.mx/plum/a/?doi=10.1016/j.jped.2020.12.001" data-popup="right" data-size="medium" data-site="plum"></a><a href="https://www.scopus.com/sourceid/15096?dgcid=sc_widget-citescore" style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; text-decoration:none;color:#505050">
+<nobr><img style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" src="https://badges.altmetric.com/?score=?&types=????????"><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" data-legend="hover-right" class="__dimensions_badge_embed__" data-doi="NA" data-style="small_circle"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em;" class="plumx-plum-print-popup" href="https://plu.mx/plum/a/?doi=NA" data-popup="right" data-size="medium" data-site="plum"></a><a href="https://www.scopus.com/sourceid/15096?dgcid=sc_widget-citescore" style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; text-decoration:none;color:#505050">
 <div
 style="height:64px;width:160px;font-family:Arial, Verdana, helvetica, sans-serif;background-color:#ffffff;display:inline-block">
 <div style="padding: 0px 16px;">
@@ -2149,17 +2263,16 @@ Qualis <br>A3</a></nobr>
 </tr>
 <tr>
 <td valign="top;">
-<br><a style="display: inline-block; float: left; margin:0.0em 0.2em 0.0em 0.0em; padding:0.0em 0.2em 0.0em 0.0em;" href="http://dx.doi.org/10.1186/s12877-020-1479-2" target="_blank"><img height="18px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Open_Access_logo_PLoS_white.svg/256px-Open_Access_logo_PLoS_white.svg.png"></a>
-<a href="https://doi.org/10.1186/s12877-020-1479-2"
-target="_blank"><strong>Dual-task training with progression from
-variable- to fixed-priority instructions versus dual-task training with
-variable-priority on gait speed in community-dwelling older adults: A
-protocol for a randomized controlled trial</strong></a><br>Francis
-Trombini-Souza, Marcelo de Maio Nascimento, Tarcísio Fulgêncio Alves da
-Silva, Rodrigo Cappato de Araújo, Mônica Rodrigues Perracini, Isabel C.
-N. Sacco<br>2020  -  <em>BMC Geriatrics</em><br>
+<br> <a href="https://doi.org/NA" target="_blank"><strong>Dual-task
+training with progression from variable- to fixed-priority instructions
+versus dual-task training with variable-priority on gait speed in
+community-dwelling older adults: A protocol for a randomized controlled
+trial</strong></a><br>Francis Trombini-Souza, Marcelo de Maio
+Nascimento, Tarcísio Fulgêncio Alves da Silva, Rodrigo Cappato de
+Araújo, Mônica Rodrigues Perracini, Isabel C. N. Sacco<br>2020  -
+ <em>BMC Geriatrics</em><br>
 <div style="vertical-align: middle; display: inline-block;">
-<nobr><img style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" src="https://badges.altmetric.com/?score=?&types=????????"><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" data-legend="hover-right" class="__dimensions_badge_embed__" data-doi="10.1186/s12877-020-1479-2" data-style="small_circle"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em;" class="plumx-plum-print-popup" href="https://plu.mx/plum/a/?doi=10.1186/s12877-020-1479-2" data-popup="right" data-size="medium" data-site="plum"></a><a href="https://www.scopus.com/sourceid/28558?dgcid=sc_widget-citescore" style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; text-decoration:none;color:#505050">
+<nobr><img style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" src="https://badges.altmetric.com/?score=?&types=????????"><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" data-legend="hover-right" class="__dimensions_badge_embed__" data-doi="NA" data-style="small_circle"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em;" class="plumx-plum-print-popup" href="https://plu.mx/plum/a/?doi=NA" data-popup="right" data-size="medium" data-site="plum"></a><a href="https://www.scopus.com/sourceid/28558?dgcid=sc_widget-citescore" style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; text-decoration:none;color:#505050">
 <div
 style="height:64px;width:160px;font-family:Arial, Verdana, helvetica, sans-serif;background-color:#ffffff;display:inline-block">
 <div style="padding: 0px 16px;">
@@ -2199,18 +2312,17 @@ Qualis <br>A1</a></nobr>
 </tr>
 <tr>
 <td valign="top;">
-<br> <a href="https://doi.org/10.1016/j.msksp.2020.102228"
-target="_blank"><strong>Response to the Letter to the editor
-“Effectiveness of additional deep-water running for disability, lumbar
-pain intensity, and functional capacity in patients with chronic low
-back pain: A randomised controlled trial with 3-month
-follow-up”</strong></a><br>Rodrigo G.S. Carvalho, Mariana F. Silva,
-Josilainne M. Dias, Mabel M. Olkoski, Laís F. Dela Bela, Alexandre R.M.
-Pelegrinelli, Maria S.T. Barreto, Renata R. Campos, Leandro C. Guenka,
-Ligia M. Facci, Jefferson R. Cardoso<br>2020  -  <em>Musculoskeletal
-Science and Practice</em><br>
+<br> <a href="https://doi.org/NA" target="_blank"><strong>Response to
+the Letter to the editor “Effectiveness of additional deep-water running
+for disability, lumbar pain intensity, and functional capacity in
+patients with chronic low back pain: A randomised controlled trial with
+3-month follow-up”</strong></a><br>Rodrigo G.S. Carvalho, Mariana F.
+Silva, Josilainne M. Dias, Mabel M. Olkoski, Laís F. Dela Bela,
+Alexandre R.M. Pelegrinelli, Maria S.T. Barreto, Renata R. Campos,
+Leandro C. Guenka, Ligia M. Facci, Jefferson R. Cardoso<br>2020  -
+ <em>Musculoskeletal Science and Practice</em><br>
 <div style="vertical-align: middle; display: inline-block;">
-<nobr><img style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" src="https://badges.altmetric.com/?score=?&types=????????"><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" data-legend="hover-right" class="__dimensions_badge_embed__" data-doi="10.1016/j.msksp.2020.102228" data-style="small_circle"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em;" class="plumx-plum-print-popup" href="https://plu.mx/plum/a/?doi=10.1016/j.msksp.2020.102228" data-popup="right" data-size="medium" data-site="plum"></a><a href="https://www.scopus.com/sourceid/21100801200?dgcid=sc_widget-citescore" style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; text-decoration:none;color:#505050">
+<nobr><img style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" src="https://badges.altmetric.com/?score=?&types=????????"><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" data-legend="hover-right" class="__dimensions_badge_embed__" data-doi="NA" data-style="small_circle"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em;" class="plumx-plum-print-popup" href="https://plu.mx/plum/a/?doi=NA" data-popup="right" data-size="medium" data-site="plum"></a><a href="https://www.scopus.com/sourceid/21100801200?dgcid=sc_widget-citescore" style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; text-decoration:none;color:#505050">
 <div
 style="height:64px;width:160px;font-family:Arial, Verdana, helvetica, sans-serif;background-color:#ffffff;display:inline-block">
 <div style="padding: 0px 16px;">
@@ -2250,18 +2362,63 @@ Qualis <br>A2</a></nobr>
 </tr>
 <tr>
 <td valign="top;">
-<br><a style="display: inline-block; float: left; margin:0.0em 0.2em 0.0em 0.0em; padding:0.0em 0.2em 0.0em 0.0em;" href="http://dx.doi.org/10.1590/0102-672020230016e1734" target="_blank"><img height="18px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Open_Access_logo_PLoS_white.svg/256px-Open_Access_logo_PLoS_white.svg.png"></a>
-<a href="https://doi.org/10.1590/0102-672020230016e1734"
-target="_blank"><strong>BODY COMPOSITION ASSESSED BY DUAL-ENERGY X-RAY
-ABSORPTIOMETRY ON METABOLIC PROFILE AND CARDIOVASCULAR RISK IN OBESE
-PATIENTS PRIOR TO BARIATRIC SURGERY</strong></a><br>Cristiane Maria
-Araújo Tavares de SÁ, Maria Goretti Pessoa de Araújo Burgos, Lucio Vilar
-Rabelo Filho, Cinthia Katiane Martins Calado, Manoel da Cunha Costa,
-Thiago Coelho de Aguiar Silva, Renata Adrielle Lima Vieira, Poliana
-Coelho Cabral<br>2023  -  <em>ABCD. Arquivos Brasileiros De Cirurgia
-Digestiva (São Paulo)</em><br>
+<br> <a href="https://doi.org/NA" target="_blank"><strong>Perceptual
+Responses and Future Exercise Intentions of Individuals With Systemic
+Arterial Hypertension</strong></a><br>Mirelle Vieira Moreira, Victor
+Ribeiro Neves, Paulo Adriano Schwingel, Sergio Rodrigues
+Moreira<br>2022  -  <em>Perceptual and Motor Skills</em><br>
 <div style="vertical-align: middle; display: inline-block;">
-<nobr><img style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" src="https://badges.altmetric.com/?score=?&types=????????"><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" data-legend="hover-right" class="__dimensions_badge_embed__" data-doi="10.1590/0102-672020230016e1734" data-style="small_circle"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em;" class="plumx-plum-print-popup" href="https://plu.mx/plum/a/?doi=10.1590/0102-672020230016e1734" data-popup="right" data-size="medium" data-site="plum"></a><a href="https://www.scopus.com/sourceid/21100229216?dgcid=sc_widget-citescore" style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; text-decoration:none;color:#505050">
+<nobr><img style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" src="https://badges.altmetric.com/?score=?&types=????????"><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" data-legend="hover-right" class="__dimensions_badge_embed__" data-doi="NA" data-style="small_circle"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em;" class="plumx-plum-print-popup" href="https://plu.mx/plum/a/?doi=NA" data-popup="right" data-size="medium" data-site="plum"></a><a href="https://www.scopus.com/sourceid/12798?dgcid=sc_widget-citescore" style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; text-decoration:none;color:#505050">
+<div
+style="height:64px;width:160px;font-family:Arial, Verdana, helvetica, sans-serif;background-color:#ffffff;display:inline-block">
+<div style="padding: 0px 16px;">
+<div style="padding-top:3px;line-height:1;">
+<div style="float:left;font-size:28px">
+<span id="citescoreVal"
+style="letter-spacing: -2px;display: inline-block;padding-top: 7px;line-height: .75;">2.80</span>
+</div>
+<div
+style="float:right;font-size:14px;padding-top:3px;text-align: right;">
+<span id="citescoreYearVal" style="display:block;">2022</span>CiteScore
+</div>
+</div>
+<div style="clear:both;">
+
+</div>
+<div style="padding-top:3px;">
+<div style="height:4px;background-color:#DCDCDC;">
+<div id="percentActBar"
+style="height: 4px; background-color: rgb(0, 115, 152); width:61%;">
+ 
+</div>
+</div>
+<div style="font-size:11px;">
+<span id="citescorePerVal">61th percentile</span>
+</div>
+</div>
+<div style="font-size:12px;text-align:right;">
+
+</div>
+</div>
+</div>
+</a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" href="https://www.scimagojr.com/journalsearch.php?q=12798&amp;tip=sid&amp;exact=no" target="_blank" title="SCImago Journal &amp; Country Rank"><img border="0" height="64px;" src="https://www.scimagojr.com/journal_img.php?id=12798" alt="SCImago Journal &amp; Country Rank"  /></a><a style="border-radius:10%; border-style: solid; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em; text-decoration:none; text-align: center; display:inline-block; float:left; color:black;">
+Qualis <br>B1</a></nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td valign="top;">
+<br> <a href="https://doi.org/NA" target="_blank"><strong>BODY
+COMPOSITION ASSESSED BY DUAL-ENERGY X-RAY ABSORPTIOMETRY ON METABOLIC
+PROFILE AND CARDIOVASCULAR RISK IN OBESE PATIENTS PRIOR TO BARIATRIC
+SURGERY</strong></a><br>Cristiane Maria Araújo Tavares de SÁ, Maria
+Goretti Pessoa de Araújo Burgos, Lucio Vilar Rabelo Filho, Cinthia
+Katiane Martins Calado, Manoel da Cunha Costa, Thiago Coelho de Aguiar
+Silva, Renata Adrielle Lima Vieira, Poliana Coelho Cabral<br>2023  -
+ <em>ABCD. Arquivos Brasileiros De Cirurgia Digestiva (São
+Paulo)</em><br>
+<div style="vertical-align: middle; display: inline-block;">
+<nobr><img style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" src="https://badges.altmetric.com/?score=?&types=????????"><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" data-legend="hover-right" class="__dimensions_badge_embed__" data-doi="NA" data-style="small_circle"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em;" class="plumx-plum-print-popup" href="https://plu.mx/plum/a/?doi=NA" data-popup="right" data-size="medium" data-site="plum"></a><a href="https://www.scopus.com/sourceid/21100229216?dgcid=sc_widget-citescore" style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; text-decoration:none;color:#505050">
 <div
 style="height:64px;width:160px;font-family:Arial, Verdana, helvetica, sans-serif;background-color:#ffffff;display:inline-block">
 <div style="padding: 0px 16px;">
@@ -2295,102 +2452,6 @@ style="height: 4px; background-color: rgb(0, 115, 152); width:58%;">
 </div>
 </div>
 </a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" href="https://www.scimagojr.com/journalsearch.php?q=21100229216&amp;tip=sid&amp;exact=no" target="_blank" title="SCImago Journal &amp; Country Rank"><img border="0" height="64px;" src="https://www.scimagojr.com/journal_img.php?id=21100229216" alt="SCImago Journal &amp; Country Rank"  /></a><a style="border-radius:10%; border-style: solid; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em; text-decoration:none; text-align: center; display:inline-block; float:left; color:black;">
-Qualis <br>A4</a></nobr>
-</div>
-</td>
-</tr>
-<tr>
-<td valign="top;">
-<br> <a href="https://doi.org/10.1016/j.jbmt.2022.03.012"
-target="_blank"><strong>Detraining period of the PILATES method on
-functional capacity of elderly women with type 2 diabetes: A randomized
-clinical trial</strong></a><br>Karla Cinara Bezerra Melo, Geovani Alves
-dos Santos, Flavio de Souza Araujo, Sergio Rodrigues Moreira<br>2022  -
- <em>Journal of Bodywork and Movement Therapies</em><br>
-<div style="vertical-align: middle; display: inline-block;">
-<nobr><img style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" src="https://badges.altmetric.com/?score=?&types=????????"><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" data-legend="hover-right" class="__dimensions_badge_embed__" data-doi="10.1016/j.jbmt.2022.03.012" data-style="small_circle"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em;" class="plumx-plum-print-popup" href="https://plu.mx/plum/a/?doi=10.1016/j.jbmt.2022.03.012" data-popup="right" data-size="medium" data-site="plum"></a><a href="https://www.scopus.com/sourceid/16788?dgcid=sc_widget-citescore" style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; text-decoration:none;color:#505050">
-<div
-style="height:64px;width:160px;font-family:Arial, Verdana, helvetica, sans-serif;background-color:#ffffff;display:inline-block">
-<div style="padding: 0px 16px;">
-<div style="padding-top:3px;line-height:1;">
-<div style="float:left;font-size:28px">
-<span id="citescoreVal"
-style="letter-spacing: -2px;display: inline-block;padding-top: 7px;line-height: .75;">2.50</span>
-</div>
-<div
-style="float:right;font-size:14px;padding-top:3px;text-align: right;">
-<span id="citescoreYearVal" style="display:block;">2022</span>CiteScore
-</div>
-</div>
-<div style="clear:both;">
-
-</div>
-<div style="padding-top:3px;">
-<div style="height:4px;background-color:#DCDCDC;">
-<div id="percentActBar"
-style="height: 4px; background-color: rgb(0, 115, 152); width:57%;">
- 
-</div>
-</div>
-<div style="font-size:11px;">
-<span id="citescorePerVal">57th percentile</span>
-</div>
-</div>
-<div style="font-size:12px;text-align:right;">
-
-</div>
-</div>
-</div>
-</a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" href="https://www.scimagojr.com/journalsearch.php?q=16788&amp;tip=sid&amp;exact=no" target="_blank" title="SCImago Journal &amp; Country Rank"><img border="0" height="64px;" src="https://www.scimagojr.com/journal_img.php?id=16788" alt="SCImago Journal &amp; Country Rank"  /></a><a style="border-radius:10%; border-style: solid; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em; text-decoration:none; text-align: center; display:inline-block; float:left; color:black;">
-Qualis <br>A2</a></nobr>
-</div>
-</td>
-</tr>
-<tr>
-<td valign="top;">
-<br> <a href="https://doi.org/10.3233/bmr-210243"
-target="_blank"><strong>Activation of upper limb muscles in subjects
-with scapular dyskinesis during bench-press and dumbbell fly on stable
-and unstable surfaces</strong></a><br>Diego Santiago Freire Sousa,
-Wevans Monthier de Farias, Gabriel de Amorim Batista, Valéria Mayaly
-Alves de Oliveira, André Luiz Torres Pirauá, Natália Barros Beltrão, Ana
-Carolina Rodarti Pitangui, Rodrigo Cappato de Araújo<br>2022  -
- <em>Journal of Back and Musculoskeletal Rehabilitation</em><br>
-<div style="vertical-align: middle; display: inline-block;">
-<nobr><img style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" src="https://badges.altmetric.com/?score=?&types=????????"><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" data-legend="hover-right" class="__dimensions_badge_embed__" data-doi="10.3233/bmr-210243" data-style="small_circle"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em;" class="plumx-plum-print-popup" href="https://plu.mx/plum/a/?doi=10.3233/bmr-210243" data-popup="right" data-size="medium" data-site="plum"></a><a href="https://www.scopus.com/sourceid/12192?dgcid=sc_widget-citescore" style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; text-decoration:none;color:#505050">
-<div
-style="height:64px;width:160px;font-family:Arial, Verdana, helvetica, sans-serif;background-color:#ffffff;display:inline-block">
-<div style="padding: 0px 16px;">
-<div style="padding-top:3px;line-height:1;">
-<div style="float:left;font-size:28px">
-<span id="citescoreVal"
-style="letter-spacing: -2px;display: inline-block;padding-top: 7px;line-height: .75;">2.40</span>
-</div>
-<div
-style="float:right;font-size:14px;padding-top:3px;text-align: right;">
-<span id="citescoreYearVal" style="display:block;">2022</span>CiteScore
-</div>
-</div>
-<div style="clear:both;">
-
-</div>
-<div style="padding-top:3px;">
-<div style="height:4px;background-color:#DCDCDC;">
-<div id="percentActBar"
-style="height: 4px; background-color: rgb(0, 115, 152); width:56%;">
- 
-</div>
-</div>
-<div style="font-size:11px;">
-<span id="citescorePerVal">56th percentile</span>
-</div>
-</div>
-<div style="font-size:12px;text-align:right;">
-
-</div>
-</div>
-</div>
-</a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" href="https://www.scimagojr.com/journalsearch.php?q=12192&amp;tip=sid&amp;exact=no" target="_blank" title="SCImago Journal &amp; Country Rank"><img border="0" height="64px;" src="https://www.scimagojr.com/journal_img.php?id=12192" alt="SCImago Journal &amp; Country Rank"  /></a><a style="border-radius:10%; border-style: solid; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em; text-decoration:none; text-align: center; display:inline-block; float:left; color:black;">
 Qualis <br>A4</a></nobr>
 </div>
 </td>
@@ -2663,7 +2724,7 @@ href="https://orcid.org"><strong>ORCID</strong></a></p>
 <thead>
 <tr>
 <th style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;">
-Periódicos (21)
+Periódicos (23)
 </th>
 <th style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;">
 SJR
@@ -2729,6 +2790,14 @@ International Journal of Environmental Research and Public Health
 </tr>
 <tr>
 <td style="text-align:left;">
+Brain Sciences
+</td>
+<td style="text-align:left;">
+0.796
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
 Sports
 </td>
 <td style="text-align:left;">
@@ -2781,6 +2850,14 @@ Clinical Neurology and Neurosurgery
 </td>
 <td style="text-align:left;">
 0.608
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Health Science Reports
+</td>
+<td style="text-align:left;">
+0.578
 </td>
 </tr>
 <tr>
