@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.5.24)  9 JUL 2024 19:51
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.5.24)  9 JUL 2024 19:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -893,7 +893,17 @@ Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
 (/Users/asferreira/Library/TinyTeX/texmf-dist/tex/latex/bookmark/bkm-dvipdfm.def
 File: bkm-dvipdfm.def 2023-12-10 v1.31 bookmark driver for dvipdfm (HO)
 \BKM@id=\count379
-)) (./autoavaliacao.aux)
+)) (./autoavaliacao.aux
+
+LaTeX Warning: Label `tab:1-1-1-PP-DP' multiply defined.
+
+
+LaTeX Warning: Label `tab:1-1-1-docentes' multiply defined.
+
+
+LaTeX Warning: Label `tab:1-1-1-posdoutorandos' multiply defined.
+
+)
 \openout1 = `autoavaliacao.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 169.
@@ -1056,9 +1066,6 @@ LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 Package: ninecolors 2022-02-13 v2022D Select colors with proper color contrast
 )
 Package hyperref Info: Link coloring OFF on input line 169.
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
-
 File: PPG/Images/Cover-1.pdf Graphic file (type pdf)
 <use PPG/Images/Cover-1.pdf>
 File: PPG/Images/Cover-1.pdf Graphic file (type pdf)
@@ -1094,7 +1101,33 @@ File: PPG/Images/Cover-2.pdf Graphic file (type pdf)
 <use PPG/Images/Cover-2.pdf, page 1>
 [2
 
-] (./autoavaliacao.toc)
+] (./autoavaliacao.toc
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2.
+(/Users/asferreira/Library/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 2.
+(/Users/asferreira/Library/TinyTeX/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 2.
+(/Users/asferreira/Library/TinyTeX/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 2.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 2.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 2.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
+(/Users/asferreira/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
+(/Users/asferreira/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
 \tf@toc=\write4
 \openout4 = `autoavaliacao.toc'.
 
@@ -1102,33 +1135,7 @@ File: PPG/Images/Cover-2.pdf Graphic file (type pdf)
 
 
 
-] [2] [3]
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 218.
-(/Users/asferreira/Library/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
-File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 218.
-(/Users/asferreira/Library/TinyTeX/texmf-dist/tex/latex/lm/omslmsy.fd
-File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 218.
-(/Users/asferreira/Library/TinyTeX/texmf-dist/tex/latex/lm/omxlmex.fd
-File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 218.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 218.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 218.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 218.
-(/Users/asferreira/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 218.
-(/Users/asferreira/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [4] [5] [6] [7]
+] [2] [3] [4] [5] [6] [7]
 Overfull \hbox (102.15115pt too wide) in paragraph at lines 359--373
  [][] 
  []
@@ -1358,7 +1365,7 @@ L3 programming layer <2024-05-08>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
@@ -1369,8 +1376,5 @@ Here is how much of TeX's memory you used:
  594537 words of font info for 71 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
  94i,19n,122p,596b,495s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-Output written on autoavaliacao.pdf (47 pages).
- 10000i,1000n,20000p,200000b,200000s
 
 Output written on autoavaliacao.pdf (47 pages).
