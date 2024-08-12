@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.8.9)  12 AUG 2024 06:19
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.8.9)  12 AUG 2024 15:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1101,6 +1101,12 @@ LaTeX Warning: Label `tab:1-1-1-docentes' multiply defined.
 
 LaTeX Warning: Label `tab:1-1-1-posdoutorandos' multiply defined.
 
+
+LaTeX Warning: Label `tab:turmas' multiply defined.
+
+
+LaTeX Warning: Label `tab:turmas' multiply defined.
+
 )
 \openout1 = `autoavaliacao.aux'.
 
@@ -1783,7 +1789,12 @@ Overfull \vbox (2531.00418pt too high) has occurred while \output is active []
 [30]
 
 [31]
-Overfull \hbox (154.98315pt too wide) in paragraph at lines 785--834
+Overfull \hbox (154.98315pt too wide) in paragraph at lines 807--831
+ [][] 
+ []
+
+
+Overfull \hbox (2.56316pt too wide) in paragraph at lines 841--862
  [][] 
  []
 
@@ -1802,7 +1813,7 @@ Overfull \hbox (154.98315pt too wide) in paragraph at lines 785--834
 [37]
 
 [38]
-Overfull \hbox (150.50316pt too wide) in paragraph at lines 884--921
+Overfull \hbox (150.50316pt too wide) in paragraph at lines 916--953
  [][] 
  []
 
