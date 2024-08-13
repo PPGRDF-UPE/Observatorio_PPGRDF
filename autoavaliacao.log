@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.8.9)  12 AUG 2024 15:50
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.8.9)  12 AUG 2024 20:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1084,23 +1084,47 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 (/usr/local/texlive/2024/texmf-dist/tex/latex/draftwatermark/draftwatermark.sty
 Package: draftwatermark 2024/03/04 3.3 Put a gray textual watermark on document
  pages
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/siunitx/siunitx.sty
+Package: siunitx 2024-08-01 v3.3.20 A comprehensive (SI) units package
+\l__siunitx_number_uncert_offset_int=\count395
+\l__siunitx_number_exponent_fixed_int=\count396
+\l__siunitx_number_min_decimal_int=\count397
+\l__siunitx_number_min_integer_int=\count398
+\l__siunitx_number_round_precision_int=\count399
+\l__siunitx_number_lower_threshold_int=\count400
+\l__siunitx_number_upper_threshold_int=\count401
+\l__siunitx_number_group_first_int=\count402
+\l__siunitx_number_group_size_int=\count403
+\l__siunitx_number_group_minimum_int=\count404
+\l__siunitx_angle_tmp_dim=\dimen371
+\l__siunitx_angle_marker_box=\box125
+\l__siunitx_angle_unit_box=\box126
+\l__siunitx_compound_count_int=\count405
+(/usr/local/texlive/2024/texmf-dist/tex/latex/translations/translations.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
+ (CN)
+)
+\l__siunitx_table_tmp_box=\box127
+\l__siunitx_table_tmp_dim=\dimen372
+\l__siunitx_table_column_width_dim=\dimen373
+\l__siunitx_table_integer_box=\box128
+\l__siunitx_table_decimal_box=\box129
+\l__siunitx_table_uncert_box=\box130
+\l__siunitx_table_before_box=\box131
+\l__siunitx_table_after_box=\box132
+\l__siunitx_table_before_dim=\dimen374
+\l__siunitx_table_carry_dim=\dimen375
+\l__siunitx_unit_tmp_int=\count406
+\l__siunitx_unit_position_int=\count407
+\l__siunitx_unit_total_int=\count408
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
 (/usr/local/texlive/2024/texmf-dist/tex/latex/bookmark/bkm-dvipdfm.def
 File: bkm-dvipdfm.def 2023-12-10 v1.31 bookmark driver for dvipdfm (HO)
-\BKM@id=\count395
+\BKM@id=\count409
 )) (/usr/local/texlive/2024/texmf-dist/tex/latex/xurl/xurl.sty
 Package: xurl 2022/01/09 v 0.10 modify URL breaks
 ) (./autoavaliacao.aux
-
-LaTeX Warning: Label `tab:1-1-1-PP-DP' multiply defined.
-
-
-LaTeX Warning: Label `tab:1-1-1-docentes' multiply defined.
-
-
-LaTeX Warning: Label `tab:1-1-1-posdoutorandos' multiply defined.
-
 
 LaTeX Warning: Label `tab:turmas' multiply defined.
 
@@ -1110,40 +1134,40 @@ LaTeX Warning: Label `tab:turmas' multiply defined.
 )
 \openout1 = `autoavaliacao.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 162.
-LaTeX Font Info:    ... okay on input line 162.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 162.
-LaTeX Font Info:    ... okay on input line 162.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 162.
-LaTeX Font Info:    ... okay on input line 162.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 162.
-LaTeX Font Info:    ... okay on input line 162.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 162.
-LaTeX Font Info:    ... okay on input line 162.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 162.
-LaTeX Font Info:    ... okay on input line 162.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 162.
-LaTeX Font Info:    ... okay on input line 162.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 162.
-LaTeX Font Info:    ... okay on input line 162.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 162.
-LaTeX Font Info:    ... okay on input line 162.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 162.
-LaTeX Font Info:    ... okay on input line 162.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 171.
+LaTeX Font Info:    ... okay on input line 171.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 171.
+LaTeX Font Info:    ... okay on input line 171.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 171.
+LaTeX Font Info:    ... okay on input line 171.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 171.
+LaTeX Font Info:    ... okay on input line 171.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 171.
+LaTeX Font Info:    ... okay on input line 171.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 171.
+LaTeX Font Info:    ... okay on input line 171.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 171.
+LaTeX Font Info:    ... okay on input line 171.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 171.
+LaTeX Font Info:    ... okay on input line 171.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 171.
+LaTeX Font Info:    ... okay on input line 171.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 171.
+LaTeX Font Info:    ... okay on input line 171.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 162.
+(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 171.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 162.
+(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 171.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 162.
+(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 171.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 162.
+(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 171.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 162.
+(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 171.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 162.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 171.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 162.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 171.
 
 Package fontspec Info: 
 (fontspec)             latinmodern-math scale = 0.9999964596882403.
@@ -1174,7 +1198,7 @@ pt=math;language=dflt;"
 pt=math;language=dflt;"
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 162.
+(Font)              scaled to size 10.0pt on input line 171.
 
 Package fontspec Info: 
 (fontspec)             latinmodern-math scale = 0.9999964596882403.
@@ -1217,18 +1241,18 @@ ath.otf]/OT:script=math;language=dflt;+ssty=1;"
 pt=math;language=dflt;"
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 162.
+(Font)              scaled to size 10.0pt on input line 171.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 162.
+(Font)              `operators' in the math version `normal' on input line 171.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input
- line 162.
+ line 171.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 162.
+(Font)              `operators' in the math version `bold' on input line 171.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on inpu
-t line 162.
+t line 171.
 
 Package fontspec Info: 
 (fontspec)             latinmodern-math scale = 0.9999964596882403.
@@ -1302,15 +1326,15 @@ ript=math;language=dflt;"<6-8.5>s*[1.000096459334209]"[latinmodern-math.otf]/OT
 t=math;language=dflt;"
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 162.
+(Font)              `symbols' in the math version `normal' on input line 171.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
 (Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on inpu
-t line 162.
+t line 171.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 162.
+(Font)              `symbols' in the math version `bold' on input line 171.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on inpu
-t line 162.
+t line 171.
 
 Package fontspec Info: 
 (fontspec)             latinmodern-math scale = 0.9999964596882403.
@@ -1379,22 +1403,22 @@ pt=math;language=dflt;"
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
 (Font)              `largesymbols' in the math version `normal' on input line 1
-62.
+71.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
 (Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on inpu
-t line 162.
+t line 171.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 162
+(Font)              `largesymbols' in the math version `bold' on input line 171
 .
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on inpu
-t line 162.
-LaTeX Info: Redefining \microtypecontext on input line 162.
-Package microtype Info: Applying patch `item' on input line 162.
-Package microtype Info: Applying patch `toc' on input line 162.
-Package microtype Info: Applying patch `eqnum' on input line 162.
-Package microtype Info: Applying patch `footnote' on input line 162.
-Package microtype Info: Applying patch `verbatim' on input line 162.
+t line 171.
+LaTeX Info: Redefining \microtypecontext on input line 171.
+Package microtype Info: Applying patch `item' on input line 171.
+Package microtype Info: Applying patch `toc' on input line 171.
+Package microtype Info: Applying patch `eqnum' on input line 171.
+Package microtype Info: Applying patch `footnote' on input line 171.
+Package microtype Info: Applying patch `verbatim' on input line 171.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
 Package microtype Info: No adjustment of tracking.
@@ -1442,7 +1466,15 @@ ern Roman (RS)
 (/usr/local/texlive/2024/texmf-dist/tex/latex/ninecolors/ninecolors.sty
 Package: ninecolors 2022-02-13 v2022D Select colors with proper color contrast
 )
-Package hyperref Info: Link coloring OFF on input line 162.
+Package hyperref Info: Link coloring OFF on input line 171.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/translations/translations-basic-d
+ictionary-brazil.trsl
+File: translations-basic-dictionary-brazil.trsl (brazil translation file `trans
+lations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' f
+or `brazil'. on input line 171.
 File: PPG/Images/Cover-1.pdf Graphic file (type pdf)
 <use PPG/Images/Cover-1.pdf>
 File: PPG/Images/Cover-1.pdf Graphic file (type pdf)
@@ -1540,235 +1572,7334 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 [6]
 
 [7]
-Overfull \hbox (102.13316pt too wide) in paragraph at lines 352--366
+Overfull \hbox (102.13316pt too wide) in paragraph at lines 361--375
  [][] 
  []
 
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
 
-Overfull \hbox (16.42046pt too wide) in paragraph at lines 403--403
- []\TU/lmr/m/n/10 Desenvolvimento 
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Em Rea-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 bilitação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Desempenho
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Cardiorres-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 piratório,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Vascular e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Desempenho
+ []
+
+
+Underfull \hbox (badness 2653) in paragraph at lines 415--415
+\TU/lmr/m/n/10 De Corredo-
+ []
+
+
+Underfull \hbox (badness 1609) in paragraph at lines 415--415
+\TU/lmr/m/n/10 res De Rua
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Recreacio-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 nais e De
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Elite Com
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Base Nos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Parâmetros
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Metabólicos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Na Pers-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 pectiva Da
+ []
+
+
+Underfull \hbox (badness 1024) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Saúde e Da
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Fernando
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Jose De
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Sa Pereira
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Em Rea-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 bilitação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Desempenho
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Cardiorres-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 piratório,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Vascular e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Liga Aca-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 dêmica De
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Fisioterapia
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Cardiorres-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 piratória
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Victor Ri-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Em Rea-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 bilitação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Desempenho
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 No Sistema
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Neuromuscu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Atividoso -
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Atividades
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Francis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Em Anda-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Em Rea-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 bilitação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Desempenho
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Cardiorres-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 piratório,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Vascular e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Alterações
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Cardiovas-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 culares e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Respirató-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 rias Em
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 rentemente
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Saudáveis,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Portado-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 res De
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 nicas Não
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Transmissí-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 veis e/Ou
+ []
+
+
+Underfull \hbox (badness 6332) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Doenças In-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Decorrência
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Do Avanço
+ []
+
+
+Underfull \hbox (badness 2096) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Da Idade e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Atividade
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Fernando
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Jose De
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Sa Pereira
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Em Anda-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Em Rea-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 bilitação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Desempenho
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Cardiorres-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 piratório,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Vascular e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Clínica Do
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Diferentes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Populações
+ []
+
+
+Underfull \hbox (badness 2884) in paragraph at lines 415--415
+\TU/lmr/m/n/10 e Condições
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Em Anda-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Em Rea-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 bilitação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Desempenho
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 No Sistema
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Neuromuscu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Fisiotera-
+ []
+
+
+Underfull \hbox (badness 6445) in paragraph at lines 415--415
+\TU/lmr/m/n/10 pêutica Em
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Disfunções
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Musculoes-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 queléticas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Do Com-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 plexo Ar-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 ticular Do
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Rodrigo
+ []
+
+
+Underfull \hbox (badness 1917) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Cappato De
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Em Anda-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Em Rea-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 bilitação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Desempenho
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 No Sistema
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Neuromuscu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Fisioterapêu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 tica Sobre
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Aspectos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 cionais e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Cognitivos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Rodrigo
+ []
+
+
+Underfull \hbox (badness 1917) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Cappato De
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Em Anda-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Em Rea-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 bilitação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Desempenho
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 No Sistema
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Neuromuscu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Fisiotera-
+ []
+
+
+Underfull \hbox (badness 6445) in paragraph at lines 415--415
+\TU/lmr/m/n/10 pêutica Em
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Distúrbios
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Musculoes-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 queléticos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Relacionados
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Francisco
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Em Anda-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Em Rea-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 bilitação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Desempenho
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 No Sistema
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Neuromuscu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Musculoes-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Mulheres
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Fases Do
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Ana Caro-
+ []
+
+
+Underfull \hbox (badness 1242) in paragraph at lines 415--415
+\TU/lmr/m/n/10 lina Rodarti
+ []
+
+
+Underfull \hbox (badness 1728) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Pitangui De
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Em Anda-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Em Rea-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 bilitação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Desempenho
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 No Sistema
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Neuromuscu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Funcional,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Prevenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Reabilitação
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 De Pessoas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Idosas Nos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Níveis De
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Estrutura
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 e Função,
+ []
+
+
+Underfull \hbox (badness 8075) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Atividade e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Francis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Em Anda-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Em Rea-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 bilitação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Desempenho
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Cardiorres-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 piratório,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Vascular e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Influências
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Ambientais
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 e Inter-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 venção No
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Desempenho
+ []
+
+
+Underfull \hbox (badness 7256) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Funcional e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Metabólico
+ []
+
+
+Underfull \hbox (badness 1215) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Nos Diferen-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Taisy
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Cinthia
+ []
+
+
+Underfull \hbox (badness 2229) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Ferro Caval-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Em Anda-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Em Rea-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 bilitação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Desempenho
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Cardiorres-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 piratório,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Vascular e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Comparação
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 De Diferen-
+ []
+
+
+Underfull \hbox (badness 1622) in paragraph at lines 415--415
+\TU/lmr/m/n/10 tes Métodos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 De Treina-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 mento Nos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Parâmetros
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Cineantro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 métricos,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Cardiovas-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 culares,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Bioquímicos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 e Metabó-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 licos De
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Jorge Luiz
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 De Brito
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Em Anda-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Em Rea-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 bilitação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Desempenho
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Cardiorres-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 piratório,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Vascular e
+ []
+
+
+Overfull \hbox (16.42046pt too wide) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Desenvolvimento
+ []
+
+
+Underfull \hbox (badness 6477) in paragraph at lines 415--415
+\TU/lmr/m/n/10 De Metodo-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 logias e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Tecnolo-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 gias Para
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Avaliação,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Monitora-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 mento Do
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Desempenho
+ []
+
+
+Underfull \hbox (badness 3354) in paragraph at lines 415--415
+\TU/lmr/m/n/10 manos, Nas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Dimensões
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Morfológica,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Neuro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 motora e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Manoel Da
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Em Anda-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Em Rea-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 bilitação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Desempenho
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Cardiorres-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 piratório,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Vascular e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Diferentes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Programas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 De Mo-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 bilização
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Precoce So-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Metabólicas,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Hemodi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 nâmicas,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Funcionais
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 e Psicoló-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 gicas Em
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Pacientes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Hospitaliza-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Aline De
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Em Anda-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Em Rea-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 bilitação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Desempenho
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 No Sistema
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Neuromuscu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Educação
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Em Saúde
+ []
+
+
+Underfull \hbox (badness 1184) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Digital: Es-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 paço De
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Promoção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Ana Caro-
+ []
+
+
+Underfull \hbox (badness 1242) in paragraph at lines 415--415
+\TU/lmr/m/n/10 lina Rodarti
+ []
+
+
+Underfull \hbox (badness 1728) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Pitangui De
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Em Anda-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Em Rea-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 bilitação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Desempenho
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Cardiorres-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 piratório,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Vascular e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Educação
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Em Saúde
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Materno
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Em Anda-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Em Rea-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 bilitação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Desempenho
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Cardiorres-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 piratório,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Vascular e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Efeito De
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Diferentes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Programas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 De Treina-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Funcional
+ []
+
+
+Underfull \hbox (badness 2213) in paragraph at lines 415--415
+\TU/lmr/m/n/10 tidão Física,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Aspectos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Metabólicos
+ []
+
+
+Underfull \hbox (badness 2401) in paragraph at lines 415--415
+\TU/lmr/m/n/10 e Cardiovas-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 culares Em
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Paulo Adri-
+ []
+
+
+Underfull \hbox (badness 4647) in paragraph at lines 415--415
+\TU/lmr/m/n/10 ano Schwin-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Em Anda-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Em Rea-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 bilitação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Desempenho
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 No Sistema
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Neuromuscu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Efeitos Dos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Exercícios
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Físicos Em
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Indivíduos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Acometi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 dos Com
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Disfunções
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Neuromuscu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 loesqueléti-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Em Anda-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Em Rea-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 bilitação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Desempenho
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Cardiorres-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 piratório,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Vascular e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Estudo De
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Diferentes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Métodos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 De Avali-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 ação e De
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Fisiotera-
+ []
+
+
+Underfull \hbox (badness 3364) in paragraph at lines 415--415
+\TU/lmr/m/n/10 pêutica Nas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Disfunções
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Cardiorres-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 piratórias e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Metabólicas
+ []
+
+
+Underfull \hbox (badness 1215) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Nos Diferen-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 tes Níveis
+ []
+
+
+Underfull \hbox (badness 5008) in paragraph at lines 415--415
+\TU/lmr/m/n/10 De Atenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 à Saúde
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 De Indiví-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 duos Com
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 diovasculares
+ []
+
+
+Underfull \hbox (badness 4168) in paragraph at lines 415--415
+\TU/lmr/m/n/10 e Respirató-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Victor Ri-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Em Anda-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Em Rea-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 bilitação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Desempenho
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 No Sistema
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Neuromuscu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Estudos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Clínicos e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Epidemio-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 lógicos Na
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Avaliação
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Funcional
+ []
+
+
+Underfull \hbox (badness 8038) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Do Sistema
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Musculoes-
+ []
+
+
+Underfull \hbox (badness 1577) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Tarcisio Ful-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Em Anda-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Em Rea-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 bilitação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Desempenho
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Cardiorres-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 piratório,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Vascular e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Prorgama
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 De Rea-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 bilitação
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Funcional
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Pós-Covid
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Victor Ri-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Em Anda-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Em Rea-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 bilitação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Desempenho
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Cardiorres-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 piratório,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Vascular e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Reabilitação
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Funcional
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 sados Por
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 gramadores
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Do Século
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Amanda
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Alves Mar-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 celino Da
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Em Anda-
+ []
+
+> Step: build the whole table.
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Em Rea-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 bilitação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Desempenho
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Cardiorres-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 piratório,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Vascular e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Desempenho
+ []
+
+
+Underfull \hbox (badness 2653) in paragraph at lines 415--415
+\TU/lmr/m/n/10 De Corredo-
+ []
+
+
+Underfull \hbox (badness 1609) in paragraph at lines 415--415
+\TU/lmr/m/n/10 res De Rua
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Recreacio-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 nais e De
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Elite Com
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Base Nos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Parâmetros
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Metabólicos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Na Pers-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 pectiva Da
+ []
+
+
+Underfull \hbox (badness 1024) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Saúde e Da
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Fernando
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Jose De
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Sa Pereira
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Em Rea-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 bilitação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Desempenho
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Cardiorres-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 piratório,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Vascular e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Liga Aca-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 dêmica De
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Fisioterapia
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Cardiorres-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 piratória
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Victor Ri-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Em Rea-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 bilitação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Desempenho
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 No Sistema
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Neuromuscu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Atividoso -
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Atividades
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Francis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Em Anda-
  []
 
 
 
 [8]
-Overfull \vbox (2468.43394pt too high) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Em Rea-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 bilitação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Desempenho
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Cardiorres-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 piratório,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Vascular e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Alterações
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Cardiovas-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 culares e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Respirató-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 rias Em
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 rentemente
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Saudáveis,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Portado-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 res De
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 nicas Não
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Transmissí-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 veis e/Ou
+ []
+
+
+Underfull \hbox (badness 6332) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Doenças In-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Decorrência
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Do Avanço
+ []
+
+
+Underfull \hbox (badness 2096) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Da Idade e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Atividade
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Fernando
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Jose De
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Sa Pereira
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Em Anda-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Em Rea-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 bilitação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Desempenho
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Cardiorres-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 piratório,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Vascular e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Clínica Do
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Diferentes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Populações
+ []
+
+
+Underfull \hbox (badness 2884) in paragraph at lines 415--415
+\TU/lmr/m/n/10 e Condições
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Em Anda-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Em Rea-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 bilitação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Desempenho
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 No Sistema
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Neuromuscu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Fisiotera-
+ []
+
+
+Underfull \hbox (badness 6445) in paragraph at lines 415--415
+\TU/lmr/m/n/10 pêutica Em
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Disfunções
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Musculoes-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 queléticas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Do Com-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 plexo Ar-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 ticular Do
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Rodrigo
+ []
+
+
+Underfull \hbox (badness 1917) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Cappato De
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Em Anda-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Em Rea-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 bilitação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Desempenho
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 No Sistema
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Neuromuscu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Fisioterapêu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 tica Sobre
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Aspectos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 cionais e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Cognitivos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Rodrigo
+ []
+
+
+Underfull \hbox (badness 1917) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Cappato De
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Em Anda-
+ []
 
 
 
 [9]
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Em Rea-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 bilitação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Desempenho
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 No Sistema
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Neuromuscu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Fisiotera-
+ []
+
+
+Underfull \hbox (badness 6445) in paragraph at lines 415--415
+\TU/lmr/m/n/10 pêutica Em
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Distúrbios
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Musculoes-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 queléticos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Relacionados
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Francisco
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Em Anda-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Em Rea-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 bilitação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Desempenho
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 No Sistema
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Neuromuscu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Musculoes-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Mulheres
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Fases Do
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Ana Caro-
+ []
+
+
+Underfull \hbox (badness 1242) in paragraph at lines 415--415
+\TU/lmr/m/n/10 lina Rodarti
+ []
+
+
+Underfull \hbox (badness 1728) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Pitangui De
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Em Anda-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Em Rea-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 bilitação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Desempenho
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 No Sistema
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Neuromuscu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Funcional,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Prevenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Reabilitação
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 De Pessoas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Idosas Nos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Níveis De
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Estrutura
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 e Função,
+ []
+
+
+Underfull \hbox (badness 8075) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Atividade e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Francis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Em Anda-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Em Rea-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 bilitação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Desempenho
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Cardiorres-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 piratório,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Vascular e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Influências
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Ambientais
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 e Inter-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 venção No
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Desempenho
+ []
+
+
+Underfull \hbox (badness 7256) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Funcional e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Metabólico
+ []
+
+
+Underfull \hbox (badness 1215) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Nos Diferen-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Taisy
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Cinthia
+ []
+
+
+Underfull \hbox (badness 2229) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Ferro Caval-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Em Anda-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Em Rea-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 bilitação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Desempenho
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Cardiorres-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 piratório,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Vascular e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Comparação
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 De Diferen-
+ []
+
+
+Underfull \hbox (badness 1622) in paragraph at lines 415--415
+\TU/lmr/m/n/10 tes Métodos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 De Treina-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 mento Nos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Parâmetros
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Cineantro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 métricos,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Cardiovas-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 culares,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Bioquímicos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 e Metabó-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 licos De
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Jorge Luiz
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 De Brito
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Em Anda-
+ []
+
+
 
 [10]
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Em Rea-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 bilitação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Desempenho
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Cardiorres-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 piratório,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Vascular e
+ []
+
+
+Overfull \hbox (16.42046pt too wide) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Desenvolvimento
+ []
+
+
+Underfull \hbox (badness 6477) in paragraph at lines 415--415
+\TU/lmr/m/n/10 De Metodo-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 logias e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Tecnolo-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 gias Para
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Avaliação,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Monitora-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 mento Do
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Desempenho
+ []
+
+
+Underfull \hbox (badness 3354) in paragraph at lines 415--415
+\TU/lmr/m/n/10 manos, Nas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Dimensões
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Morfológica,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Neuro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 motora e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Manoel Da
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Em Anda-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Em Rea-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 bilitação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Desempenho
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Cardiorres-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 piratório,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Vascular e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Diferentes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Programas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 De Mo-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 bilização
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Precoce So-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Metabólicas,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Hemodi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 nâmicas,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Funcionais
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 e Psicoló-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 gicas Em
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Pacientes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Hospitaliza-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Aline De
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Em Anda-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Em Rea-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 bilitação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Desempenho
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 No Sistema
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Neuromuscu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Educação
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Em Saúde
+ []
+
+
+Underfull \hbox (badness 1184) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Digital: Es-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 paço De
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Promoção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Ana Caro-
+ []
+
+
+Underfull \hbox (badness 1242) in paragraph at lines 415--415
+\TU/lmr/m/n/10 lina Rodarti
+ []
+
+
+Underfull \hbox (badness 1728) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Pitangui De
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Em Anda-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Em Rea-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 bilitação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Desempenho
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Cardiorres-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 piratório,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Vascular e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Educação
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Em Saúde
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Materno
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Em Anda-
+ []
+
+
 
 [11]
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Em Rea-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 bilitação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Desempenho
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Cardiorres-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 piratório,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Vascular e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Efeito De
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Diferentes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Programas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 De Treina-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Funcional
+ []
+
+
+Underfull \hbox (badness 2213) in paragraph at lines 415--415
+\TU/lmr/m/n/10 tidão Física,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Aspectos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Metabólicos
+ []
+
+
+Underfull \hbox (badness 2401) in paragraph at lines 415--415
+\TU/lmr/m/n/10 e Cardiovas-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 culares Em
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Paulo Adri-
+ []
+
+
+Underfull \hbox (badness 4647) in paragraph at lines 415--415
+\TU/lmr/m/n/10 ano Schwin-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Em Anda-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Em Rea-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 bilitação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Desempenho
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 No Sistema
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Neuromuscu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Efeitos Dos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Exercícios
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Físicos Em
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Indivíduos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Acometi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 dos Com
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Disfunções
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Neuromuscu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 loesqueléti-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Em Anda-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Em Rea-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 bilitação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Desempenho
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Cardiorres-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 piratório,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Vascular e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Estudo De
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Diferentes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Métodos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 De Avali-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 ação e De
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Fisiotera-
+ []
+
+
+Underfull \hbox (badness 3364) in paragraph at lines 415--415
+\TU/lmr/m/n/10 pêutica Nas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Disfunções
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Cardiorres-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 piratórias e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Metabólicas
+ []
+
+
+Underfull \hbox (badness 1215) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Nos Diferen-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 tes Níveis
+ []
+
+
+Underfull \hbox (badness 5008) in paragraph at lines 415--415
+\TU/lmr/m/n/10 De Atenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 à Saúde
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 De Indiví-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 duos Com
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 diovasculares
+ []
+
+
+Underfull \hbox (badness 4168) in paragraph at lines 415--415
+\TU/lmr/m/n/10 e Respirató-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Victor Ri-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Em Anda-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Em Rea-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 bilitação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Desempenho
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 No Sistema
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Neuromuscu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Estudos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Clínicos e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Epidemio-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 lógicos Na
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Avaliação
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Funcional
+ []
+
+
+Underfull \hbox (badness 8038) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Do Sistema
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Musculoes-
+ []
+
+
+Underfull \hbox (badness 1577) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Tarcisio Ful-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Em Anda-
+ []
+
+
 
 [12]
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Em Rea-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 bilitação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Desempenho
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Cardiorres-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 piratório,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Vascular e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Prorgama
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 De Rea-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 bilitação
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Funcional
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Pós-Covid
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Victor Ri-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Em Anda-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Em Rea-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 bilitação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Desempenho
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Avaliação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Cardiorres-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 piratório,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Vascular e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Reabilitação
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Funcional
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 sados Por
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 gramadores
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Do Século
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Amanda
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 Alves Mar-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+\TU/lmr/m/n/10 celino Da
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\TU/lmr/m/n/10 Em Anda-
+ []
+
+
 
 [13]
-Overfull \hbox (11.28755pt too wide) in paragraph at lines 586--586
-[]\TU/lmr/m/n/10 Disciplina|  
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+
+Underfull \hbox (badness 1253) in paragraph at lines 484--484
+[]\TU/lmr/m/n/10 Avaliação E Inter-
  []
 
 
-Overfull \hbox (18.65756pt too wide) in paragraph at lines 586--586
-[]\TU/lmr/m/n/10 Obrigatória 
+Underfull \hbox (badness 10000) in paragraph at lines 484--484
+\TU/lmr/m/n/10 Neuromusculoes-
  []
 
 
-Overfull \hbox (18.65756pt too wide) in paragraph at lines 586--586
-[]\TU/lmr/m/n/10 Obrigatória 
+Underfull \hbox (badness 1253) in paragraph at lines 484--484
+[]\TU/lmr/m/n/10 Avaliação E Inter-
  []
 
 
-Overfull \hbox (12.37755pt too wide) in paragraph at lines 586--586
-[]\TU/lmr/m/n/10 ANÁLISE 
+Underfull \hbox (badness 2856) in paragraph at lines 484--484
+\TU/lmr/m/n/10 venção Nos Siste-
  []
 
 
-Overfull \hbox (27.22755pt too wide) in paragraph at lines 586--586
-[]\TU/lmr/m/n/10 AVALIAÇÃO 
+Underfull \hbox (badness 2253) in paragraph at lines 484--484
+\TU/lmr/m/n/10 tório, Vascular E
  []
 
 
-Overfull \hbox (27.22755pt too wide) in paragraph at lines 586--586
-[]\TU/lmr/m/n/10 AVALIAÇÃO 
+Underfull \hbox (badness 6876) in paragraph at lines 484--484
+[]\TU/lmr/m/n/10 Aline De Freitas
  []
 
 
-Overfull \hbox (4.69756pt too wide) in paragraph at lines 586--586
-\TU/lmr/m/n/10 NEURO 
+Underfull \hbox (badness 2050) in paragraph at lines 484--484
+[]\TU/lmr/m/n/10 Ana Carolina Ro-
  []
 
 
-Overfull \hbox (27.22755pt too wide) in paragraph at lines 586--586
-[]\TU/lmr/m/n/10 AVALIAÇÃO 
+Underfull \hbox (badness 1127) in paragraph at lines 484--484
+\TU/lmr/m/n/10 darti Pitangui De
  []
 
 
-Overfull \hbox (6.50755pt too wide) in paragraph at lines 586--586
-\TU/lmr/m/n/10 MENTO 
+Underfull \hbox (badness 10000) in paragraph at lines 484--484
+[]\TU/lmr/m/n/10 Francis Trombini
  []
 
 
-Overfull \hbox (28.61755pt too wide) in paragraph at lines 586--586
-[]\TU/lmr/m/n/10 AVALIAÇÃO, 
+Underfull \hbox (badness 10000) in paragraph at lines 484--484
+[]\TU/lmr/m/n/10 Francisco Locks
  []
 
 
-Overfull \hbox (6.50755pt too wide) in paragraph at lines 586--586
-\TU/lmr/m/n/10 MENTO 
+Underfull \hbox (badness 10000) in paragraph at lines 484--484
+[]\TU/lmr/m/n/10 Paulo Adriano
  []
 
 
-Overfull \hbox (0.53755pt too wide) in paragraph at lines 586--586
-[]\TU/lmr/m/n/10 BASES 
+Underfull \hbox (badness 10000) in paragraph at lines 484--484
+[]\TU/lmr/m/n/10 Rodrigo Cappato
  []
 
 
-Overfull \hbox (6.50755pt too wide) in paragraph at lines 586--586
-\TU/lmr/m/n/10 MENTO 
+Underfull \hbox (badness 10000) in paragraph at lines 484--484
+[]\TU/lmr/m/n/10 Rodrigo Gustavo
  []
 
 
-Overfull \hbox (0.53755pt too wide) in paragraph at lines 586--586
-[]\TU/lmr/m/n/10 BASES 
+Underfull \hbox (badness 5302) in paragraph at lines 484--484
+[]\TU/lmr/m/n/10 Tarcisio Fulgencio
+ []
+
+> Step: build the whole table.
+
+Underfull \hbox (badness 1253) in paragraph at lines 484--484
+[]\TU/lmr/m/n/10 Avaliação E Inter-
  []
 
 
-Overfull \hbox (6.50755pt too wide) in paragraph at lines 586--586
-\TU/lmr/m/n/10 MENTO 
+Underfull \hbox (badness 10000) in paragraph at lines 484--484
+\TU/lmr/m/n/10 Neuromusculoes-
  []
 
 
-Overfull \hbox (18.47755pt too wide) in paragraph at lines 586--586
-[]\TU/lmr/m/n/10 DIDÁTICA 
+Underfull \hbox (badness 1253) in paragraph at lines 484--484
+[]\TU/lmr/m/n/10 Avaliação E Inter-
  []
 
 
-Overfull \hbox (18.47755pt too wide) in paragraph at lines 586--586
-[]\TU/lmr/m/n/10 DIDÁTICA 
+Underfull \hbox (badness 2856) in paragraph at lines 484--484
+\TU/lmr/m/n/10 venção Nos Siste-
  []
 
 
-Overfull \hbox (33.73756pt too wide) in paragraph at lines 586--586
-[]\TU/lmr/m/n/10 DISFUNÇÕES 
+Underfull \hbox (badness 2253) in paragraph at lines 484--484
+\TU/lmr/m/n/10 tório, Vascular E
  []
 
 
-Overfull \hbox (2.75755pt too wide) in paragraph at lines 586--586
-\TU/lmr/m/n/10 SAÚDE 
+Underfull \hbox (badness 6876) in paragraph at lines 484--484
+[]\TU/lmr/m/n/10 Aline De Freitas
  []
 
 
-Overfull \hbox (13.24756pt too wide) in paragraph at lines 586--586
-[]\TU/lmr/m/n/10 ESTÁGIO 
+Underfull \hbox (badness 2050) in paragraph at lines 484--484
+[]\TU/lmr/m/n/10 Ana Carolina Ro-
  []
 
 
-Overfull \hbox (13.24756pt too wide) in paragraph at lines 586--586
-[]\TU/lmr/m/n/10 ESTÁGIO 
+Underfull \hbox (badness 1127) in paragraph at lines 484--484
+\TU/lmr/m/n/10 darti Pitangui De
  []
 
 
-Overfull \hbox (35.01756pt too wide) in paragraph at lines 586--586
-[]\TU/lmr/m/n/10 ESTATÍSTICA 
+Underfull \hbox (badness 10000) in paragraph at lines 484--484
+[]\TU/lmr/m/n/10 Francis Trombini
  []
 
 
-Overfull \hbox (14.38756pt too wide) in paragraph at lines 586--586
-[]\TU/lmr/m/n/10 Estatística 
+Underfull \hbox (badness 10000) in paragraph at lines 484--484
+[]\TU/lmr/m/n/10 Francisco Locks
  []
 
 
-Overfull \hbox (25.84755pt too wide) in paragraph at lines 586--586
-[]\TU/lmr/m/n/10 EVIDÊNCIA 
+Underfull \hbox (badness 10000) in paragraph at lines 484--484
+[]\TU/lmr/m/n/10 Paulo Adriano
  []
 
 
-Overfull \hbox (37.90756pt too wide) in paragraph at lines 586--586
-[]\TU/lmr/m/n/10 MECANISMOS 
+Underfull \hbox (badness 10000) in paragraph at lines 484--484
+[]\TU/lmr/m/n/10 Rodrigo Cappato
  []
 
 
-Overfull \hbox (37.90756pt too wide) in paragraph at lines 586--586
-[]\TU/lmr/m/n/10 MECANISMOS 
+Underfull \hbox (badness 10000) in paragraph at lines 484--484
+[]\TU/lmr/m/n/10 Rodrigo Gustavo
  []
 
 
-Overfull \hbox (47.03755pt too wide) in paragraph at lines 586--586
-[]\TU/lmr/m/n/10 METODOLOGIA 
+Underfull \hbox (badness 5302) in paragraph at lines 484--484
+[]\TU/lmr/m/n/10 Tarcisio Fulgencio
  []
-
-
-Overfull \hbox (47.03755pt too wide) in paragraph at lines 586--586
-[]\TU/lmr/m/n/10 METODOLOGIA 
- []
-
-
-Overfull \hbox (19.98756pt too wide) in paragraph at lines 586--586
-[]\TU/lmr/m/n/10 MÉTODOS 
- []
-
-
-Overfull \hbox (3.99756pt too wide) in paragraph at lines 586--586
-\TU/lmr/m/n/10 FÍSICO- 
- []
-
-
-Overfull \hbox (29.41756pt too wide) in paragraph at lines 586--586
-\TU/lmr/m/n/10 FUNCIONAL|  
- []
-
-
-Overfull \hbox (28.18756pt too wide) in paragraph at lines 586--586
-[]\TU/lmr/m/n/10 PROCESSOS 
- []
-
-
-Overfull \hbox (18.99756pt too wide) in paragraph at lines 586--586
-[]\TU/lmr/m/n/10 REDAÇÃO 
- []
-
-
-Overfull \hbox (32.48756pt too wide) in paragraph at lines 586--586
-[]\TU/lmr/m/n/10 SEMINÁRIOS 
- []
-
-
-Overfull \hbox (32.48756pt too wide) in paragraph at lines 586--586
-[]\TU/lmr/m/n/10 SEMINÁRIOS 
- []
-
-
-Overfull \hbox (13.64755pt too wide) in paragraph at lines 586--586
-[]\TU/lmr/m/n/10 TÓPICOS 
- []
-
-
-Overfull \hbox (4.46756pt too wide) in paragraph at lines 586--586
-\TU/lmr/m/n/10 TRANS- 
- []
-
-
-Overfull \vbox (2531.00418pt too high) has occurred while \output is active []
 
 
 
 [14]
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+
 
 [15]
 
 [16]
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+
+Overfull \hbox (11.28755pt too wide) in paragraph at lines 604--604
+[]\TU/lmr/m/n/10 Disciplina 
+ []
+
+
+Overfull \hbox (18.65756pt too wide) in paragraph at lines 604--604
+[]\TU/lmr/m/n/10 Obrigatória
+ []
+
+
+Overfull \hbox (18.65756pt too wide) in paragraph at lines 604--604
+[]\TU/lmr/m/n/10 Obrigatória
+ []
+
+
+Overfull \hbox (12.37755pt too wide) in paragraph at lines 604--604
+[]\TU/lmr/m/n/10 ANÁLISE
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 NAIS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 BIO-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 LÓGI-
+ []
+
+
+Overfull \hbox (27.22755pt too wide) in paragraph at lines 604--604
+[]\TU/lmr/m/n/10 AVALIAÇÃO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 E IN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 TER-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 VEN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 ÇÃO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 CAR-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 DIOR-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 RESPI-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 RATÓ-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 RIA
+ []
+
+
+Underfull \hbox (badness 1596) in paragraph at lines 604--604
+\TU/lmr/m/n/10 E ME-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 TABÓ-
+ []
+
+
+Overfull \hbox (27.22755pt too wide) in paragraph at lines 604--604
+[]\TU/lmr/m/n/10 AVALIAÇÃO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 E IN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 TER-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 VEN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 ÇÃO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 FUN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 CIO-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 NAL
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 EM
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 DIS-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 FUN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 ÇÕES
+ []
+
+
+Overfull \hbox (4.69756pt too wide) in paragraph at lines 604--604
+\TU/lmr/m/n/10 NEURO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 MUS-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 CU-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 LOES-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 QUE-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 LÉTI-
+ []
+
+
+Overfull \hbox (27.22755pt too wide) in paragraph at lines 604--604
+[]\TU/lmr/m/n/10 AVALIAÇÃO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 FUN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 CIO-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 NAL
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 E IN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 TER-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 VEN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 ÇÃO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 NO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 ENVE-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 LHE-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 CI-
+ []
+
+
+Overfull \hbox (6.50755pt too wide) in paragraph at lines 604--604
+\TU/lmr/m/n/10 MENTO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 HU-
+ []
+
+
+Overfull \hbox (28.61755pt too wide) in paragraph at lines 604--604
+[]\TU/lmr/m/n/10 AVALIAÇÃO,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 PRES-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 CRI-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 MONI-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 TORA-
+ []
+
+
+Overfull \hbox (6.50755pt too wide) in paragraph at lines 604--604
+\TU/lmr/m/n/10 MENTO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 DE
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 EXER-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 CÍCIO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 AERÓ-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 BICO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 E
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 ANA-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 ERÓ-
+ []
+
+
+Overfull \hbox (0.53755pt too wide) in paragraph at lines 604--604
+[]\TU/lmr/m/n/10 BASES
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 NEU-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 RO-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 ME-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 CÂNI-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 CAS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 DO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 MOVI-
+ []
+
+
+Overfull \hbox (6.50755pt too wide) in paragraph at lines 604--604
+\TU/lmr/m/n/10 MENTO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 HU-
+ []
+
+
+Overfull \hbox (0.53755pt too wide) in paragraph at lines 604--604
+[]\TU/lmr/m/n/10 BASES
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 NEU-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 RO-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 ME-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 CÂNI-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 CAS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 DO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 MOVI-
+ []
+
+
+Overfull \hbox (6.50755pt too wide) in paragraph at lines 604--604
+\TU/lmr/m/n/10 MENTO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 HU-
+ []
+
+
+Overfull \hbox (18.47755pt too wide) in paragraph at lines 604--604
+[]\TU/lmr/m/n/10 DIDÁTICA
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 DO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 EN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 SINO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 SUPE-
+ []
+
+
+Overfull \hbox (18.47755pt too wide) in paragraph at lines 604--604
+[]\TU/lmr/m/n/10 DIDÁTICA
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 DO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 EN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 SINO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 SUPE-
+ []
+
+
+Overfull \hbox (33.73756pt too wide) in paragraph at lines 604--604
+[]\TU/lmr/m/n/10 DISFUNÇÕES
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 MUS-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 CU-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 LOES-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 QUE-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 LÉTI-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 CAS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 EM
+ []
+
+
+Overfull \hbox (2.75755pt too wide) in paragraph at lines 604--604
+\TU/lmr/m/n/10 SAÚDE
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 DA
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 MU-
+ []
+
+
+Overfull \hbox (13.24756pt too wide) in paragraph at lines 604--604
+[]\TU/lmr/m/n/10 ESTÁGIO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 DE
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 DO-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 CÊN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 CIA
+ []
+
+
+Overfull \hbox (13.24756pt too wide) in paragraph at lines 604--604
+[]\TU/lmr/m/n/10 ESTÁGIO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 DE
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 DO-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 CÊN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 CIA
+ []
+
+
+Overfull \hbox (35.01756pt too wide) in paragraph at lines 604--604
+[]\TU/lmr/m/n/10 ESTATÍSTICA
+ []
+
+
+Overfull \hbox (14.38756pt too wide) in paragraph at lines 604--604
+[]\TU/lmr/m/n/10 Estatística
+ []
+
+
+Overfull \hbox (25.84755pt too wide) in paragraph at lines 604--604
+[]\TU/lmr/m/n/10 EVIDÊNCIA
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 CIEN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 TÍ-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 FICA
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 APLI-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 CADA
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 QUISA
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 EM
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 FISIO-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 TERA-
+ []
+
+
+Overfull \hbox (37.90756pt too wide) in paragraph at lines 604--604
+[]\TU/lmr/m/n/10 MECANISMOS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 DE
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 ADAP-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 TA-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 ÇÃO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 HE-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 MO-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 DINÂ-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 MICA,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 RESPI-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 RATÓ-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 RIA
+ []
+
+
+Underfull \hbox (badness 1596) in paragraph at lines 604--604
+\TU/lmr/m/n/10 E ME-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 TABÓ-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 LICA
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 AO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 EXER-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 CÍCIO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 FÍ-
+ []
+
+
+Overfull \hbox (37.90756pt too wide) in paragraph at lines 604--604
+[]\TU/lmr/m/n/10 MECANISMOS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 DE
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 ADAP-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 TA-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 ÇÃO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 HE-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 MO-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 DINÂ-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 MICA,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 RESPI-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 RATÓ-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 RIA
+ []
+
+
+Underfull \hbox (badness 1596) in paragraph at lines 604--604
+\TU/lmr/m/n/10 E ME-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 TABÓ-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 LICA
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 AO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 EXER-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 CÍCIO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 FÍ-
+ []
+
+
+Overfull \hbox (47.03755pt too wide) in paragraph at lines 604--604
+[]\TU/lmr/m/n/10 METODOLOGIA
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 CIEN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 TÍ-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 FICA
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 E
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 BIOÉ-
+ []
+
+
+Overfull \hbox (47.03755pt too wide) in paragraph at lines 604--604
+[]\TU/lmr/m/n/10 METODOLOGIA
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 CIEN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 TÍ-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 FICA
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 E
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 BIOÉ-
+ []
+
+
+Overfull \hbox (19.98756pt too wide) in paragraph at lines 604--604
+[]\TU/lmr/m/n/10 MÉTODOS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 AVAN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 ÇA-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 DOS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 EM
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 AVALI-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 AÇÃO
+ []
+
+
+Overfull \hbox (3.99756pt too wide) in paragraph at lines 604--604
+\TU/lmr/m/n/10 FÍSICO-
+ []
+
+
+Overfull \hbox (29.10756pt too wide) in paragraph at lines 604--604
+\TU/lmr/m/n/10 FUNCIONAL 
+ []
+
+
+Overfull \hbox (28.18756pt too wide) in paragraph at lines 604--604
+[]\TU/lmr/m/n/10 PROCESSOS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 DE
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 AVALI-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 AÇÃO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 E IN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 TER-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 VEN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 ÇÃO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 EM
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 AMBI-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 ENTE
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 OCU-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 PACI-
+ []
+
+
+Overfull \hbox (18.99756pt too wide) in paragraph at lines 604--604
+[]\TU/lmr/m/n/10 REDAÇÃO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 CIEN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 TÍ-
+ []
+
+
+Overfull \hbox (32.48756pt too wide) in paragraph at lines 604--604
+[]\TU/lmr/m/n/10 SEMINÁRIOS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 AVAN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 ÇA-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 DOS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 EM
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 AVALI-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 AÇÃO
+ []
+
+
+Underfull \hbox (badness 4686) in paragraph at lines 604--604
+\TU/lmr/m/n/10 E RE-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 ABI-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 LITA-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 ÇÃO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 CAR-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 DIOR-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 RESPI-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 RATÓ-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 RIA
+ []
+
+
+Underfull \hbox (badness 1596) in paragraph at lines 604--604
+\TU/lmr/m/n/10 E ME-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 TABÓ-
+ []
+
+
+Overfull \hbox (32.48756pt too wide) in paragraph at lines 604--604
+[]\TU/lmr/m/n/10 SEMINÁRIOS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 AVAN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 ÇA-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 DOS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 EM
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 AVALI-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 AÇÃO
+ []
+
+
+Underfull \hbox (badness 4686) in paragraph at lines 604--604
+\TU/lmr/m/n/10 E RE-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 ABI-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 LITA-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 ÇÃO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 NEU-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 RO-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 MUS-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 CU-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 LOES-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 QUE-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 LÉ-
+ []
+
+
+Overfull \hbox (13.64755pt too wide) in paragraph at lines 604--604
+[]\TU/lmr/m/n/10 TÓPICOS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 AVAN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 ÇA-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 DOS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 SO-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 BRE
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 DOEN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 ÇAS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 CRÔ-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 NICAS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 NÃO
+ []
+
+
+Overfull \hbox (4.46756pt too wide) in paragraph at lines 604--604
+\TU/lmr/m/n/10 TRANS-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 MISSÍ-
+ []
+
+> Step: build the whole table.
+
+Overfull \hbox (11.28755pt too wide) in paragraph at lines 604--604
+[]\TU/lmr/m/n/10 Disciplina 
+ []
+
+
+Overfull \hbox (18.65756pt too wide) in paragraph at lines 604--604
+[]\TU/lmr/m/n/10 Obrigatória
+ []
+
+
+Overfull \hbox (18.65756pt too wide) in paragraph at lines 604--604
+[]\TU/lmr/m/n/10 Obrigatória
+ []
+
+
+Overfull \hbox (12.37755pt too wide) in paragraph at lines 604--604
+[]\TU/lmr/m/n/10 ANÁLISE
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 NAIS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 BIO-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 LÓGI-
+ []
+
+
+Overfull \hbox (27.22755pt too wide) in paragraph at lines 604--604
+[]\TU/lmr/m/n/10 AVALIAÇÃO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 E IN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 TER-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 VEN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 ÇÃO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 CAR-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 DIOR-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 RESPI-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 RATÓ-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 RIA
+ []
+
+
+Underfull \hbox (badness 1596) in paragraph at lines 604--604
+\TU/lmr/m/n/10 E ME-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 TABÓ-
+ []
+
+
+Overfull \hbox (27.22755pt too wide) in paragraph at lines 604--604
+[]\TU/lmr/m/n/10 AVALIAÇÃO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 E IN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 TER-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 VEN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 ÇÃO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 FUN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 CIO-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 NAL
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 EM
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 DIS-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 FUN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 ÇÕES
+ []
+
+
+Overfull \hbox (4.69756pt too wide) in paragraph at lines 604--604
+\TU/lmr/m/n/10 NEURO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 MUS-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 CU-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 LOES-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 QUE-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 LÉTI-
+ []
+
+
+Overfull \hbox (27.22755pt too wide) in paragraph at lines 604--604
+[]\TU/lmr/m/n/10 AVALIAÇÃO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 FUN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 CIO-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 NAL
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 E IN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 TER-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 VEN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 ÇÃO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 NO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 ENVE-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 LHE-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 CI-
+ []
+
+
+Overfull \hbox (6.50755pt too wide) in paragraph at lines 604--604
+\TU/lmr/m/n/10 MENTO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 HU-
+ []
+
+
 
 [17]
+Overfull \hbox (28.61755pt too wide) in paragraph at lines 604--604
+[]\TU/lmr/m/n/10 AVALIAÇÃO,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 PRES-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 CRI-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 MONI-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 TORA-
+ []
+
+
+Overfull \hbox (6.50755pt too wide) in paragraph at lines 604--604
+\TU/lmr/m/n/10 MENTO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 DE
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 EXER-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 CÍCIO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 AERÓ-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 BICO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 E
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 ANA-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 ERÓ-
+ []
+
+
+Overfull \hbox (0.53755pt too wide) in paragraph at lines 604--604
+[]\TU/lmr/m/n/10 BASES
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 NEU-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 RO-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 ME-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 CÂNI-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 CAS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 DO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 MOVI-
+ []
+
+
+Overfull \hbox (6.50755pt too wide) in paragraph at lines 604--604
+\TU/lmr/m/n/10 MENTO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 HU-
+ []
+
+
+Overfull \hbox (0.53755pt too wide) in paragraph at lines 604--604
+[]\TU/lmr/m/n/10 BASES
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 NEU-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 RO-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 ME-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 CÂNI-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 CAS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 DO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 MOVI-
+ []
+
+
+Overfull \hbox (6.50755pt too wide) in paragraph at lines 604--604
+\TU/lmr/m/n/10 MENTO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 HU-
+ []
+
+
+Overfull \hbox (18.47755pt too wide) in paragraph at lines 604--604
+[]\TU/lmr/m/n/10 DIDÁTICA
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 DO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 EN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 SINO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 SUPE-
+ []
+
+
+Overfull \hbox (18.47755pt too wide) in paragraph at lines 604--604
+[]\TU/lmr/m/n/10 DIDÁTICA
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 DO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 EN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 SINO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 SUPE-
+ []
+
+
 
 [18]
+Overfull \hbox (33.73756pt too wide) in paragraph at lines 604--604
+[]\TU/lmr/m/n/10 DISFUNÇÕES
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 MUS-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 CU-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 LOES-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 QUE-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 LÉTI-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 CAS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 EM
+ []
+
+
+Overfull \hbox (2.75755pt too wide) in paragraph at lines 604--604
+\TU/lmr/m/n/10 SAÚDE
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 DA
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 MU-
+ []
+
+
+Overfull \hbox (13.24756pt too wide) in paragraph at lines 604--604
+[]\TU/lmr/m/n/10 ESTÁGIO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 DE
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 DO-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 CÊN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 CIA
+ []
+
+
+Overfull \hbox (13.24756pt too wide) in paragraph at lines 604--604
+[]\TU/lmr/m/n/10 ESTÁGIO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 DE
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 DO-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 CÊN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 CIA
+ []
+
+
+Overfull \hbox (35.01756pt too wide) in paragraph at lines 604--604
+[]\TU/lmr/m/n/10 ESTATÍSTICA
+ []
+
+
+Overfull \hbox (14.38756pt too wide) in paragraph at lines 604--604
+[]\TU/lmr/m/n/10 Estatística
+ []
+
+
+Overfull \hbox (25.84755pt too wide) in paragraph at lines 604--604
+[]\TU/lmr/m/n/10 EVIDÊNCIA
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 CIEN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 TÍ-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 FICA
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 APLI-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 CADA
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 QUISA
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 EM
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 FISIO-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 TERA-
+ []
+
+
 
 [19]
+Overfull \hbox (37.90756pt too wide) in paragraph at lines 604--604
+[]\TU/lmr/m/n/10 MECANISMOS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 DE
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 ADAP-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 TA-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 ÇÃO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 HE-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 MO-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 DINÂ-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 MICA,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 RESPI-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 RATÓ-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 RIA
+ []
+
+
+Underfull \hbox (badness 1596) in paragraph at lines 604--604
+\TU/lmr/m/n/10 E ME-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 TABÓ-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 LICA
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 AO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 EXER-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 CÍCIO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 FÍ-
+ []
+
+
+Overfull \hbox (37.90756pt too wide) in paragraph at lines 604--604
+[]\TU/lmr/m/n/10 MECANISMOS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 DE
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 ADAP-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 TA-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 ÇÃO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 HE-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 MO-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 DINÂ-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 MICA,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 RESPI-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 RATÓ-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 RIA
+ []
+
+
+Underfull \hbox (badness 1596) in paragraph at lines 604--604
+\TU/lmr/m/n/10 E ME-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 TABÓ-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 LICA
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 AO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 EXER-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 CÍCIO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 FÍ-
+ []
+
+
+Overfull \hbox (47.03755pt too wide) in paragraph at lines 604--604
+[]\TU/lmr/m/n/10 METODOLOGIA
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 CIEN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 TÍ-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 FICA
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 E
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 BIOÉ-
+ []
+
+
+Overfull \hbox (47.03755pt too wide) in paragraph at lines 604--604
+[]\TU/lmr/m/n/10 METODOLOGIA
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 CIEN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 TÍ-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 FICA
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 E
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 BIOÉ-
+ []
+
+
 
 [20]
+Overfull \hbox (19.98756pt too wide) in paragraph at lines 604--604
+[]\TU/lmr/m/n/10 MÉTODOS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 AVAN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 ÇA-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 DOS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 EM
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 AVALI-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 AÇÃO
+ []
+
+
+Overfull \hbox (3.99756pt too wide) in paragraph at lines 604--604
+\TU/lmr/m/n/10 FÍSICO-
+ []
+
+
+Overfull \hbox (29.10756pt too wide) in paragraph at lines 604--604
+\TU/lmr/m/n/10 FUNCIONAL 
+ []
+
+
+Overfull \hbox (28.18756pt too wide) in paragraph at lines 604--604
+[]\TU/lmr/m/n/10 PROCESSOS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 DE
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 AVALI-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 AÇÃO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 E IN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 TER-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 VEN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 ÇÃO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 EM
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 AMBI-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 ENTE
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 OCU-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 PACI-
+ []
+
+
+Overfull \hbox (18.99756pt too wide) in paragraph at lines 604--604
+[]\TU/lmr/m/n/10 REDAÇÃO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 CIEN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 TÍ-
+ []
+
+
+Overfull \hbox (32.48756pt too wide) in paragraph at lines 604--604
+[]\TU/lmr/m/n/10 SEMINÁRIOS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 AVAN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 ÇA-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 DOS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 EM
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 AVALI-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 AÇÃO
+ []
+
+
+Underfull \hbox (badness 4686) in paragraph at lines 604--604
+\TU/lmr/m/n/10 E RE-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 ABI-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 LITA-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 ÇÃO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 CAR-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 DIOR-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 RESPI-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 RATÓ-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 RIA
+ []
+
+
+Underfull \hbox (badness 1596) in paragraph at lines 604--604
+\TU/lmr/m/n/10 E ME-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 TABÓ-
+ []
+
+
 
 [21]
+Overfull \hbox (32.48756pt too wide) in paragraph at lines 604--604
+[]\TU/lmr/m/n/10 SEMINÁRIOS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 AVAN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 ÇA-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 DOS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 EM
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 AVALI-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 AÇÃO
+ []
+
+
+Underfull \hbox (badness 4686) in paragraph at lines 604--604
+\TU/lmr/m/n/10 E RE-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 ABI-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 LITA-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 ÇÃO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 NEU-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 RO-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 MUS-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 CU-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 LOES-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 QUE-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 LÉ-
+ []
+
+
+Overfull \hbox (13.64755pt too wide) in paragraph at lines 604--604
+[]\TU/lmr/m/n/10 TÓPICOS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 AVAN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 ÇA-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 DOS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 SO-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 BRE
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 DOEN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 ÇAS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 CRÔ-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 NICAS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 NÃO
+ []
+
+
+Overfull \hbox (4.46756pt too wide) in paragraph at lines 604--604
+\TU/lmr/m/n/10 TRANS-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+\TU/lmr/m/n/10 MISSÍ-
+ []
+
+
 
 [22]
 
@@ -1789,16 +8920,6 @@ Overfull \vbox (2531.00418pt too high) has occurred while \output is active []
 [30]
 
 [31]
-Overfull \hbox (154.98315pt too wide) in paragraph at lines 807--831
- [][] 
- []
-
-
-Overfull \hbox (2.56316pt too wide) in paragraph at lines 841--862
- [][] 
- []
-
-
 
 [32]
 
@@ -1813,7 +8934,12 @@ Overfull \hbox (2.56316pt too wide) in paragraph at lines 841--862
 [37]
 
 [38]
-Overfull \hbox (150.50316pt too wide) in paragraph at lines 916--953
+Overfull \hbox (154.98315pt too wide) in paragraph at lines 824--848
+ [][] 
+ []
+
+
+Overfull \hbox (2.56316pt too wide) in paragraph at lines 858--879
  [][] 
  []
 
@@ -1829,7 +8955,26 @@ Overfull \hbox (150.50316pt too wide) in paragraph at lines 916--953
 
 [43]
 
-[44] (./autoavaliacao.aux)
+[44]
+
+[45]
+Overfull \hbox (150.50316pt too wide) in paragraph at lines 933--970
+ [][] 
+ []
+
+
+
+[46]
+
+[47]
+
+[48]
+
+[49]
+
+[50]
+
+[51] (./autoavaliacao.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-07-20>
@@ -1839,12 +8984,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 39760 strings out of 474235
- 784133 string characters out of 5742254
- 1986609 words of memory out of 5000000
- 61832 multiletter control sequences out of 15000+600000
- 561728 words of font info for 71 fonts, out of 8000000 for 9000
+ 44136 strings out of 474235
+ 925665 string characters out of 5742254
+ 1969609 words of memory out of 5000000
+ 66196 multiletter control sequences out of 15000+600000
+ 574056 words of font info for 83 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 99i,19n,123p,1202b,505s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,19n,123p,1202b,1351s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on autoavaliacao.pdf (47 pages).
+Output written on autoavaliacao.pdf (54 pages).
