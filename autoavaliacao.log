@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.8.31)  2 SEP 2024 20:31
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.8.31)  4 SEP 2024 20:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -576,7 +576,7 @@ Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
 )) (/usr/local/texlive/2024/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/pdfpages/pdfpages.sty
-Package: pdfpages 2024/05/29 v0.6a Insert pages of external PDF documents (AM)
+Package: pdfpages 2024/08/20 v0.6b Insert pages of external PDF documents (AM)
 (/usr/local/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/eso-pic/eso-pic.sty
@@ -588,7 +588,7 @@ Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
 \AM@pageheight=\dimen309
 \AM@fboxrule=\dimen310
 (/usr/local/texlive/2024/texmf-dist/tex/latex/pdfpages/ppxetex.def
-File: ppxetex.def 2024/05/29 v0.6a Pdfpages driver for XeTeX (AM)
+File: ppxetex.def 2024/08/20 v0.6b Pdfpages driver for XeTeX (AM)
 )
 \pdfpages@includegraphics@status=\count350
 \AM@pagebox=\box100
@@ -1566,23 +1566,282 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 [3]
 
 [4]
-Overfull \hbox (102.13316pt too wide) in paragraph at lines 336--350
+Overfull \hbox (36.46317pt too wide) in paragraph at lines 336--346
  [][] 
  []
 
 
 
 [5]
+Overfull \hbox (102.13316pt too wide) in paragraph at lines 358--370
+ [][] 
+ []
+
+
 
 [6]
+Overfull \hbox (102.13316pt too wide) in paragraph at lines 382--396
+ [][] 
+ []
+
+
 
 [7]
 
 [8]
 
 [9]
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+\TU/lmr/m/n/10 VENÇÃO CARDIOR-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+\TU/lmr/m/n/10 RESPIRATÓRIA E
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+\TU/lmr/m/n/10 EM DISFUNÇÕES
+ []
+
+
+Underfull \hbox (badness 1297) in paragraph at lines 471--471
+\TU/lmr/m/n/10 NEURO MUSCULOES-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+[]\TU/lmr/m/n/10 AVALIAÇÃO FUNCI-
+ []
+
+
+Underfull \hbox (badness 4193) in paragraph at lines 471--471
+\TU/lmr/m/n/10 ONAL E INTERVEN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+[]\TU/lmr/m/n/10 AVALIAÇÃO, PRES-
+ []
+
+
+Underfull \hbox (badness 2980) in paragraph at lines 471--471
+\TU/lmr/m/n/10 CRIÇÃO E MONITO-
+ []
+
+
+Underfull \hbox (badness 3758) in paragraph at lines 471--471
+\TU/lmr/m/n/10 CÍCIO AERÓBICO E
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+[]\TU/lmr/m/n/10 BASES NEUROME-
+ []
+
+
+Underfull \hbox (badness 3907) in paragraph at lines 471--471
+\TU/lmr/m/n/10 CÂNICAS DO MOVI-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+[]\TU/lmr/m/n/10 DIDÁTICA DO EN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+[]\TU/lmr/m/n/10 DISFUNÇÕES MUS-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+\TU/lmr/m/n/10 CULOESQUELÉTICAS
+ []
+
+
+Underfull \hbox (badness 2726) in paragraph at lines 471--471
+\TU/lmr/m/n/10 EM SAÚDE DA MU-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+[]\TU/lmr/m/n/10 EVIDÊNCIA CIEN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+\TU/lmr/m/n/10 TÍFICA APLICADA
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+\TU/lmr/m/n/10 À PESQUISA EM
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+[]\TU/lmr/m/n/10 MECANISMOS DE
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+\TU/lmr/m/n/10 ADAPTAÇÃO HEMO-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+\TU/lmr/m/n/10 TÓRIA E METABÓ-
+ []
+
+
+Underfull \hbox (badness 1584) in paragraph at lines 471--471
+\TU/lmr/m/n/10 ÇÃO EM AMBIENTE
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+[]\TU/lmr/m/n/10 TÓPICOS AVANÇA-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+\TU/lmr/m/n/10 DOS SOBRE DOEN-
+ []
+
+> Step: build the whole table.
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+\TU/lmr/m/n/10 VENÇÃO CARDIOR-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+\TU/lmr/m/n/10 RESPIRATÓRIA E
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+\TU/lmr/m/n/10 EM DISFUNÇÕES
+ []
+
+
+Underfull \hbox (badness 1297) in paragraph at lines 471--471
+\TU/lmr/m/n/10 NEURO MUSCULOES-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+[]\TU/lmr/m/n/10 AVALIAÇÃO FUNCI-
+ []
+
+
+Underfull \hbox (badness 4193) in paragraph at lines 471--471
+\TU/lmr/m/n/10 ONAL E INTERVEN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+[]\TU/lmr/m/n/10 AVALIAÇÃO, PRES-
+ []
+
+
+Underfull \hbox (badness 2980) in paragraph at lines 471--471
+\TU/lmr/m/n/10 CRIÇÃO E MONITO-
+ []
+
+
+Underfull \hbox (badness 3758) in paragraph at lines 471--471
+\TU/lmr/m/n/10 CÍCIO AERÓBICO E
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+[]\TU/lmr/m/n/10 BASES NEUROME-
+ []
+
+
+Underfull \hbox (badness 3907) in paragraph at lines 471--471
+\TU/lmr/m/n/10 CÂNICAS DO MOVI-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+[]\TU/lmr/m/n/10 DIDÁTICA DO EN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+[]\TU/lmr/m/n/10 DISFUNÇÕES MUS-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+\TU/lmr/m/n/10 CULOESQUELÉTICAS
+ []
+
+
+Underfull \hbox (badness 2726) in paragraph at lines 471--471
+\TU/lmr/m/n/10 EM SAÚDE DA MU-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+[]\TU/lmr/m/n/10 EVIDÊNCIA CIEN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+\TU/lmr/m/n/10 TÍFICA APLICADA
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+\TU/lmr/m/n/10 À PESQUISA EM
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+[]\TU/lmr/m/n/10 MECANISMOS DE
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+\TU/lmr/m/n/10 ADAPTAÇÃO HEMO-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+\TU/lmr/m/n/10 TÓRIA E METABÓ-
+ []
+
+
+Underfull \hbox (badness 1584) in paragraph at lines 471--471
+\TU/lmr/m/n/10 ÇÃO EM AMBIENTE
+ []
+
+
 
 [10]
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+[]\TU/lmr/m/n/10 TÓPICOS AVANÇA-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+\TU/lmr/m/n/10 DOS SOBRE DOEN-
+ []
+
+
 
 [11]
 > Step: init table outer spec.
@@ -1593,682 +1852,433 @@ Overfull \hbox (102.13316pt too wide) in paragraph at lines 336--350
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--492
+Underfull \hbox (badness 2809) in paragraph at lines 517--517
+[]\TU/lmr/m/n/10 ANÁLISE DE SINAIS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
 \TU/lmr/m/n/10 VENÇÃO CARDIOR-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--492
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
 \TU/lmr/m/n/10 RESPIRATÓRIA E
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--492
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
 \TU/lmr/m/n/10 EM DISFUNÇÕES
  []
 
 
-Underfull \hbox (badness 1297) in paragraph at lines 492--492
+Underfull \hbox (badness 1297) in paragraph at lines 517--517
 \TU/lmr/m/n/10 NEURO MUSCULOES-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--492
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
 []\TU/lmr/m/n/10 AVALIAÇÃO FUNCI-
  []
 
 
-Underfull \hbox (badness 4193) in paragraph at lines 492--492
+Underfull \hbox (badness 4193) in paragraph at lines 517--517
 \TU/lmr/m/n/10 ONAL E INTERVEN-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--492
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
 []\TU/lmr/m/n/10 AVALIAÇÃO, PRES-
  []
 
 
-Underfull \hbox (badness 2980) in paragraph at lines 492--492
+Underfull \hbox (badness 2980) in paragraph at lines 517--517
 \TU/lmr/m/n/10 CRIÇÃO E MONITO-
  []
 
 
-Underfull \hbox (badness 3758) in paragraph at lines 492--492
+Underfull \hbox (badness 3758) in paragraph at lines 517--517
 \TU/lmr/m/n/10 CÍCIO AERÓBICO E
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--492
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
 []\TU/lmr/m/n/10 BASES NEUROME-
  []
 
 
-Underfull \hbox (badness 3907) in paragraph at lines 492--492
+Underfull \hbox (badness 3907) in paragraph at lines 517--517
 \TU/lmr/m/n/10 CÂNICAS DO MOVI-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--492
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
+[]\TU/lmr/m/n/10 BASES NEUROME-
+ []
+
+
+Underfull \hbox (badness 3907) in paragraph at lines 517--517
+\TU/lmr/m/n/10 CÂNICAS DO MOVI-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
 []\TU/lmr/m/n/10 DIDÁTICA DO EN-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--492
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
+[]\TU/lmr/m/n/10 DIDÁTICA DO EN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
 []\TU/lmr/m/n/10 DISFUNÇÕES MUS-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--492
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
 \TU/lmr/m/n/10 CULOESQUELÉTICAS
  []
 
 
-Underfull \hbox (badness 2726) in paragraph at lines 492--492
+Underfull \hbox (badness 2726) in paragraph at lines 517--517
 \TU/lmr/m/n/10 EM SAÚDE DA MU-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--492
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
 []\TU/lmr/m/n/10 EVIDÊNCIA CIEN-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--492
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
 \TU/lmr/m/n/10 TÍFICA APLICADA
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--492
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
 \TU/lmr/m/n/10 À PESQUISA EM
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--492
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
 []\TU/lmr/m/n/10 MECANISMOS DE
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--492
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
 \TU/lmr/m/n/10 ADAPTAÇÃO HEMO-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--492
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
 \TU/lmr/m/n/10 TÓRIA E METABÓ-
  []
 
 
-Underfull \hbox (badness 1584) in paragraph at lines 492--492
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
+[]\TU/lmr/m/n/10 MECANISMOS DE
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
+\TU/lmr/m/n/10 ADAPTAÇÃO HEMO-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
+\TU/lmr/m/n/10 TÓRIA E METABÓ-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
+[]\TU/lmr/m/n/10 MÉTODOS AVANÇA-
+ []
+
+
+Underfull \hbox (badness 1584) in paragraph at lines 517--517
 \TU/lmr/m/n/10 ÇÃO EM AMBIENTE
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--492
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
+[]\TU/lmr/m/n/10 REDAÇÃO CIENTÍ-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
+[]\TU/lmr/m/n/10 SEMINÁRIOS AVAN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
+\TU/lmr/m/n/10 ÇADOS EM AVALI-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
+\TU/lmr/m/n/10 AÇÃO E REABILI-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
+\TU/lmr/m/n/10 TAÇÃO CARDIOR-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
+\TU/lmr/m/n/10 RESPIRATÓRIA E
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
+[]\TU/lmr/m/n/10 SEMINÁRIOS AVAN-
+ []
+
+
+Underfull \hbox (badness 3895) in paragraph at lines 517--517
+\TU/lmr/m/n/10 ÇADOS EM AVALIA-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
+\TU/lmr/m/n/10 ÇÃO E REABILITA-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
+\TU/lmr/m/n/10 ÇÃO NEUROMUSCU-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
 []\TU/lmr/m/n/10 TÓPICOS AVANÇA-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--492
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
 \TU/lmr/m/n/10 DOS SOBRE DOEN-
  []
 
 > Step: build the whole table.
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--492
+Underfull \hbox (badness 2809) in paragraph at lines 517--517
+[]\TU/lmr/m/n/10 ANÁLISE DE SINAIS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
 \TU/lmr/m/n/10 VENÇÃO CARDIOR-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--492
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
 \TU/lmr/m/n/10 RESPIRATÓRIA E
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--492
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
 \TU/lmr/m/n/10 EM DISFUNÇÕES
  []
 
 
-Underfull \hbox (badness 1297) in paragraph at lines 492--492
+Underfull \hbox (badness 1297) in paragraph at lines 517--517
 \TU/lmr/m/n/10 NEURO MUSCULOES-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--492
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
 []\TU/lmr/m/n/10 AVALIAÇÃO FUNCI-
  []
 
 
-Underfull \hbox (badness 4193) in paragraph at lines 492--492
+Underfull \hbox (badness 4193) in paragraph at lines 517--517
 \TU/lmr/m/n/10 ONAL E INTERVEN-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--492
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
 []\TU/lmr/m/n/10 AVALIAÇÃO, PRES-
  []
 
 
-Underfull \hbox (badness 2980) in paragraph at lines 492--492
+Underfull \hbox (badness 2980) in paragraph at lines 517--517
 \TU/lmr/m/n/10 CRIÇÃO E MONITO-
  []
 
 
-Underfull \hbox (badness 3758) in paragraph at lines 492--492
+Underfull \hbox (badness 3758) in paragraph at lines 517--517
 \TU/lmr/m/n/10 CÍCIO AERÓBICO E
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--492
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
 []\TU/lmr/m/n/10 BASES NEUROME-
  []
 
 
-Underfull \hbox (badness 3907) in paragraph at lines 492--492
+Underfull \hbox (badness 3907) in paragraph at lines 517--517
 \TU/lmr/m/n/10 CÂNICAS DO MOVI-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--492
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
+[]\TU/lmr/m/n/10 BASES NEUROME-
+ []
+
+
+Underfull \hbox (badness 3907) in paragraph at lines 517--517
+\TU/lmr/m/n/10 CÂNICAS DO MOVI-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
 []\TU/lmr/m/n/10 DIDÁTICA DO EN-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--492
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
+[]\TU/lmr/m/n/10 DIDÁTICA DO EN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
 []\TU/lmr/m/n/10 DISFUNÇÕES MUS-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--492
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
 \TU/lmr/m/n/10 CULOESQUELÉTICAS
  []
 
 
-Underfull \hbox (badness 2726) in paragraph at lines 492--492
+Underfull \hbox (badness 2726) in paragraph at lines 517--517
 \TU/lmr/m/n/10 EM SAÚDE DA MU-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--492
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
 []\TU/lmr/m/n/10 EVIDÊNCIA CIEN-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--492
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
 \TU/lmr/m/n/10 TÍFICA APLICADA
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--492
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
 \TU/lmr/m/n/10 À PESQUISA EM
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--492
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
 []\TU/lmr/m/n/10 MECANISMOS DE
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--492
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
 \TU/lmr/m/n/10 ADAPTAÇÃO HEMO-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--492
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
 \TU/lmr/m/n/10 TÓRIA E METABÓ-
- []
-
-
-Underfull \hbox (badness 1584) in paragraph at lines 492--492
-\TU/lmr/m/n/10 ÇÃO EM AMBIENTE
  []
 
 
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 492--492
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
+[]\TU/lmr/m/n/10 MECANISMOS DE
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
+\TU/lmr/m/n/10 ADAPTAÇÃO HEMO-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
+\TU/lmr/m/n/10 TÓRIA E METABÓ-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
+[]\TU/lmr/m/n/10 MÉTODOS AVANÇA-
+ []
+
+
+Underfull \hbox (badness 1584) in paragraph at lines 517--517
+\TU/lmr/m/n/10 ÇÃO EM AMBIENTE
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
+[]\TU/lmr/m/n/10 REDAÇÃO CIENTÍ-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
+[]\TU/lmr/m/n/10 SEMINÁRIOS AVAN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
+\TU/lmr/m/n/10 ÇADOS EM AVALI-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
+\TU/lmr/m/n/10 AÇÃO E REABILI-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
+\TU/lmr/m/n/10 TAÇÃO CARDIOR-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
+\TU/lmr/m/n/10 RESPIRATÓRIA E
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
+[]\TU/lmr/m/n/10 SEMINÁRIOS AVAN-
+ []
+
+
+Underfull \hbox (badness 3895) in paragraph at lines 517--517
+\TU/lmr/m/n/10 ÇADOS EM AVALIA-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
+\TU/lmr/m/n/10 ÇÃO E REABILITA-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
+\TU/lmr/m/n/10 ÇÃO NEUROMUSCU-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
 []\TU/lmr/m/n/10 TÓPICOS AVANÇA-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--492
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
 \TU/lmr/m/n/10 DOS SOBRE DOEN-
  []
 
 
 
 [13]
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-
-Underfull \hbox (badness 2809) in paragraph at lines 538--538
-[]\TU/lmr/m/n/10 ANÁLISE DE SINAIS
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-\TU/lmr/m/n/10 VENÇÃO CARDIOR-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-\TU/lmr/m/n/10 RESPIRATÓRIA E
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-\TU/lmr/m/n/10 EM DISFUNÇÕES
- []
-
-
-Underfull \hbox (badness 1297) in paragraph at lines 538--538
-\TU/lmr/m/n/10 NEURO MUSCULOES-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-[]\TU/lmr/m/n/10 AVALIAÇÃO FUNCI-
- []
-
-
-Underfull \hbox (badness 4193) in paragraph at lines 538--538
-\TU/lmr/m/n/10 ONAL E INTERVEN-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-[]\TU/lmr/m/n/10 AVALIAÇÃO, PRES-
- []
-
-
-Underfull \hbox (badness 2980) in paragraph at lines 538--538
-\TU/lmr/m/n/10 CRIÇÃO E MONITO-
- []
-
-
-Underfull \hbox (badness 3758) in paragraph at lines 538--538
-\TU/lmr/m/n/10 CÍCIO AERÓBICO E
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-[]\TU/lmr/m/n/10 BASES NEUROME-
- []
-
-
-Underfull \hbox (badness 3907) in paragraph at lines 538--538
-\TU/lmr/m/n/10 CÂNICAS DO MOVI-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-[]\TU/lmr/m/n/10 BASES NEUROME-
- []
-
-
-Underfull \hbox (badness 3907) in paragraph at lines 538--538
-\TU/lmr/m/n/10 CÂNICAS DO MOVI-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-[]\TU/lmr/m/n/10 DIDÁTICA DO EN-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-[]\TU/lmr/m/n/10 DIDÁTICA DO EN-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-[]\TU/lmr/m/n/10 DISFUNÇÕES MUS-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-\TU/lmr/m/n/10 CULOESQUELÉTICAS
- []
-
-
-Underfull \hbox (badness 2726) in paragraph at lines 538--538
-\TU/lmr/m/n/10 EM SAÚDE DA MU-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-[]\TU/lmr/m/n/10 EVIDÊNCIA CIEN-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-\TU/lmr/m/n/10 TÍFICA APLICADA
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-\TU/lmr/m/n/10 À PESQUISA EM
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-[]\TU/lmr/m/n/10 MECANISMOS DE
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-\TU/lmr/m/n/10 ADAPTAÇÃO HEMO-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-\TU/lmr/m/n/10 TÓRIA E METABÓ-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-[]\TU/lmr/m/n/10 MECANISMOS DE
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-\TU/lmr/m/n/10 ADAPTAÇÃO HEMO-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-\TU/lmr/m/n/10 TÓRIA E METABÓ-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-[]\TU/lmr/m/n/10 MÉTODOS AVANÇA-
- []
-
-
-Underfull \hbox (badness 1584) in paragraph at lines 538--538
-\TU/lmr/m/n/10 ÇÃO EM AMBIENTE
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-[]\TU/lmr/m/n/10 REDAÇÃO CIENTÍ-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-[]\TU/lmr/m/n/10 SEMINÁRIOS AVAN-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-\TU/lmr/m/n/10 ÇADOS EM AVALI-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-\TU/lmr/m/n/10 AÇÃO E REABILI-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-\TU/lmr/m/n/10 TAÇÃO CARDIOR-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-\TU/lmr/m/n/10 RESPIRATÓRIA E
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-[]\TU/lmr/m/n/10 SEMINÁRIOS AVAN-
- []
-
-
-Underfull \hbox (badness 3895) in paragraph at lines 538--538
-\TU/lmr/m/n/10 ÇADOS EM AVALIA-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-\TU/lmr/m/n/10 ÇÃO E REABILITA-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-\TU/lmr/m/n/10 ÇÃO NEUROMUSCU-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-[]\TU/lmr/m/n/10 TÓPICOS AVANÇA-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-\TU/lmr/m/n/10 DOS SOBRE DOEN-
- []
-
-> Step: build the whole table.
-
-Underfull \hbox (badness 2809) in paragraph at lines 538--538
-[]\TU/lmr/m/n/10 ANÁLISE DE SINAIS
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-\TU/lmr/m/n/10 VENÇÃO CARDIOR-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-\TU/lmr/m/n/10 RESPIRATÓRIA E
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-\TU/lmr/m/n/10 EM DISFUNÇÕES
- []
-
-
-Underfull \hbox (badness 1297) in paragraph at lines 538--538
-\TU/lmr/m/n/10 NEURO MUSCULOES-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-[]\TU/lmr/m/n/10 AVALIAÇÃO FUNCI-
- []
-
-
-Underfull \hbox (badness 4193) in paragraph at lines 538--538
-\TU/lmr/m/n/10 ONAL E INTERVEN-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-[]\TU/lmr/m/n/10 AVALIAÇÃO, PRES-
- []
-
-
-Underfull \hbox (badness 2980) in paragraph at lines 538--538
-\TU/lmr/m/n/10 CRIÇÃO E MONITO-
- []
-
-
-Underfull \hbox (badness 3758) in paragraph at lines 538--538
-\TU/lmr/m/n/10 CÍCIO AERÓBICO E
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-[]\TU/lmr/m/n/10 BASES NEUROME-
- []
-
-
-Underfull \hbox (badness 3907) in paragraph at lines 538--538
-\TU/lmr/m/n/10 CÂNICAS DO MOVI-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-[]\TU/lmr/m/n/10 BASES NEUROME-
- []
-
-
-Underfull \hbox (badness 3907) in paragraph at lines 538--538
-\TU/lmr/m/n/10 CÂNICAS DO MOVI-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-[]\TU/lmr/m/n/10 DIDÁTICA DO EN-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-[]\TU/lmr/m/n/10 DIDÁTICA DO EN-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-[]\TU/lmr/m/n/10 DISFUNÇÕES MUS-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-\TU/lmr/m/n/10 CULOESQUELÉTICAS
- []
-
-
-Underfull \hbox (badness 2726) in paragraph at lines 538--538
-\TU/lmr/m/n/10 EM SAÚDE DA MU-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-[]\TU/lmr/m/n/10 EVIDÊNCIA CIEN-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-\TU/lmr/m/n/10 TÍFICA APLICADA
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-\TU/lmr/m/n/10 À PESQUISA EM
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-[]\TU/lmr/m/n/10 MECANISMOS DE
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-\TU/lmr/m/n/10 ADAPTAÇÃO HEMO-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-\TU/lmr/m/n/10 TÓRIA E METABÓ-
- []
-
-
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-[]\TU/lmr/m/n/10 MECANISMOS DE
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-\TU/lmr/m/n/10 ADAPTAÇÃO HEMO-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-\TU/lmr/m/n/10 TÓRIA E METABÓ-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-[]\TU/lmr/m/n/10 MÉTODOS AVANÇA-
- []
-
-
-Underfull \hbox (badness 1584) in paragraph at lines 538--538
-\TU/lmr/m/n/10 ÇÃO EM AMBIENTE
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-[]\TU/lmr/m/n/10 REDAÇÃO CIENTÍ-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-[]\TU/lmr/m/n/10 SEMINÁRIOS AVAN-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-\TU/lmr/m/n/10 ÇADOS EM AVALI-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-\TU/lmr/m/n/10 AÇÃO E REABILI-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-\TU/lmr/m/n/10 TAÇÃO CARDIOR-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-\TU/lmr/m/n/10 RESPIRATÓRIA E
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-[]\TU/lmr/m/n/10 SEMINÁRIOS AVAN-
- []
-
-
-Underfull \hbox (badness 3895) in paragraph at lines 538--538
-\TU/lmr/m/n/10 ÇADOS EM AVALIA-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-\TU/lmr/m/n/10 ÇÃO E REABILITA-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-\TU/lmr/m/n/10 ÇÃO NEUROMUSCU-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-[]\TU/lmr/m/n/10 TÓPICOS AVANÇA-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-\TU/lmr/m/n/10 DOS SOBRE DOEN-
- []
-
-
 
 [15]
 
@@ -2297,22 +2307,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 538--538
 [27]
 
 [28]
+Overfull \hbox (154.98315pt too wide) in paragraph at lines 772--796
+ [][] 
+ []
+
+
 
 [29]
+Overfull \hbox (2.56316pt too wide) in paragraph at lines 808--831
+ [][] 
+ []
+
+
 
 [30]
-Overfull \hbox (154.98315pt too wide) in paragraph at lines 793--817
- [][] 
- []
-
-
 
 [31]
-Overfull \hbox (2.56316pt too wide) in paragraph at lines 829--847
- [][] 
- []
-
-
 
 [32]
 
@@ -2325,15 +2335,15 @@ Overfull \hbox (2.56316pt too wide) in paragraph at lines 829--847
 [36]
 
 [37]
-Overfull \hbox (150.50316pt too wide) in paragraph at lines 900--937
- [][] 
- []
-
-
 
 [38]
 
 [39]
+Overfull \hbox (150.50316pt too wide) in paragraph at lines 952--989
+ [][] 
+ []
+
+
 
 [40]
 
@@ -2343,7 +2353,11 @@ Overfull \hbox (150.50316pt too wide) in paragraph at lines 900--937
 
 [43]
 
-[44] (./autoavaliacao.aux)
+[44]
+
+[45]
+
+[46] (./autoavaliacao.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-16>
@@ -2353,12 +2367,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 43865 strings out of 474235
- 917099 string characters out of 5742253
+ 43867 strings out of 474235
+ 917127 string characters out of 5742253
  1965609 words of memory out of 5000000
- 65925 multiletter control sequences out of 15000+600000
+ 65927 multiletter control sequences out of 15000+600000
  566355 words of font info for 77 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  99i,19n,123p,1202b,1224s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on autoavaliacao.pdf (47 pages).
+Output written on autoavaliacao.pdf (49 pages).
