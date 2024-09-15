@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.9.13)  14 SEP 2024 17:27
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.9.13)  15 SEP 2024 14:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1126,6 +1126,69 @@ File: bkm-dvipdfm.def 2023-12-10 v1.31 bookmark driver for dvipdfm (HO)
 Package: xurl 2022/01/09 v 0.10 modify URL breaks
 ) (./autoavaliacao.aux
 
+LaTeX Warning: Label `tab:1-1-1-PP-DP-landscape' multiply defined.
+
+
+LaTeX Warning: Label `tab:1-1-1-PP-DP-landscape' multiply defined.
+
+
+LaTeX Warning: Label `tab:1-1-1-PP-DP-landscape' multiply defined.
+
+
+LaTeX Warning: Label `tab:1-1-1-PP-DP-landscape' multiply defined.
+
+
+LaTeX Warning: Label `tab:1-1-1-PP-DP-landscape' multiply defined.
+
+
+LaTeX Warning: Label `tab:1-1-1-PP-DP-landscape' multiply defined.
+
+
+LaTeX Warning: Label `tab:1-1-1-PP-DP-landscape' multiply defined.
+
+
+LaTeX Warning: Label `tab:1-1-1-PP-DP-landscape' multiply defined.
+
+
+LaTeX Warning: Label `tab:1-1-1-PP-DP-landscape' multiply defined.
+
+
+LaTeX Warning: Label `tab:1-1-1-PP-DP-landscape' multiply defined.
+
+
+LaTeX Warning: Label `tab:1-1-1-PP-DP-landscape' multiply defined.
+
+
+LaTeX Warning: Label `tab:1-1-1-PP-DP-landscape' multiply defined.
+
+
+LaTeX Warning: Label `tab:1-1-1-PP-DP-landscape' multiply defined.
+
+
+LaTeX Warning: Label `tab:1-1-1-PP-DP-landscape' multiply defined.
+
+
+LaTeX Warning: Label `tab:1-1-1-PP-DP-landscape' multiply defined.
+
+
+LaTeX Warning: Label `tab:1-1-1-PP-DP-landscape' multiply defined.
+
+
+LaTeX Warning: Label `tab:1-1-1-PP-DP-landscape' multiply defined.
+
+
+LaTeX Warning: Label `tab:1-1-1-PP-DP-landscape' multiply defined.
+
+
+LaTeX Warning: Label `tab:1-1-1-PP-DP-landscape' multiply defined.
+
+
+LaTeX Warning: Label `tab:1-1-1-PP-DP-landscape' multiply defined.
+
+
+LaTeX Warning: Label `tab:1-1-1-PP-DP-landscape' multiply defined.
+
+
 LaTeX Warning: Label `tab:turmas' multiply defined.
 
 
@@ -1660,357 +1723,13 @@ Overfull \hbox (15.0944pt too wide) in paragraph at lines 398--412
 
 
 [6]
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-
-Overfull \hbox (6.7111pt too wide) in paragraph at lines 485--485
-[]\TU/lmr/bx/n/10 ID 
- []
-
-
-Underfull \hbox (badness 1117) in paragraph at lines 485--485
-[]\TU/lmr/m/n/10 Avaliação e Interven-
- []
-
-
-Underfull \hbox (badness 2762) in paragraph at lines 485--485
-\TU/lmr/m/n/10 diorrespiratório, Vas-
- []
-
-
-Underfull \hbox (badness 1117) in paragraph at lines 485--485
-[]\TU/lmr/m/n/10 Avaliação e Interven-
- []
-
-
-Underfull \hbox (badness 2762) in paragraph at lines 485--485
-\TU/lmr/m/n/10 diorrespiratório, Vas-
- []
-
-
-Underfull \hbox (badness 1117) in paragraph at lines 485--485
-[]\TU/lmr/m/n/10 Avaliação e Interven-
- []
-
-
-Underfull \hbox (badness 1117) in paragraph at lines 485--485
-[]\TU/lmr/m/n/10 Avaliação e Interven-
- []
-
-
-Underfull \hbox (badness 2762) in paragraph at lines 485--485
-\TU/lmr/m/n/10 diorrespiratório, Vas-
- []
-
-
-Underfull \hbox (badness 1655) in paragraph at lines 485--485
-[]\TU/lmr/m/n/10 Alterações Da Composição Corpo-
- []
-
-
-Underfull \hbox (badness 1117) in paragraph at lines 485--485
-[]\TU/lmr/m/n/10 Avaliação e Interven-
- []
-
-
-Underfull \hbox (badness 2762) in paragraph at lines 485--485
-\TU/lmr/m/n/10 diorrespiratório, Vas-
- []
-
-
-Underfull \hbox (badness 6461) in paragraph at lines 485--485
-[]\TU/lmr/m/n/10 Paulo Andre Freire
- []
-
-
-Underfull \hbox (badness 1117) in paragraph at lines 485--485
-[]\TU/lmr/m/n/10 Avaliação e Interven-
- []
-
-
-Underfull \hbox (badness 1117) in paragraph at lines 485--485
-[]\TU/lmr/m/n/10 Avaliação e Interven-
- []
-
-
-Underfull \hbox (badness 1117) in paragraph at lines 485--485
-[]\TU/lmr/m/n/10 Avaliação e Interven-
- []
-
-
-Underfull \hbox (badness 1117) in paragraph at lines 485--485
-[]\TU/lmr/m/n/10 Avaliação e Interven-
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 485--485
-[]\TU/lmr/bx/n/10 10 
- []
-
-
-Underfull \hbox (badness 1117) in paragraph at lines 485--485
-[]\TU/lmr/m/n/10 Avaliação e Interven-
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 485--485
-[]\TU/lmr/bx/n/10 11 
- []
-
-
-Underfull \hbox (badness 1117) in paragraph at lines 485--485
-[]\TU/lmr/m/n/10 Avaliação e Interven-
- []
-
-
-Underfull \hbox (badness 2762) in paragraph at lines 485--485
-\TU/lmr/m/n/10 diorrespiratório, Vas-
- []
-
-
-Underfull \hbox (badness 4556) in paragraph at lines 485--485
-[]\TU/lmr/m/n/10 Taisy Cinthia Ferro
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 485--485
-[]\TU/lmr/bx/n/10 12 
- []
-
-
-Underfull \hbox (badness 1117) in paragraph at lines 485--485
-[]\TU/lmr/m/n/10 Avaliação e Interven-
- []
-
-
-Underfull \hbox (badness 2762) in paragraph at lines 485--485
-\TU/lmr/m/n/10 diorrespiratório, Vas-
- []
-
-
-Underfull \hbox (badness 4132) in paragraph at lines 485--485
-[]\TU/lmr/m/n/10 Comparação De Diferentes Méto-
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 485--485
-[]\TU/lmr/bx/n/10 13 
- []
-
-
-Underfull \hbox (badness 1117) in paragraph at lines 485--485
-[]\TU/lmr/m/n/10 Avaliação e Interven-
- []
-
-
-Underfull \hbox (badness 2762) in paragraph at lines 485--485
-\TU/lmr/m/n/10 diorrespiratório, Vas-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 485--485
-[]\TU/lmr/m/n/10 Manoel Da Cunha
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 485--485
-[]\TU/lmr/bx/n/10 14 
- []
-
-
-Underfull \hbox (badness 1117) in paragraph at lines 485--485
-[]\TU/lmr/m/n/10 Avaliação e Interven-
- []
-
-
-Underfull \hbox (badness 2762) in paragraph at lines 485--485
-\TU/lmr/m/n/10 diorrespiratório, Vas-
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 485--485
-[]\TU/lmr/bx/n/10 15 
- []
-
-
-Underfull \hbox (badness 1117) in paragraph at lines 485--485
-[]\TU/lmr/m/n/10 Avaliação e Interven-
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 485--485
-[]\TU/lmr/bx/n/10 16 
- []
-
-
-Underfull \hbox (badness 1117) in paragraph at lines 485--485
-[]\TU/lmr/m/n/10 Avaliação e Interven-
- []
-
-
-Underfull \hbox (badness 2762) in paragraph at lines 485--485
-\TU/lmr/m/n/10 diorrespiratório, Vas-
- []
-
-
-Underfull \hbox (badness 6461) in paragraph at lines 485--485
-[]\TU/lmr/m/n/10 Paulo Andre Freire
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 485--485
-[]\TU/lmr/bx/n/10 17 
- []
-
-
-Underfull \hbox (badness 1117) in paragraph at lines 485--485
-[]\TU/lmr/m/n/10 Avaliação e Interven-
- []
-
-
-Underfull \hbox (badness 2762) in paragraph at lines 485--485
-\TU/lmr/m/n/10 diorrespiratório, Vas-
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 485--485
-[]\TU/lmr/bx/n/10 18 
- []
-
-
-Underfull \hbox (badness 1117) in paragraph at lines 485--485
-[]\TU/lmr/m/n/10 Avaliação e Interven-
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 485--485
-[]\TU/lmr/bx/n/10 19 
- []
-
-
-Underfull \hbox (badness 1117) in paragraph at lines 485--485
-[]\TU/lmr/m/n/10 Avaliação e Interven-
- []
-
-
-Underfull \hbox (badness 2762) in paragraph at lines 485--485
-\TU/lmr/m/n/10 diorrespiratório, Vas-
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 485--485
-[]\TU/lmr/bx/n/10 20 
- []
-
-
-Underfull \hbox (badness 1117) in paragraph at lines 485--485
-[]\TU/lmr/m/n/10 Avaliação e Interven-
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 485--485
-[]\TU/lmr/bx/n/10 21 
- []
-
-
-Underfull \hbox (badness 1117) in paragraph at lines 485--485
-[]\TU/lmr/m/n/10 Avaliação e Interven-
- []
-
-
-Underfull \hbox (badness 2762) in paragraph at lines 485--485
-\TU/lmr/m/n/10 diorrespiratório, Vas-
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 485--485
-[]\TU/lmr/bx/n/10 22 
- []
-
-
-Underfull \hbox (badness 1117) in paragraph at lines 485--485
-[]\TU/lmr/m/n/10 Avaliação e Interven-
- []
-
-
-Underfull \hbox (badness 2762) in paragraph at lines 485--485
-\TU/lmr/m/n/10 diorrespiratório, Vas-
- []
-
-> Step: build the whole table.
-
-Overfull \hbox (6.7111pt too wide) in paragraph at lines 485--485
-[]\TU/lmr/bx/n/10 ID 
- []
-
-
-Underfull \hbox (badness 1117) in paragraph at lines 485--485
-[]\TU/lmr/m/n/10 Avaliação e Interven-
- []
-
-
-Underfull \hbox (badness 2762) in paragraph at lines 485--485
-\TU/lmr/m/n/10 diorrespiratório, Vas-
- []
-
-
-Underfull \hbox (badness 1117) in paragraph at lines 485--485
-[]\TU/lmr/m/n/10 Avaliação e Interven-
- []
-
-
-Underfull \hbox (badness 2762) in paragraph at lines 485--485
-\TU/lmr/m/n/10 diorrespiratório, Vas-
- []
-
-
-Underfull \hbox (badness 1117) in paragraph at lines 485--485
-[]\TU/lmr/m/n/10 Avaliação e Interven-
- []
-
-
-Underfull \hbox (badness 1117) in paragraph at lines 485--485
-[]\TU/lmr/m/n/10 Avaliação e Interven-
- []
-
-
-Underfull \hbox (badness 2762) in paragraph at lines 485--485
-\TU/lmr/m/n/10 diorrespiratório, Vas-
- []
-
-
-Underfull \hbox (badness 1655) in paragraph at lines 485--485
-[]\TU/lmr/m/n/10 Alterações Da Composição Corpo-
- []
-
-
-Underfull \hbox (badness 1117) in paragraph at lines 485--485
-[]\TU/lmr/m/n/10 Avaliação e Interven-
- []
-
-
-Underfull \hbox (badness 2762) in paragraph at lines 485--485
-\TU/lmr/m/n/10 diorrespiratório, Vas-
- []
-
-
-Underfull \hbox (badness 6461) in paragraph at lines 485--485
-[]\TU/lmr/m/n/10 Paulo Andre Freire
- []
-
-
-Underfull \hbox (badness 1117) in paragraph at lines 485--485
-[]\TU/lmr/m/n/10 Avaliação e Interven-
+Overfull \hbox (3.48088pt too wide) in paragraph at lines 432--432
+[]\TU/lmr/bx/n/10 Natureza|  
  []
 
 
-Underfull \hbox (badness 1117) in paragraph at lines 485--485
-[]\TU/lmr/m/n/10 Avaliação e Interven-
+Overfull \hbox (109.62776pt too wide) in paragraph at lines 426--433
+ [][] 
  []
 
 
@@ -2018,355 +1737,20 @@ Underfull \hbox (badness 1117) in paragraph at lines 485--485
 [7
 
 ]
-Underfull \hbox (badness 1117) in paragraph at lines 485--485
-[]\TU/lmr/m/n/10 Avaliação e Interven-
- []
-
-
-Underfull \hbox (badness 1117) in paragraph at lines 485--485
-[]\TU/lmr/m/n/10 Avaliação e Interven-
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 485--485
-[]\TU/lmr/bx/n/10 10 
- []
-
-
-Underfull \hbox (badness 1117) in paragraph at lines 485--485
-[]\TU/lmr/m/n/10 Avaliação e Interven-
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 485--485
-[]\TU/lmr/bx/n/10 11 
- []
-
-
-Underfull \hbox (badness 1117) in paragraph at lines 485--485
-[]\TU/lmr/m/n/10 Avaliação e Interven-
- []
-
-
-Underfull \hbox (badness 2762) in paragraph at lines 485--485
-\TU/lmr/m/n/10 diorrespiratório, Vas-
- []
-
-
-Underfull \hbox (badness 4556) in paragraph at lines 485--485
-[]\TU/lmr/m/n/10 Taisy Cinthia Ferro
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 485--485
-[]\TU/lmr/bx/n/10 12 
- []
-
-
-Underfull \hbox (badness 1117) in paragraph at lines 485--485
-[]\TU/lmr/m/n/10 Avaliação e Interven-
- []
-
-
-Underfull \hbox (badness 2762) in paragraph at lines 485--485
-\TU/lmr/m/n/10 diorrespiratório, Vas-
- []
-
-
-Underfull \hbox (badness 4132) in paragraph at lines 485--485
-[]\TU/lmr/m/n/10 Comparação De Diferentes Méto-
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 485--485
-[]\TU/lmr/bx/n/10 13 
- []
-
-
-Underfull \hbox (badness 1117) in paragraph at lines 485--485
-[]\TU/lmr/m/n/10 Avaliação e Interven-
- []
-
-
-Underfull \hbox (badness 2762) in paragraph at lines 485--485
-\TU/lmr/m/n/10 diorrespiratório, Vas-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 485--485
-[]\TU/lmr/m/n/10 Manoel Da Cunha
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 485--485
-[]\TU/lmr/bx/n/10 14 
- []
-
-
-Underfull \hbox (badness 1117) in paragraph at lines 485--485
-[]\TU/lmr/m/n/10 Avaliação e Interven-
- []
-
-
-Underfull \hbox (badness 2762) in paragraph at lines 485--485
-\TU/lmr/m/n/10 diorrespiratório, Vas-
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 485--485
-[]\TU/lmr/bx/n/10 15 
- []
-
-
-Underfull \hbox (badness 1117) in paragraph at lines 485--485
-[]\TU/lmr/m/n/10 Avaliação e Interven-
- []
-
-
 
 [8]
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 485--485
-[]\TU/lmr/bx/n/10 16 
- []
-
-
-Underfull \hbox (badness 1117) in paragraph at lines 485--485
-[]\TU/lmr/m/n/10 Avaliação e Interven-
- []
-
-
-Underfull \hbox (badness 2762) in paragraph at lines 485--485
-\TU/lmr/m/n/10 diorrespiratório, Vas-
- []
-
-
-Underfull \hbox (badness 6461) in paragraph at lines 485--485
-[]\TU/lmr/m/n/10 Paulo Andre Freire
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 485--485
-[]\TU/lmr/bx/n/10 17 
- []
-
-
-Underfull \hbox (badness 1117) in paragraph at lines 485--485
-[]\TU/lmr/m/n/10 Avaliação e Interven-
- []
-
-
-Underfull \hbox (badness 2762) in paragraph at lines 485--485
-\TU/lmr/m/n/10 diorrespiratório, Vas-
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 485--485
-[]\TU/lmr/bx/n/10 18 
- []
-
-
-Underfull \hbox (badness 1117) in paragraph at lines 485--485
-[]\TU/lmr/m/n/10 Avaliação e Interven-
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 485--485
-[]\TU/lmr/bx/n/10 19 
- []
-
-
-Underfull \hbox (badness 1117) in paragraph at lines 485--485
-[]\TU/lmr/m/n/10 Avaliação e Interven-
- []
-
-
-Underfull \hbox (badness 2762) in paragraph at lines 485--485
-\TU/lmr/m/n/10 diorrespiratório, Vas-
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 485--485
-[]\TU/lmr/bx/n/10 20 
- []
-
-
-Underfull \hbox (badness 1117) in paragraph at lines 485--485
-[]\TU/lmr/m/n/10 Avaliação e Interven-
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 485--485
-[]\TU/lmr/bx/n/10 21 
- []
-
-
-Underfull \hbox (badness 1117) in paragraph at lines 485--485
-[]\TU/lmr/m/n/10 Avaliação e Interven-
- []
-
-
-Underfull \hbox (badness 2762) in paragraph at lines 485--485
-\TU/lmr/m/n/10 diorrespiratório, Vas-
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 485--485
-[]\TU/lmr/bx/n/10 22 
- []
-
-
-Underfull \hbox (badness 1117) in paragraph at lines 485--485
-[]\TU/lmr/m/n/10 Avaliação e Interven-
- []
-
-
-Underfull \hbox (badness 2762) in paragraph at lines 485--485
-\TU/lmr/m/n/10 diorrespiratório, Vas-
- []
-
-
 
 [9]
-Overfull \hbox (3.09442pt too wide) in paragraph at lines 504--523
- [][] 
- []
 
-
-
-[10
-
-]
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-
-Underfull \hbox (badness 2922) in paragraph at lines 575--575
-[]\TU/lmr/bx/n/10 Avaliação, Prescrição e Monitoramento De
- []
-
-> Step: build the whole table.
-
-Underfull \hbox (badness 2922) in paragraph at lines 575--575
-[]\TU/lmr/bx/n/10 Avaliação, Prescrição e Monitoramento De
- []
-
-
+[10]
 
 [11]
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-
-Underfull \hbox (badness 2922) in paragraph at lines 649--649
-[]\TU/lmr/bx/n/10 Avaliação, Prescrição e Monitoramento De
- []
-
-
-Underfull \hbox (badness 7186) in paragraph at lines 649--649
-[]\TU/lmr/bx/n/10 Métodos Avançados Em Avaliação Físico-
- []
-
-> Step: build the whole table.
-
-Underfull \hbox (badness 2922) in paragraph at lines 649--649
-[]\TU/lmr/bx/n/10 Avaliação, Prescrição e Monitoramento De
- []
-
-
-Underfull \hbox (badness 7186) in paragraph at lines 649--649
-[]\TU/lmr/bx/n/10 Métodos Avançados Em Avaliação Físico-
- []
-
-
 
 [12]
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 688--688
-[]\TU/lmr/bx/n/10 2021|  
- []
-
-
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 688--688
-[]\TU/lmr/bx/n/10 2022|  
- []
-
-
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 688--688
-[]\TU/lmr/bx/n/10 2023|  
- []
-
-
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 688--688
-[]\TU/lmr/bx/n/10 2024|  
- []
-
-
-Overfull \hbox (15.0944pt too wide) in paragraph at lines 669--689
- [][] 
- []
-
-
 
 [13]
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 724--724
-[]\TU/lmr/bx/n/10 2021|  
- []
-
-
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 724--724
-[]\TU/lmr/bx/n/10 2022|  
- []
-
-
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 724--724
-[]\TU/lmr/bx/n/10 2023|  
- []
-
-
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 724--724
-[]\TU/lmr/bx/n/10 2024|  
- []
-
-
-Overfull \hbox (15.0944pt too wide) in paragraph at lines 707--725
- [][] 
- []
-
-
 
 [14]
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 768--768
-[]\TU/lmr/bx/n/10 2021|  
- []
-
-
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 768--768
-[]\TU/lmr/bx/n/10 2022|  
- []
-
-
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 768--768
-[]\TU/lmr/bx/n/10 2023|  
- []
-
-
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 768--768
-[]\TU/lmr/bx/n/10 2024|  
- []
-
-
-Overfull \hbox (15.0944pt too wide) in paragraph at lines 742--769
- [][] 
- []
-
-
 
 [15]
 
@@ -2389,61 +1773,21 @@ Overfull \hbox (15.0944pt too wide) in paragraph at lines 742--769
 [24]
 
 [25]
-Overfull \hbox (8.43045pt too wide) in paragraph at lines 891--891
-[]\TU/lmr/bx/n/10 Período/Ano|  
- []
-
-
 
 [26]
-Overfull \hbox (8.43045pt too wide) in paragraph at lines 929--929
-[]\TU/lmr/bx/n/10 Período/Ano|  
- []
-
-
-Overfull \vbox (256.57428pt too high) has occurred while \output is active []
-
-
 
 [27]
 
 [28]
-Overfull \hbox (8.43045pt too wide) in paragraph at lines 966--966
-[]\TU/lmr/bx/n/10 Período/Ano|  
- []
-
-
-
-[29]
-
-[30]
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1012--1012
-[]\TU/lmr/bx/n/10 2021|  
- []
-
-
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1012--1012
-[]\TU/lmr/bx/n/10 2022|  
- []
-
-
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1012--1012
-[]\TU/lmr/bx/n/10 2023|  
- []
-
-
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1012--1012
-[]\TU/lmr/bx/n/10 2024|  
- []
-
-
-Overfull \hbox (15.0944pt too wide) in paragraph at lines 990--1013
+Overfull \hbox (3.09442pt too wide) in paragraph at lines 721--740
  [][] 
  []
 
 
 
-[31]
+[29
+
+]
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -2452,214 +1796,128 @@ Overfull \hbox (15.0944pt too wide) in paragraph at lines 990--1013
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1068--1068
-[]\TU/lmr/bx/n/10 Avaliação E
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1068--1068
-\TU/lmr/bx/n/10 Intervenção
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1068--1068
-\TU/lmr/bx/n/10 No Sistema
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1068--1068
-\TU/lmr/bx/n/10 Neuromusculo-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1068--1068
-[]\TU/lmr/bx/n/10 Avaliação E
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1068--1068
-\TU/lmr/bx/n/10 Intervenção
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1068--1068
-\TU/lmr/bx/n/10 Nos Sistemas
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1068--1068
-\TU/lmr/bx/n/10 Cardiorrespira-
- []
-
-
-Underfull \hbox (badness 6876) in paragraph at lines 1068--1068
-[]\TU/lmr/m/n/10 Aline De Freitas
- []
-
-
-Underfull \hbox (badness 2050) in paragraph at lines 1068--1068
-[]\TU/lmr/m/n/10 Ana Carolina Ro-
- []
-
-
-Underfull \hbox (badness 1127) in paragraph at lines 1068--1068
-\TU/lmr/m/n/10 darti Pitangui De
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1068--1068
-[]\TU/lmr/m/n/10 Francis Trombini
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1068--1068
-[]\TU/lmr/m/n/10 Francisco Locks
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1068--1068
-[]\TU/lmr/m/n/10 Paulo Adriano
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1068--1068
-[]\TU/lmr/m/n/10 Rodrigo Cappato
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1068--1068
-[]\TU/lmr/m/n/10 Rodrigo Gustavo
- []
-
-
-Underfull \hbox (badness 5302) in paragraph at lines 1068--1068
-[]\TU/lmr/m/n/10 Tarcisio Fulgencio
+Underfull \hbox (badness 2922) in paragraph at lines 792--792
+[]\TU/lmr/bx/n/10 Avaliação, Prescrição e Monitoramento De
  []
 
 > Step: build the whole table.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1068--1068
-[]\TU/lmr/bx/n/10 Avaliação E
+Underfull \hbox (badness 2922) in paragraph at lines 792--792
+[]\TU/lmr/bx/n/10 Avaliação, Prescrição e Monitoramento De
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1068--1068
-\TU/lmr/bx/n/10 Intervenção
+
+[30]
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+
+Underfull \hbox (badness 2922) in paragraph at lines 866--866
+[]\TU/lmr/bx/n/10 Avaliação, Prescrição e Monitoramento De
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1068--1068
-\TU/lmr/bx/n/10 No Sistema
+Underfull \hbox (badness 7186) in paragraph at lines 866--866
+[]\TU/lmr/bx/n/10 Métodos Avançados Em Avaliação Físico-
+ []
+
+> Step: build the whole table.
+
+Underfull \hbox (badness 2922) in paragraph at lines 866--866
+[]\TU/lmr/bx/n/10 Avaliação, Prescrição e Monitoramento De
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1068--1068
-\TU/lmr/bx/n/10 Neuromusculo-
+Underfull \hbox (badness 7186) in paragraph at lines 866--866
+[]\TU/lmr/bx/n/10 Métodos Avançados Em Avaliação Físico-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1068--1068
-[]\TU/lmr/bx/n/10 Avaliação E
+
+[31]
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 905--905
+[]\TU/lmr/bx/n/10 2021|  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1068--1068
-\TU/lmr/bx/n/10 Intervenção
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 905--905
+[]\TU/lmr/bx/n/10 2022|  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1068--1068
-\TU/lmr/bx/n/10 Nos Sistemas
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 905--905
+[]\TU/lmr/bx/n/10 2023|  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1068--1068
-\TU/lmr/bx/n/10 Cardiorrespira-
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 905--905
+[]\TU/lmr/bx/n/10 2024|  
  []
 
 
-Underfull \hbox (badness 6876) in paragraph at lines 1068--1068
-[]\TU/lmr/m/n/10 Aline De Freitas
- []
-
-
-Underfull \hbox (badness 2050) in paragraph at lines 1068--1068
-[]\TU/lmr/m/n/10 Ana Carolina Ro-
- []
-
-
-Underfull \hbox (badness 1127) in paragraph at lines 1068--1068
-\TU/lmr/m/n/10 darti Pitangui De
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1068--1068
-[]\TU/lmr/m/n/10 Francis Trombini
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1068--1068
-[]\TU/lmr/m/n/10 Francisco Locks
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1068--1068
-[]\TU/lmr/m/n/10 Paulo Adriano
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1068--1068
-[]\TU/lmr/m/n/10 Rodrigo Cappato
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1068--1068
-[]\TU/lmr/m/n/10 Rodrigo Gustavo
- []
-
-
-Underfull \hbox (badness 5302) in paragraph at lines 1068--1068
-[]\TU/lmr/m/n/10 Tarcisio Fulgencio
+Overfull \hbox (15.0944pt too wide) in paragraph at lines 886--906
+ [][] 
  []
 
 
 
 [32]
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1088--1088
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 941--941
 []\TU/lmr/bx/n/10 2021|  
  []
 
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1088--1088
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 941--941
 []\TU/lmr/bx/n/10 2022|  
  []
 
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1088--1088
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 941--941
 []\TU/lmr/bx/n/10 2023|  
  []
 
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1088--1088
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 941--941
 []\TU/lmr/bx/n/10 2024|  
  []
 
 
-Overfull \hbox (15.0944pt too wide) in paragraph at lines 1082--1089
+Overfull \hbox (15.0944pt too wide) in paragraph at lines 924--942
  [][] 
  []
 
 
 
 [33]
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-> Step: build the whole table.
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 985--985
+[]\TU/lmr/bx/n/10 2021|  
+ []
+
+
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 985--985
+[]\TU/lmr/bx/n/10 2022|  
+ []
+
+
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 985--985
+[]\TU/lmr/bx/n/10 2023|  
+ []
+
+
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 985--985
+[]\TU/lmr/bx/n/10 2024|  
+ []
+
+
+Overfull \hbox (15.0944pt too wide) in paragraph at lines 959--986
+ [][] 
+ []
+
 
 
 [34]
@@ -2673,9 +1931,6 @@ Overfull \hbox (15.0944pt too wide) in paragraph at lines 1082--1089
 [38]
 
 [39]
-Overfull \vbox (262.04907pt too high) has occurred while \output is active []
-
-
 
 [40]
 
@@ -2686,8 +1941,305 @@ Overfull \vbox (262.04907pt too high) has occurred while \output is active []
 [43]
 
 [44]
+Overfull \hbox (8.43045pt too wide) in paragraph at lines 1108--1108
+[]\TU/lmr/bx/n/10 Período/Ano|  
+ []
 
-[45] (./autoavaliacao.aux)
+
+
+[45]
+Overfull \hbox (8.43045pt too wide) in paragraph at lines 1146--1146
+[]\TU/lmr/bx/n/10 Período/Ano|  
+ []
+
+
+Overfull \vbox (256.57428pt too high) has occurred while \output is active []
+
+
+
+[46]
+
+[47]
+Overfull \hbox (8.43045pt too wide) in paragraph at lines 1183--1183
+[]\TU/lmr/bx/n/10 Período/Ano|  
+ []
+
+
+
+[48]
+
+[49]
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1229--1229
+[]\TU/lmr/bx/n/10 2021|  
+ []
+
+
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1229--1229
+[]\TU/lmr/bx/n/10 2022|  
+ []
+
+
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1229--1229
+[]\TU/lmr/bx/n/10 2023|  
+ []
+
+
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1229--1229
+[]\TU/lmr/bx/n/10 2024|  
+ []
+
+
+Overfull \hbox (15.0944pt too wide) in paragraph at lines 1207--1230
+ [][] 
+ []
+
+
+
+[50]
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1285--1285
+[]\TU/lmr/bx/n/10 Avaliação E
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1285--1285
+\TU/lmr/bx/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1285--1285
+\TU/lmr/bx/n/10 No Sistema
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1285--1285
+\TU/lmr/bx/n/10 Neuromusculo-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1285--1285
+[]\TU/lmr/bx/n/10 Avaliação E
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1285--1285
+\TU/lmr/bx/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1285--1285
+\TU/lmr/bx/n/10 Nos Sistemas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1285--1285
+\TU/lmr/bx/n/10 Cardiorrespira-
+ []
+
+
+Underfull \hbox (badness 6876) in paragraph at lines 1285--1285
+[]\TU/lmr/m/n/10 Aline De Freitas
+ []
+
+
+Underfull \hbox (badness 2050) in paragraph at lines 1285--1285
+[]\TU/lmr/m/n/10 Ana Carolina Ro-
+ []
+
+
+Underfull \hbox (badness 1127) in paragraph at lines 1285--1285
+\TU/lmr/m/n/10 darti Pitangui De
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1285--1285
+[]\TU/lmr/m/n/10 Francis Trombini
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1285--1285
+[]\TU/lmr/m/n/10 Francisco Locks
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1285--1285
+[]\TU/lmr/m/n/10 Paulo Adriano
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1285--1285
+[]\TU/lmr/m/n/10 Rodrigo Cappato
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1285--1285
+[]\TU/lmr/m/n/10 Rodrigo Gustavo
+ []
+
+
+Underfull \hbox (badness 5302) in paragraph at lines 1285--1285
+[]\TU/lmr/m/n/10 Tarcisio Fulgencio
+ []
+
+> Step: build the whole table.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1285--1285
+[]\TU/lmr/bx/n/10 Avaliação E
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1285--1285
+\TU/lmr/bx/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1285--1285
+\TU/lmr/bx/n/10 No Sistema
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1285--1285
+\TU/lmr/bx/n/10 Neuromusculo-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1285--1285
+[]\TU/lmr/bx/n/10 Avaliação E
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1285--1285
+\TU/lmr/bx/n/10 Intervenção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1285--1285
+\TU/lmr/bx/n/10 Nos Sistemas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1285--1285
+\TU/lmr/bx/n/10 Cardiorrespira-
+ []
+
+
+Underfull \hbox (badness 6876) in paragraph at lines 1285--1285
+[]\TU/lmr/m/n/10 Aline De Freitas
+ []
+
+
+Underfull \hbox (badness 2050) in paragraph at lines 1285--1285
+[]\TU/lmr/m/n/10 Ana Carolina Ro-
+ []
+
+
+Underfull \hbox (badness 1127) in paragraph at lines 1285--1285
+\TU/lmr/m/n/10 darti Pitangui De
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1285--1285
+[]\TU/lmr/m/n/10 Francis Trombini
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1285--1285
+[]\TU/lmr/m/n/10 Francisco Locks
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1285--1285
+[]\TU/lmr/m/n/10 Paulo Adriano
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1285--1285
+[]\TU/lmr/m/n/10 Rodrigo Cappato
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1285--1285
+[]\TU/lmr/m/n/10 Rodrigo Gustavo
+ []
+
+
+Underfull \hbox (badness 5302) in paragraph at lines 1285--1285
+[]\TU/lmr/m/n/10 Tarcisio Fulgencio
+ []
+
+
+
+[51]
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1305--1305
+[]\TU/lmr/bx/n/10 2021|  
+ []
+
+
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1305--1305
+[]\TU/lmr/bx/n/10 2022|  
+ []
+
+
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1305--1305
+[]\TU/lmr/bx/n/10 2023|  
+ []
+
+
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1305--1305
+[]\TU/lmr/bx/n/10 2024|  
+ []
+
+
+Overfull \hbox (15.0944pt too wide) in paragraph at lines 1299--1306
+ [][] 
+ []
+
+
+
+[52]
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+
+
+[53]
+
+[54]
+
+[55]
+
+[56]
+
+[57]
+
+[58]
+Overfull \vbox (262.04907pt too high) has occurred while \output is active []
+
+
+
+[59]
+
+[60]
+
+[61]
+
+[62]
+
+[63]
+
+[64] (./autoavaliacao.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
@@ -2697,12 +2249,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 44071 strings out of 474235
- 922176 string characters out of 5742253
- 1788633 words of memory out of 5000000
- 66131 multiletter control sequences out of 15000+600000
- 573225 words of font info for 86 fonts, out of 8000000 for 9000
+ 43989 strings out of 474235
+ 919510 string characters out of 5742253
+ 1563843 words of memory out of 5000000
+ 66049 multiletter control sequences out of 15000+600000
+ 569689 words of font info for 83 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 99i,19n,123p,1202b,1394s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,19n,123p,1202b,1198s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on autoavaliacao.pdf (48 pages).
+Output written on autoavaliacao.pdf (67 pages).
