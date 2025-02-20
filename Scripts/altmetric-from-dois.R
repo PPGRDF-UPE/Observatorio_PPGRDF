@@ -15,7 +15,10 @@ columns_to_grab <-
     "cited_by_rdts_count",
     "cited_by_qna_count", # NEW
     "cited_by_tweeters_count",
+<<<<<<< HEAD
     "cited_by_bluesky_count", #NEW
+=======
+>>>>>>> 37dbe689fbf789582813619d50823a8d17da82bd
     "cited_by_wikipedia_count", # NEW
     "cited_by_policies_count", # NEW
     "cited_by_patents_count",
@@ -83,7 +86,10 @@ for (input in 1:dim(dois)[1]) {
         doi_with_metrics$cited_by_rdts_count[doi_with_metrics$cited_by_rdts_count == ""] <- 0
         doi_with_metrics$cited_by_qna_count[doi_with_metrics$cited_by_qna_count == ""] <- 0
         doi_with_metrics$cited_by_tweeters_count[doi_with_metrics$cited_by_tweeters_count == ""] <- 0
+<<<<<<< HEAD
         doi_with_metrics$cited_by_bluesky_count[doi_with_metrics$cited_by_bluesky_count == ""] <- 0
+=======
+>>>>>>> 37dbe689fbf789582813619d50823a8d17da82bd
         doi_with_metrics$cited_by_wikipedia_count[doi_with_metrics$cited_by_wikipedia_count == ""] <- 0
         doi_with_metrics$cited_by_policies_count[doi_with_metrics$cited_by_policies_count == ""] <- 0
         doi_with_metrics$cited_by_patents_count[doi_with_metrics$cited_by_patents_count == ""] <- 0
