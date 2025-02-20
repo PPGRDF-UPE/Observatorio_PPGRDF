@@ -490,10 +490,7 @@ produtos.detalhes.sucupira <- produtos.detalhes.sucupira %>%
     cited_by_rdts_count = NA,
     cited_by_qna_count = NA,
     cited_by_tweeters_count = NA,
-<<<<<<< HEAD
     cited_by_bluesky_count = NA,
-=======
->>>>>>> 37dbe689fbf789582813619d50823a8d17da82bd
     cited_by_wikipedia_count = NA,
     cited_by_policies_count = NA,
     cited_by_patents_count = NA,
@@ -581,11 +578,8 @@ for (item in 1:nrow(produtos.sucupira)) {
       doi_with_metrics$cited_by_qna_count
     produtos.detalhes.sucupira$cited_by_tweeters_count[matches] <-
       doi_with_metrics$cited_by_tweeters_count
-<<<<<<< HEAD
     produtos.detalhes.sucupira$cited_by_bluesky_count[matches] <-
       doi_with_metrics$cited_by_bluesky_count
-=======
->>>>>>> 37dbe689fbf789582813619d50823a8d17da82bd
     produtos.detalhes.sucupira$cited_by_wikipedia_count[matches] <-
       doi_with_metrics$cited_by_wikipedia_count
     produtos.detalhes.sucupira$cited_by_policies_count[matches] <-
@@ -848,33 +842,4 @@ for (periodo in periodos) {
 sessioninfo::session_info() %>%
   details::details(summary = 'Current session info',
                    open = FALSE)
-```
-
-## **Relatórios de autoavaliação**
-
-```{r autoavaliacao, eval = TRUE}
-# trienal/quadrienal CAPES
-periodos <- c("2013-2016", "2017-2020", "2021-2024")
-# spam periods by vector element in a new list
-spam.periodos <- list()
-for (periodo in periodos) {
-  spam.periodos[[periodo]] <- seq(as.numeric(strsplit(periodo, "-")[[1]][1]), as.numeric(strsplit(periodo, "-")[[1]][2]))
-}
-
-# get years
-source("Scripts/years-sucupira.R", local = knitr::knit_global())
-anos <- as.character(anos)
-
-# get spam.periodos elements that have anos in range
-periodos <- names(spam.periodos)[sapply(spam.periodos, function(x) any(x %in% anos))]
-
-# create Rmd files
-for (periodo in periodos) {
-  # read Rmd header
-  rmd <- readLines(paste0("autoavaliacao.Rmd"))
-  # replace period
-  rmd <- gsub("2021;2022;2023;2024", paste0(as.numeric(strsplit(periodo, "-")[[1]][1]):as.numeric(strsplit(periodo, "-")[[1]][2]), collapse = ";"), rmd)
-  # write Rmd
-  writeLines(rmd, paste0("autoavaliacao ", periodo, ".Rmd"))
-}
 ```
