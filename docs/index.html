@@ -1,0 +1,1252 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>OBSERVATÓRIO</title>
+
+<script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<script src="site_libs/plotly-binding-4.10.4/plotly.js"></script>
+<script src="site_libs/typedarray-0.1/typedarray.min.js"></script>
+<link href="site_libs/crosstalk-1.2.1/css/crosstalk.min.css" rel="stylesheet" />
+<script src="site_libs/crosstalk-1.2.1/js/crosstalk.min.js"></script>
+<link href="site_libs/plotly-htmlwidgets-css-2.11.1/plotly-htmlwidgets.css" rel="stylesheet" />
+<script src="site_libs/plotly-main-2.11.1/plotly-latest.min.js"></script>
+<link href="site_libs/font-awesome-6.5.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet" />
+<link rel="shortcut icon" href="favicon_io/android-chrome-192x192.png" sizes="192x192" type="image/png">
+<link rel="shortcut icon" href="favicon_io/android-chrome-512x512.png" sizes="512x512" type="image/png">
+<link rel="apple-touch-icon" href="favicon_io/apple-touch-icon.png" type="image/png">
+<link rel="icon" href="favicon_io/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="icon" href="favicon_io/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="shortcut icon" href="favicon_io/favicon.ico" type="image/x-icon">
+<meta name="citation_doi" content="doi:10.5281/zenodo.8322622"/>
+<meta name="Doi" content="doi:10.5281/zenodo.8322622"/>
+<meta name="DC.Identifier" content="doi:10.5281/zenodo.8322622"/>
+<meta name="DC.DOI" content="doi:10.5281/zenodo.8322622"/>
+<meta name="DC.Identifier.DOI" content="doi:10.5281/zenodo.8322622"/>
+<meta name="DOIs" content="doi:10.5281/zenodo.8322622"/>
+<meta name="bepress_citation_doi" content="doi:10.5281/zenodo.8322622"/>
+<meta name="rft_id" content="doi:10.5281/zenodo.8322622"/></head>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="CSS/index.css" type="text/css" />
+<link rel="stylesheet" href="CSS/main-color.css" type="text/css" />
+<link rel="stylesheet" href="CSS/narrow-margins.css" type="text/css" />
+<link rel="stylesheet" href="CSS/responsive.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+    
+  </a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Programa
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="programa.html">-Programa-</a>
+    </li>
+    <li>
+      <a href="programa.html#dados-basicos">Dados básicos do Programa</a>
+    </li>
+    <li>
+      <a href="programa.html#breve-historico">Breve histórico</a>
+    </li>
+    <li>
+      <a href="programa#area-avaliacao.html">Área de avaliação</a>
+    </li>
+    <li>
+      <a href="programa.html#nota">Nota</a>
+    </li>
+    <li>
+      <a href="programa.html#area-concentracao">Área de concentração</a>
+    </li>
+    <li>
+      <a href="programa.html#linha-pesquisa">Linhas de pesquisa</a>
+    </li>
+    <li>
+      <a href="programa.html#projeto-pesquisa">Projetos de pesquisa</a>
+    </li>
+    <li>
+      <a href="programa.html#agendas-pesquisa">Agendas de pesquisa</a>
+    </li>
+    <li>
+      <a href="programa.html#financiadores">Financiadores</a>
+    </li>
+    <li>
+      <a href="programa.html#infraestrutura">Infraestrutura</a>
+    </li>
+    <li>
+      <a href="programa.html#laboratorios-pesquisa">Laboratórios de pesquisa</a>
+    </li>
+    <li>
+      <a href="programa.html#cursos">Cursos</a>
+    </li>
+    <li>
+      <a href="programa.html#estrutura-curricular">Estrutura curricular</a>
+    </li>
+    <li>
+      <a href="programa.html#editais">Processo seletivo para ingresso</a>
+    </li>
+    <li>
+      <a href="programa.html#bolsas">Bolsas de estudo</a>
+    </li>
+    <li>
+      <a href="programa.html#calendarios">Calendários</a>
+    </li>
+    <li>
+      <a href="programa.html#turmas">Turmas</a>
+    </li>
+    <li>
+      <a href="programa.html#convenios">Convênios institucionais</a>
+    </li>
+    <li>
+      <a href="programa.html#cooperacao">Cooperação entre instituições</a>
+    </li>
+    <li>
+      <a href="programa.html#internacional">Internacionalização</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Pessoas
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="pessoas.html">-Pessoas-</a>
+    </li>
+    <li>
+      <a href="pessoas.html#secretaria">Secretaria</a>
+    </li>
+    <li>
+      <a href="pessoas.html#coordenacao">Coordenação</a>
+    </li>
+    <li>
+      <a href="pessoas.html#docentes">Docentes</a>
+    </li>
+    <li>
+      <a href="pessoas.html#posdocs">Pós-doutorandos</a>
+    </li>
+    <li>
+      <a href="pessoas.html#discentes">Discentes</a>
+    </li>
+    <li>
+      <a href="pessoas.html#egressos">Egressos</a>
+    </li>
+    <li>
+      <a href="pessoas.html#encerrados">Encerrados</a>
+    </li>
+    <li>
+      <a href="pessoas.html#bacharelado">Bacharelado</a>
+    </li>
+    <li>
+      <a href="pessoas.html#grupos-pesquisa">Grupos de pesquisa</a>
+    </li>
+    <li>
+      <a href="pessoas.html#participantes-externos">Participantes externos</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Teses e dissertações
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="repositorio.html">-Teses e dissertações-</a>
+    </li>
+    <li>
+      <a href="repositorio.html#bancas-examinadoras">Bancas examinadoras</a>
+    </li>
+    <li>
+      <a href="repositorio.html#tese">Tese</a>
+    </li>
+    <li>
+      <a href="repositorio.html#dissertacao">Dissertação</a>
+    </li>
+    <li>
+      <a href="repositorio.html#repositorio">Repositório</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Bibliográfica
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="bibliografica.html">-Bibliográfica-</a>
+    </li>
+    <li>
+      <a href="bibliografica.html#jornal-revista">Artigo em jornal ou revista</a>
+    </li>
+    <li>
+      <a href="bibliografica.html#artigo-periodico">Artigo em periódico</a>
+    </li>
+    <li>
+      <a href="bibliografica.html#livro">Livro</a>
+    </li>
+    <li>
+      <a href="bibliografica.html#partitura">Partitura</a>
+    </li>
+    <li>
+      <a href="bibliografica.html#trabalho-em-anais">Trabalho em anais</a>
+    </li>
+    <li>
+      <a href="bibliografica.html#traducao">Tradução</a>
+    </li>
+    <li>
+      <a href="bibliografica.html#outro">Outro</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Técnica
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="tecnica.html">-Técnica-</a>
+    </li>
+    <li>
+      <a href="tecnica.html#apresentacao-trabalho">Apresentação de trabalho</a>
+    </li>
+    <li>
+      <a href="tecnica.html#cartas-mapas">Cartas, mapas ou similares</a>
+    </li>
+    <li>
+      <a href="tecnica.html#curso-curta-duracao">Curso de curta duração</a>
+    </li>
+    <li>
+      <a href="tecnica.html#aplicativo">Desenvolvimento de aplicativo</a>
+    </li>
+    <li>
+      <a href="tecnica.html#didatico-instrucional">Desenvolvimento de material didático e instrucional</a>
+    </li>
+    <li>
+      <a href="tecnica.html#produto">Desenvolvimento de produto</a>
+    </li>
+    <li>
+      <a href="tecnica.html#tecnica">Desenvolvimento de técnica</a>
+    </li>
+    <li>
+      <a href="tecnica.html#editoria">Editoria</a>
+    </li>
+    <li>
+      <a href="tecnica.html#manutencao-obra">Manutenção de obra artística</a>
+    </li>
+    <li>
+      <a href="tecnica.html#maquete">Maquete</a>
+    </li>
+    <li>
+      <a href="tecnica.html#organizacao-evento">Organização de evento</a>
+    </li>
+    <li>
+      <a href="tecnica.html#patente">Patente</a>
+    </li>
+    <li>
+      <a href="tecnica.html#radio-tv">Programa de rádio ou TV</a>
+    </li>
+    <li>
+      <a href="tecnica.html#relatorio-pesquisa">Relatório de pesquisa</a>
+    </li>
+    <li>
+      <a href="tecnica.html#servico-tecnico">Serviço técnico</a>
+    </li>
+    <li>
+      <a href="tecnica.html#outro">Outro</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Destaques
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="destaques.html">-Destaques-</a>
+    </li>
+    <li>
+      <a href="destaques.html#egressos-destaque">Egressos</a>
+    </li>
+    <li>
+      <a href="destaques.html#TCC-destaque">Dissertações/Teses</a>
+    </li>
+    <li>
+      <a href="destaques.html#destaque-altmetric">Engajamento com a produção</a>
+    </li>
+    <li>
+      <a href="destaques.html#destaque-citescore">Citações recentes do periódico</a>
+    </li>
+    <li>
+      <a href="destaques.html#destaque-sjr">Prestígio do periódico</a>
+    </li>
+    <li>
+      <a href="destaques.html#premios">Prêmios</a>
+    </li>
+    <li>
+      <a href="destaques.html#premio-capes">Prêmio CAPES de Tese</a>
+    </li>
+    <li>
+      <a href="destaques.html#representatividade">Representatividade</a>
+    </li>
+    <li>
+      <a href="destaques.html#divulgacao">Divulgação científica</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Impactos
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="impactos.html">-Impactos-</a>
+    </li>
+    <li>
+      <a href="impactos.html#impacto-educacional">Impacto educacional</a>
+    </li>
+    <li>
+      <a href="impactos.html#impacto-cientifico">Impacto científico</a>
+    </li>
+    <li>
+      <a href="impactos.html#impacto-tecnologico">Impacto tecnológico/econômico</a>
+    </li>
+    <li>
+      <a href="impactos.html#impacto-sociocultural">Impacto sociocultural</a>
+    </li>
+    <li>
+      <a href="impactos.html#acoes-pandemia">Ações durante a pandemia</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="downloads.html">Downloads</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Autoavaliação
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="autoavaliacao-2025-2028.html">2025-2028</a>
+    </li>
+    <li>
+      <a href="autoavaliacao-2021-2024.html">2021-2024</a>
+    </li>
+    <li>
+      <a href="autoavaliacao-2017-2020.html">2017-2020</a>
+    </li>
+    <li>
+      <a href="autoavaliacao-2013-2016.html">2013-2016</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Relatórios
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="autoavaliacao-2025-2028.pdf">
+        <span class="fa fa-file-pdf"></span>
+         
+        2025-2028
+      </a>
+    </li>
+    <li>
+      <a href="autoavaliacao-2021-2024.pdf">
+        <span class="fa fa-file-pdf"></span>
+         
+        2021-2024
+      </a>
+    </li>
+    <li>
+      <a href="autoavaliacao-2017-2020.pdf">
+        <span class="fa fa-file-pdf"></span>
+         
+        2017-2020
+      </a>
+    </li>
+    <li>
+      <a href="autoavaliacao-2013-2016.pdf">
+        <span class="fa fa-file-pdf"></span>
+         
+        2013-2016
+      </a>
+    </li>
+  </ul>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <span class="fa fa-share-nodes"></span>
+     
+    
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="mailto:ppgrdf@upe.br">
+        <span class="fa fa-envelope"></span>
+         
+        E-mail
+      </a>
+    </li>
+    <li>
+      <a href="https://w2.solucaoatrio.net.br/somos/upe-pe-ppgrdf/index.php/pt/">
+        <span class="fa fa-globe"></span>
+         
+        Site institucional
+      </a>
+    </li>
+    <li>
+      <a href="https://www.instagram.com/ppgrdf">
+        <span class="fa fa-instagram"></span>
+         
+        Instagram
+      </a>
+    </li>
+    <li>
+      <a>
+        <span class="fa fa-facebook"></span>
+         
+        Facebook
+      </a>
+    </li>
+    <li>
+      <a href="https://sucupira-v2.capes.gov.br/observatorio/detalhamento/programas/209118">
+        <span class="fa fa-binoculars"></span>
+         
+        Observatório CAPES
+      </a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="https://github.com/FerreiraAS/observatorio">
+    <span class="fa fa-github"></span>
+     
+    
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+<!--Script for adding a Google Translation bar-->
+
+<html lang="pt-BR">
+<div align="right" id="google_translate_element"></div>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'pt'}, 'google_translate_element');
+}
+</script>
+
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> 
+
+</html>
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">OBSERVATÓRIO</h1>
+
+</div>
+
+
+<!--set up-->
+<!--load caches-->
+<p><br></p>
+<p><br></p>
+<center>
+<p><img src="PPG/Images/logo-programa.png" width="600px" height="auto" align="center"/></p>
+<p><br></p>
+<p style="font-size:1.5em">
+O <strong>Observatório</strong> é uma iniciativa que envolve o registro,
+o acompanhamento e a análise agregada e estruturada de dados para
+divulgação transparente de suas atividades, planejamentos, ações e
+impactos, tornando-os acessíveis à sociedade
+</p>
+</center>
+<p><br><br><img src="index_files/figure-html/sintese-coerencia-1.png" width="70%" style="display: block; margin: auto;" /></p>
+<p><strong>Fontes</strong>: <a
+href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
+Sucupira</strong></a></p>
+<p><br><a style="float:right" href="#top"><b>Início  </b>
+<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
+</a><br><img src="index_files/figure-html/sintese-coerencia-2.png" width="70%" style="display: block; margin: auto;" /></p>
+<p><strong>Fontes</strong>: <a
+href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
+Sucupira</strong></a></p>
+<p><br><a style="float:right" href="#top"><b>Início  </b>
+<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
+</a><br></p>
+<br><br>
+<div align="center">
+<div id="htmlwidget-0ceb81c7b438eb059ed6" style="width:100%;height:50vmin;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-0ceb81c7b438eb059ed6">{"x":{"visdat":{"756352d352e7":["function () ","plotlyVisDat"]},"cur_data":"756352d352e7","attrs":{"756352d352e7":{"x":{},"y":{},"color":{},"colors":["#8DD3C7","#FFFFB3","#BEBADA"],"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"}},"layout":{"height":"50vmin","margin":{"b":60,"l":60,"t":60,"r":60},"title":{"text":"Projetos por Área de Concentração","x":0.5,"xanchor":"center","font":{"size":"100vw","color":"white"}},"xaxis":{"domain":[0,1],"automargin":true,"title":"","titlefont":{"color":"white"},"tickfont":{"color":"white"},"tickvals":["2020","2021","2022","2023","2024"],"range":[2020,2021,2022,2023,2024]},"yaxis":{"domain":[0,1],"automargin":true,"title":"N","titlefont":{"color":"white"},"tickfont":{"color":"white"}},"legend":{"title":"Legenda","titlefont":{"color":"white"},"font":{"color":"white"},"bgcolor":"black","bordercolor":"white","borderwidth":1,"orientation":"h","xanchor":"center","x":0.5},"plot_bgcolor":"black","paper_bgcolor":"black","font":{"color":"white"},"showlegend":true,"barmode":"stack","hovermode":"closest"},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"displayModeBar":false},"data":[{"x":["2020","2021","2022","2023","2024"],"y":[18,18,21,20,20],"type":"bar","name":"Avaliação e Intervenção em Reabilitação e Desempenho Funcional","marker":{"color":"rgba(255,255,179,1)","line":{"color":"rgba(255,255,179,1)"}},"textfont":{"color":"rgba(255,255,179,1)"},"error_y":{"color":"rgba(255,255,179,1)"},"error_x":{"color":"rgba(255,255,179,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+<p><strong>Fontes</strong>: <a
+href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
+Sucupira</strong></a></p>
+<br><a style="float:right" href="#top"><b>Início  </b>
+<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
+</a><br>
+<div align="center">
+<div id="htmlwidget-5d598325a995cbf24106" style="width:100%;height:50vmin;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-5d598325a995cbf24106">{"x":{"visdat":{"75632fe7e62c":["function () ","plotlyVisDat"]},"cur_data":"75632fe7e62c","attrs":{"75632fe7e62c":{"x":{},"y":{},"color":{},"colors":["#8DD3C7","#FFFFB3","#BEBADA"],"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"}},"layout":{"height":"50vmin","margin":{"b":60,"l":60,"t":60,"r":60},"title":{"text":"Projetos por Linha de Pesquisa","x":0.5,"xanchor":"center","font":{"size":"100vw","color":"white"}},"xaxis":{"domain":[0,1],"automargin":true,"title":"","titlefont":{"color":"white"},"tickfont":{"color":"white"},"tickvals":["2020","2021","2022","2023","2024"],"range":[2020,2021,2022,2023,2024]},"yaxis":{"domain":[0,1],"automargin":true,"title":"N","titlefont":{"color":"white"},"tickfont":{"color":"white"}},"legend":{"title":"Legenda","titlefont":{"color":"white"},"font":{"color":"white"},"bgcolor":"black","bordercolor":"white","borderwidth":1,"orientation":"h","xanchor":"center","x":0.5},"plot_bgcolor":"black","paper_bgcolor":"black","font":{"color":"white"},"showlegend":true,"barmode":"stack","hovermode":"closest"},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"displayModeBar":false},"data":[{"x":["2020","2021","2022","2023","2024"],"y":[8,8,8,9,9],"type":"bar","name":"AVALIAÇÃO E INTERVENÇÃO NO SISTEMA NEUROMUSCULOESQUELÉTICO","marker":{"color":"rgba(141,211,199,1)","line":{"color":"rgba(141,211,199,1)"}},"textfont":{"color":"rgba(141,211,199,1)"},"error_y":{"color":"rgba(141,211,199,1)"},"error_x":{"color":"rgba(141,211,199,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2020","2021","2022","2023","2024"],"y":[10,10,13,11,11],"type":"bar","name":"AVALIAÇÃO E INTERVENÇÃO NOS SISTEMAS CARDIORRESPIRATÓRIO, VASCULAR E METABÓLICO.","marker":{"color":"rgba(190,186,218,1)","line":{"color":"rgba(190,186,218,1)"}},"textfont":{"color":"rgba(190,186,218,1)"},"error_y":{"color":"rgba(190,186,218,1)"},"error_x":{"color":"rgba(190,186,218,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+<p><strong>Fontes</strong>: <a
+href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
+Sucupira</strong></a></p>
+<br><a style="float:right" href="#top"><b>Início  </b>
+<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
+</a><br>
+<div align="center">
+<div id="htmlwidget-f158b9db593d75f4c4fd" style="width:100%;height:50vmin;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-f158b9db593d75f4c4fd">{"x":{"visdat":{"756321b86b46":["function () ","plotlyVisDat"]},"cur_data":"756321b86b46","attrs":{"756321b86b46":{"x":{},"y":{},"color":{},"colors":["#8DD3C7","#FFFFB3","#BEBADA"],"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"}},"layout":{"height":"50vmin","margin":{"b":60,"l":60,"t":60,"r":60},"title":{"text":"Projetos por Situação","x":0.5,"xanchor":"center","font":{"size":"100vw","color":"white"}},"xaxis":{"domain":[0,1],"automargin":true,"title":"","titlefont":{"color":"white"},"tickfont":{"color":"white"},"tickvals":["2020","2021","2022","2023","2024"],"range":[2020,2021,2022,2023,2024]},"yaxis":{"domain":[0,1],"automargin":true,"title":"N","titlefont":{"color":"white"},"tickfont":{"color":"white"}},"legend":{"title":"Legenda","titlefont":{"color":"white"},"font":{"color":"white"},"bgcolor":"black","bordercolor":"white","borderwidth":1,"orientation":"h","xanchor":"center","x":0.5},"plot_bgcolor":"black","paper_bgcolor":"black","font":{"color":"white"},"showlegend":true,"barmode":"stack","hovermode":"closest"},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"displayModeBar":false},"data":[{"x":["2022"],"y":[1],"type":"bar","name":"CONCLUÍDO","marker":{"color":"rgba(141,211,199,1)","line":{"color":"rgba(141,211,199,1)"}},"textfont":{"color":"rgba(141,211,199,1)"},"error_y":{"color":"rgba(141,211,199,1)"},"error_x":{"color":"rgba(141,211,199,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2022"],"y":[1],"type":"bar","name":"DESATIVADO","marker":{"color":"rgba(255,255,179,1)","line":{"color":"rgba(255,255,179,1)"}},"textfont":{"color":"rgba(255,255,179,1)"},"error_y":{"color":"rgba(255,255,179,1)"},"error_x":{"color":"rgba(255,255,179,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2020","2021","2022","2023","2024"],"y":[18,18,19,20,20],"type":"bar","name":"EM ANDAMENTO","marker":{"color":"rgba(190,186,218,1)","line":{"color":"rgba(190,186,218,1)"}},"textfont":{"color":"rgba(190,186,218,1)"},"error_y":{"color":"rgba(190,186,218,1)"},"error_x":{"color":"rgba(190,186,218,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+<p><strong>Fontes</strong>: <a
+href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
+Sucupira</strong></a></p>
+<br><a style="float:right" href="#top"><b>Início  </b>
+<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
+</a><br>
+<div align="center">
+<div id="htmlwidget-5b9a1e57cc61860da84b" style="width:100%;height:50vmin;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-5b9a1e57cc61860da84b">{"x":{"visdat":{"7563528ad1f5":["function () ","plotlyVisDat"]},"cur_data":"7563528ad1f5","attrs":{"7563528ad1f5":{"x":{},"y":{},"color":{},"colors":["#8DD3C7","#FFFFB3","#BEBADA"],"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"}},"layout":{"height":"50vmin","margin":{"b":60,"l":60,"t":60,"r":60},"title":{"text":"Projetos por Natureza","x":0.5,"xanchor":"center","font":{"size":"100vw","color":"white"}},"xaxis":{"domain":[0,1],"automargin":true,"title":"","titlefont":{"color":"white"},"tickfont":{"color":"white"},"tickvals":["2020","2021","2022","2023","2024"],"range":[2020,2021,2022,2023,2024]},"yaxis":{"domain":[0,1],"automargin":true,"title":"N","titlefont":{"color":"white"},"tickfont":{"color":"white"}},"legend":{"title":"Legenda","titlefont":{"color":"white"},"font":{"color":"white"},"bgcolor":"black","bordercolor":"white","borderwidth":1,"orientation":"h","xanchor":"center","x":0.5},"plot_bgcolor":"black","paper_bgcolor":"black","font":{"color":"white"},"showlegend":true,"barmode":"stack","hovermode":"closest"},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"displayModeBar":false},"data":[{"x":["2020","2021","2022","2023","2024"],"y":[3,3,4,4,4],"type":"bar","name":"EXTENSÃO","marker":{"color":"rgba(141,211,199,1)","line":{"color":"rgba(141,211,199,1)"}},"textfont":{"color":"rgba(141,211,199,1)"},"error_y":{"color":"rgba(141,211,199,1)"},"error_x":{"color":"rgba(141,211,199,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2020","2021","2022","2023","2024"],"y":[15,15,17,16,16],"type":"bar","name":"PESQUISA","marker":{"color":"rgba(190,186,218,1)","line":{"color":"rgba(190,186,218,1)"}},"textfont":{"color":"rgba(190,186,218,1)"},"error_y":{"color":"rgba(190,186,218,1)"},"error_x":{"color":"rgba(190,186,218,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+<p><strong>Fontes</strong>: <a
+href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
+Sucupira</strong></a>, <a
+href="https://www.altmetric.com"><strong>Altmetric</strong></a>, <a
+href="https://www.dimensions.ai"><strong>Dimensions</strong></a>, <a
+href="https://www.scimagojr.com"><strong>SJR</strong></a>, <a
+href="https://www.scopus.com/sources"><strong>CiteScore</strong></a>, <a
+href="https://plu.mx"><strong>PlumX</strong></a>, <a
+href="https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/veiculoPublicacaoQualis/listaConsultaGeralPeriodicos.jsf"><strong>Qualis</strong></a>,
+<a href="https://www.crossref.org"><strong>CrossRef</strong></a>, <a
+href="https://doaj.org"><strong>DOAJ</strong></a></p>
+<br><a style="float:right" href="#top"><b>Início  </b>
+<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
+</a><br>
+<div align="center">
+<div id="htmlwidget-74d5e333d76f30ab95ae" style="width:100%;height:50vmin;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-74d5e333d76f30ab95ae">{"x":{"visdat":{"756317de5629":["function () ","plotlyVisDat"]},"cur_data":"756317de5629","attrs":{"756317de5629":{"x":{},"y":{},"color":{},"colors":["#8DD3C7","#FFFFB3","#BEBADA","#FB8072"],"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"}},"layout":{"height":"50vmin","margin":{"b":60,"l":60,"t":60,"r":60},"title":{"text":"Categoria dos Membros dos Projetos","x":0.5,"xanchor":"center","font":{"size":"100vw","color":"white"}},"xaxis":{"domain":[0,1],"automargin":true,"title":"","titlefont":{"color":"white"},"tickfont":{"color":"white"},"tickvals":["2020","2021","2022","2023","2024"],"range":[2020,2021,2022,2023,2024]},"yaxis":{"domain":[0,1],"automargin":true,"title":"N","titlefont":{"color":"white"},"tickfont":{"color":"white"}},"legend":{"title":"Legenda","titlefont":{"color":"white"},"font":{"color":"white"},"bgcolor":"black","bordercolor":"white","borderwidth":1,"orientation":"h","xanchor":"center","x":0.5},"plot_bgcolor":"black","paper_bgcolor":"black","font":{"color":"white"},"showlegend":true,"barmode":"stack","hovermode":"closest"},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"displayModeBar":false},"data":[{"x":["2020","2021","2022","2023","2024"],"y":[52,75,98,101,94],"type":"bar","name":"Discente","marker":{"color":"rgba(141,211,199,1)","line":{"color":"rgba(141,211,199,1)"}},"textfont":{"color":"rgba(141,211,199,1)"},"error_y":{"color":"rgba(141,211,199,1)"},"error_x":{"color":"rgba(141,211,199,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2020","2021","2022","2023","2024"],"y":[13,13,15,15,15],"type":"bar","name":"Docente","marker":{"color":"rgba(255,255,179,1)","line":{"color":"rgba(255,255,179,1)"}},"textfont":{"color":"rgba(255,255,179,1)"},"error_y":{"color":"rgba(255,255,179,1)"},"error_x":{"color":"rgba(255,255,179,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2020","2021","2022","2023","2024"],"y":[19,26,27,25,25],"type":"bar","name":"Participante Externo","marker":{"color":"rgba(190,186,218,1)","line":{"color":"rgba(190,186,218,1)"}},"textfont":{"color":"rgba(190,186,218,1)"},"error_y":{"color":"rgba(190,186,218,1)"},"error_x":{"color":"rgba(190,186,218,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2021","2022","2023","2024"],"y":[1,1,1,2],"type":"bar","name":"Pós-Doc","marker":{"color":"rgba(251,128,114,1)","line":{"color":"rgba(251,128,114,1)"}},"textfont":{"color":"rgba(251,128,114,1)"},"error_y":{"color":"rgba(251,128,114,1)"},"error_x":{"color":"rgba(251,128,114,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+<p><strong>Fontes</strong>: <a
+href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
+Sucupira</strong></a>, <a
+href="https://www.altmetric.com"><strong>Altmetric</strong></a>, <a
+href="https://www.dimensions.ai"><strong>Dimensions</strong></a>, <a
+href="https://www.scimagojr.com"><strong>SJR</strong></a>, <a
+href="https://www.scopus.com/sources"><strong>CiteScore</strong></a>, <a
+href="https://plu.mx"><strong>PlumX</strong></a>, <a
+href="https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/veiculoPublicacaoQualis/listaConsultaGeralPeriodicos.jsf"><strong>Qualis</strong></a>,
+<a href="https://www.crossref.org"><strong>CrossRef</strong></a>, <a
+href="https://doaj.org"><strong>DOAJ</strong></a></p>
+<p><br><a style="float:right" href="#top"><b>Início  </b>
+<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
+</a><br></p>
+<p><br><br><img src="index_files/figure-html/sintese-projetos-1.png" width="70%" style="display: block; margin: auto;" /></p>
+<p><strong>Fontes</strong>: <a
+href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
+Sucupira</strong></a></p>
+<p><br><a style="float:right" href="#top"><b>Início  </b>
+<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
+</a><br></p>
+<br><br>
+<div align="center">
+<div id="htmlwidget-eb58631ea44857943310" style="width:100%;height:50vmin;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-eb58631ea44857943310">{"x":{"visdat":{"75637ecbd81a":["function () ","plotlyVisDat"]},"cur_data":"75637ecbd81a","attrs":{"75637ecbd81a":{"x":{},"y":{},"color":{},"colors":["#8DD3C7","#FFFFB3","#BEBADA"],"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"}},"layout":{"height":"50vmin","margin":{"b":60,"l":60,"t":60,"r":60},"title":{"text":"Produção Total","x":0.5,"xanchor":"center","font":{"size":"100vw","color":"white"}},"xaxis":{"domain":[0,1],"automargin":true,"title":"","titlefont":{"color":"white"},"tickfont":{"color":"white"},"tickvals":[2020,2021,2022,2023],"range":[2020,2021,2022,2023,2024]},"yaxis":{"domain":[0,1],"automargin":true,"title":"N","titlefont":{"color":"white"},"tickfont":{"color":"white"}},"legend":{"title":"Legenda","titlefont":{"color":"white"},"font":{"color":"white"},"bgcolor":"black","bordercolor":"white","borderwidth":1,"orientation":"h","xanchor":"center","x":0.5},"plot_bgcolor":"black","paper_bgcolor":"black","font":{"color":"white"},"showlegend":true,"barmode":"stack","hovermode":"closest"},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"displayModeBar":false},"data":[{"x":[2020,2021,2022,2023],"y":[66,95,140,148],"type":"bar","name":"BIBLIOGRÁFICA","marker":{"color":"rgba(141,211,199,1)","line":{"color":"rgba(141,211,199,1)"}},"textfont":{"color":"rgba(141,211,199,1)"},"error_y":{"color":"rgba(141,211,199,1)"},"error_x":{"color":"rgba(141,211,199,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[2020,2021,2022,2023],"y":[47,65,108,44],"type":"bar","name":"TÉCNICA","marker":{"color":"rgba(190,186,218,1)","line":{"color":"rgba(190,186,218,1)"}},"textfont":{"color":"rgba(190,186,218,1)"},"error_y":{"color":"rgba(190,186,218,1)"},"error_x":{"color":"rgba(190,186,218,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+<p><strong>Fontes</strong>: <a
+href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
+Sucupira</strong></a>, <a
+href="https://www.altmetric.com"><strong>Altmetric</strong></a>, <a
+href="https://www.dimensions.ai"><strong>Dimensions</strong></a>, <a
+href="https://www.scimagojr.com"><strong>SJR</strong></a>, <a
+href="https://www.scopus.com/sources"><strong>CiteScore</strong></a>, <a
+href="https://plu.mx"><strong>PlumX</strong></a>, <a
+href="https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/veiculoPublicacaoQualis/listaConsultaGeralPeriodicos.jsf"><strong>Qualis</strong></a>,
+<a href="https://www.crossref.org"><strong>CrossRef</strong></a>, <a
+href="https://doaj.org"><strong>DOAJ</strong></a></p>
+<br><a style="float:right" href="#top"><b>Início  </b>
+<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
+</a><br>
+<div align="center">
+<div id="htmlwidget-e150c1088cbd20369325" style="width:100%;height:50vmin;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-e150c1088cbd20369325">{"x":{"visdat":{"756378d8d3fe":["function () ","plotlyVisDat"]},"cur_data":"756378d8d3fe","attrs":{"756378d8d3fe":{"x":{},"y":{},"color":{},"colors":["#8DD3C7","#FFFFB3","#BEBADA","#FB8072"],"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"}},"layout":{"height":"50vmin","margin":{"b":60,"l":60,"t":60,"r":60},"title":{"text":"Produção Bibliográfica","x":0.5,"xanchor":"center","font":{"size":"100vw","color":"white"}},"xaxis":{"domain":[0,1],"automargin":true,"title":"","titlefont":{"color":"white"},"tickfont":{"color":"white"},"tickvals":[2020,2021,2022,2023],"range":[2020,2021,2022,2023,2024]},"yaxis":{"domain":[0,1],"automargin":true,"title":"N","titlefont":{"color":"white"},"tickfont":{"color":"white"}},"legend":{"title":"Legenda","titlefont":{"color":"white"},"font":{"color":"white"},"bgcolor":"black","bordercolor":"white","borderwidth":1,"orientation":"h","xanchor":"center","x":0.5},"plot_bgcolor":"black","paper_bgcolor":"black","font":{"color":"white"},"showlegend":true,"barmode":"stack","hovermode":"closest"},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"displayModeBar":false},"data":[{"x":[2020,2021,2022,2023],"y":[58,59,60,71],"type":"bar","name":"ARTIGO EM PERIÓDICO","marker":{"color":"rgba(141,211,199,1)","line":{"color":"rgba(141,211,199,1)"}},"textfont":{"color":"rgba(141,211,199,1)"},"error_y":{"color":"rgba(141,211,199,1)"},"error_x":{"color":"rgba(141,211,199,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[2020,2021,2022,2023],"y":[5,4,3,9],"type":"bar","name":"LIVRO","marker":{"color":"rgba(255,255,179,1)","line":{"color":"rgba(255,255,179,1)"}},"textfont":{"color":"rgba(255,255,179,1)"},"error_y":{"color":"rgba(255,255,179,1)"},"error_x":{"color":"rgba(255,255,179,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[2020,2021,2022,2023],"y":[0,0,0,3],"type":"bar","name":"OUTRO","marker":{"color":"rgba(190,186,218,1)","line":{"color":"rgba(190,186,218,1)"}},"textfont":{"color":"rgba(190,186,218,1)"},"error_y":{"color":"rgba(190,186,218,1)"},"error_x":{"color":"rgba(190,186,218,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[2020,2021,2022,2023],"y":[3,32,77,65],"type":"bar","name":"TRABALHO EM ANAIS","marker":{"color":"rgba(251,128,114,1)","line":{"color":"rgba(251,128,114,1)"}},"textfont":{"color":"rgba(251,128,114,1)"},"error_y":{"color":"rgba(251,128,114,1)"},"error_x":{"color":"rgba(251,128,114,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+<p><strong>Fontes</strong>: <a
+href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
+Sucupira</strong></a>, <a
+href="https://www.altmetric.com"><strong>Altmetric</strong></a>, <a
+href="https://www.dimensions.ai"><strong>Dimensions</strong></a>, <a
+href="https://www.scimagojr.com"><strong>SJR</strong></a>, <a
+href="https://www.scopus.com/sources"><strong>CiteScore</strong></a>, <a
+href="https://plu.mx"><strong>PlumX</strong></a>, <a
+href="https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/veiculoPublicacaoQualis/listaConsultaGeralPeriodicos.jsf"><strong>Qualis</strong></a>,
+<a href="https://www.crossref.org"><strong>CrossRef</strong></a>, <a
+href="https://doaj.org"><strong>DOAJ</strong></a></p>
+<br><a style="float:right" href="#top"><b>Início  </b>
+<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
+</a><br>
+<div align="center">
+<div id="htmlwidget-e9c37ab92e744680ac87" style="width:100%;height:50vmin;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-e9c37ab92e744680ac87">{"x":{"visdat":{"7563634606ad":["function () ","plotlyVisDat"]},"cur_data":"7563634606ad","attrs":{"7563634606ad":{"x":{},"y":{},"color":{},"colors":["#8DD3C7","#FFFFB3","#BEBADA","#FB8072","#80B1D3","#FDB462","#B3DE69","#FCCDE5","#D9D9D9"],"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"}},"layout":{"height":"50vmin","margin":{"b":60,"l":60,"t":60,"r":60},"title":{"text":"Produção Técnica","x":0.5,"xanchor":"center","font":{"size":"100vw","color":"white"}},"xaxis":{"domain":[0,1],"automargin":true,"title":"","titlefont":{"color":"white"},"tickfont":{"color":"white"},"tickvals":[2020,2021,2022,2023],"range":[2020,2021,2022,2023,2024]},"yaxis":{"domain":[0,1],"automargin":true,"title":"N","titlefont":{"color":"white"},"tickfont":{"color":"white"}},"legend":{"title":"Legenda","titlefont":{"color":"white"},"font":{"color":"white"},"bgcolor":"black","bordercolor":"white","borderwidth":1,"orientation":"h","xanchor":"center","x":0.5},"plot_bgcolor":"black","paper_bgcolor":"black","font":{"color":"white"},"showlegend":true,"barmode":"stack","hovermode":"closest"},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"displayModeBar":false},"data":[{"x":[2020,2021,2022,2023],"y":[7,33,59,14],"type":"bar","name":"APRESENTAÇÃO DE TRABALHO","marker":{"color":"rgba(141,211,199,1)","line":{"color":"rgba(141,211,199,1)"}},"textfont":{"color":"rgba(141,211,199,1)"},"error_y":{"color":"rgba(141,211,199,1)"},"error_x":{"color":"rgba(141,211,199,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[2020,2021,2022,2023],"y":[4,6,6,4],"type":"bar","name":"CURSO DE CURTA DURAÇÃO","marker":{"color":"rgba(255,255,179,1)","line":{"color":"rgba(255,255,179,1)"}},"textfont":{"color":"rgba(255,255,179,1)"},"error_y":{"color":"rgba(255,255,179,1)"},"error_x":{"color":"rgba(255,255,179,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[2020,2021,2022,2023],"y":[2,0,5,0],"type":"bar","name":"DESENVOLVIMENTO DE MATERIAL DIDÁTICO E INSTRUCIONAL","marker":{"color":"rgba(190,186,218,1)","line":{"color":"rgba(190,186,218,1)"}},"textfont":{"color":"rgba(190,186,218,1)"},"error_y":{"color":"rgba(190,186,218,1)"},"error_x":{"color":"rgba(190,186,218,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[2020,2021,2022,2023],"y":[3,9,14,9],"type":"bar","name":"ORGANIZAÇÃO DE EVENTO","marker":{"color":"rgba(251,128,114,1)","line":{"color":"rgba(251,128,114,1)"}},"textfont":{"color":"rgba(251,128,114,1)"},"error_y":{"color":"rgba(251,128,114,1)"},"error_x":{"color":"rgba(251,128,114,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[2020,2021,2022,2023],"y":[1,0,0,0],"type":"bar","name":"OUTRO","marker":{"color":"rgba(128,177,211,1)","line":{"color":"rgba(128,177,211,1)"}},"textfont":{"color":"rgba(128,177,211,1)"},"error_y":{"color":"rgba(128,177,211,1)"},"error_x":{"color":"rgba(128,177,211,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[2020,2021,2022,2023],"y":[0,1,0,0],"type":"bar","name":"PATENTE","marker":{"color":"rgba(253,180,98,1)","line":{"color":"rgba(253,180,98,1)"}},"textfont":{"color":"rgba(253,180,98,1)"},"error_y":{"color":"rgba(253,180,98,1)"},"error_x":{"color":"rgba(253,180,98,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[2020,2021,2022,2023],"y":[2,1,0,1],"type":"bar","name":"PROGRAMA DE RÁDIO OU TV","marker":{"color":"rgba(179,222,105,1)","line":{"color":"rgba(179,222,105,1)"}},"textfont":{"color":"rgba(179,222,105,1)"},"error_y":{"color":"rgba(179,222,105,1)"},"error_x":{"color":"rgba(179,222,105,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[2020,2021,2022,2023],"y":[2,0,0,0],"type":"bar","name":"RELATÓRIO DE PESQUISA","marker":{"color":"rgba(252,205,229,1)","line":{"color":"rgba(252,205,229,1)"}},"textfont":{"color":"rgba(252,205,229,1)"},"error_y":{"color":"rgba(252,205,229,1)"},"error_x":{"color":"rgba(252,205,229,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[2020,2021,2022,2023],"y":[26,15,24,16],"type":"bar","name":"SERVIÇOS TÉCNICOS","marker":{"color":"rgba(217,217,217,1)","line":{"color":"rgba(217,217,217,1)"}},"textfont":{"color":"rgba(217,217,217,1)"},"error_y":{"color":"rgba(217,217,217,1)"},"error_x":{"color":"rgba(217,217,217,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+<p><strong>Fontes</strong>: <a
+href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
+Sucupira</strong></a>, <a
+href="https://www.altmetric.com"><strong>Altmetric</strong></a>, <a
+href="https://www.dimensions.ai"><strong>Dimensions</strong></a>, <a
+href="https://www.scimagojr.com"><strong>SJR</strong></a>, <a
+href="https://www.scopus.com/sources"><strong>CiteScore</strong></a>, <a
+href="https://plu.mx"><strong>PlumX</strong></a>, <a
+href="https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/veiculoPublicacaoQualis/listaConsultaGeralPeriodicos.jsf"><strong>Qualis</strong></a>,
+<a href="https://www.crossref.org"><strong>CrossRef</strong></a>, <a
+href="https://doaj.org"><strong>DOAJ</strong></a></p>
+<p><br><a style="float:right" href="#top"><b>Início  </b>
+<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
+</a><br></p>
+<br><br>
+<div align="center">
+<div id="htmlwidget-648cc09624dbd986206c" style="width:100%;height:50vmin;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-648cc09624dbd986206c">{"x":{"visdat":{"75636855d187":["function () ","plotlyVisDat"]},"cur_data":"75636855d187","attrs":{"75636855d187":{"x":{},"y":{},"color":{},"colors":["#F7FBFF","#DEEBF7","#C6DBEF","#9ECAE1","#6BAED6","#4292C6","#2171B5","#08519C","#08306B"],"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"}},"layout":{"height":"50vmin","margin":{"b":60,"l":60,"t":60,"r":60},"title":{"text":"Métricas da Produção (Qualis)","x":0.5,"xanchor":"center","font":{"size":"100vw","color":"white"}},"xaxis":{"domain":[0,1],"automargin":true,"title":"","titlefont":{"color":"white"},"tickfont":{"color":"white"},"tickvals":[2020,2021,2022,2023],"range":[2020,2021,2022,2023,2024]},"yaxis":{"domain":[0,1],"automargin":true,"title":"N","titlefont":{"color":"white"},"tickfont":{"color":"white"}},"legend":{"title":"Legenda","titlefont":{"color":"white"},"font":{"color":"white"},"bgcolor":"black","bordercolor":"white","borderwidth":1,"orientation":"h","xanchor":"center","x":0.5},"plot_bgcolor":"black","paper_bgcolor":"black","font":{"color":"white"},"showlegend":true,"barmode":"stack","hovermode":"closest"},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"displayModeBar":false},"data":[{"x":[2020,2021,2022,2023],"y":[7,0,0,0],"type":"bar","name":"A1","marker":{"color":"rgba(247,251,255,1)","line":{"color":"rgba(247,251,255,1)"}},"textfont":{"color":"rgba(247,251,255,1)"},"error_y":{"color":"rgba(247,251,255,1)"},"error_x":{"color":"rgba(247,251,255,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[2020,2021,2022,2023],"y":[5,0,0,0],"type":"bar","name":"A2","marker":{"color":"rgba(225,237,248,1)","line":{"color":"rgba(225,237,248,1)"}},"textfont":{"color":"rgba(225,237,248,1)"},"error_y":{"color":"rgba(225,237,248,1)"},"error_x":{"color":"rgba(225,237,248,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[2020,2021,2022,2023],"y":[5,0,0,0],"type":"bar","name":"A3","marker":{"color":"rgba(203,223,241,1)","line":{"color":"rgba(203,223,241,1)"}},"textfont":{"color":"rgba(203,223,241,1)"},"error_y":{"color":"rgba(203,223,241,1)"},"error_x":{"color":"rgba(203,223,241,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[2020,2021,2022,2023],"y":[7,0,0,0],"type":"bar","name":"A4","marker":{"color":"rgba(172,208,230,1)","line":{"color":"rgba(172,208,230,1)"}},"textfont":{"color":"rgba(172,208,230,1)"},"error_y":{"color":"rgba(172,208,230,1)"},"error_x":{"color":"rgba(172,208,230,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[2020,2021,2022,2023],"y":[19,0,0,0],"type":"bar","name":"B1","marker":{"color":"rgba(131,186,219,1)","line":{"color":"rgba(131,186,219,1)"}},"textfont":{"color":"rgba(131,186,219,1)"},"error_y":{"color":"rgba(131,186,219,1)"},"error_x":{"color":"rgba(131,186,219,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[2020,2021,2022,2023],"y":[6,0,0,0],"type":"bar","name":"B2","marker":{"color":"rgba(90,161,207,1)","line":{"color":"rgba(90,161,207,1)"}},"textfont":{"color":"rgba(90,161,207,1)"},"error_y":{"color":"rgba(90,161,207,1)"},"error_x":{"color":"rgba(90,161,207,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[2020,2021,2022,2023],"y":[2,0,0,0],"type":"bar","name":"B3","marker":{"color":"rgba(57,135,192,1)","line":{"color":"rgba(57,135,192,1)"}},"textfont":{"color":"rgba(57,135,192,1)"},"error_y":{"color":"rgba(57,135,192,1)"},"error_x":{"color":"rgba(57,135,192,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[2020,2021,2022,2023],"y":[2,0,0,0],"type":"bar","name":"B4","marker":{"color":"rgba(29,106,175,1)","line":{"color":"rgba(29,106,175,1)"}},"textfont":{"color":"rgba(29,106,175,1)"},"error_y":{"color":"rgba(29,106,175,1)"},"error_x":{"color":"rgba(29,106,175,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[2020,2021,2022,2023],"y":[5,0,0,0],"type":"bar","name":"C","marker":{"color":"rgba(8,77,150,1)","line":{"color":"rgba(8,77,150,1)"}},"textfont":{"color":"rgba(8,77,150,1)"},"error_y":{"color":"rgba(8,77,150,1)"},"error_x":{"color":"rgba(8,77,150,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[2020,2021,2022,2023],"y":[0,59,60,71],"type":"bar","name":"Indefinida","marker":{"color":"rgba(8,48,107,1)","line":{"color":"rgba(8,48,107,1)"}},"textfont":{"color":"rgba(8,48,107,1)"},"error_y":{"color":"rgba(8,48,107,1)"},"error_x":{"color":"rgba(8,48,107,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+<p><strong>Fontes</strong>: <a
+href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
+Sucupira</strong></a>, <a
+href="https://www.altmetric.com"><strong>Altmetric</strong></a>, <a
+href="https://www.dimensions.ai"><strong>Dimensions</strong></a>, <a
+href="https://www.scimagojr.com"><strong>SJR</strong></a>, <a
+href="https://www.scopus.com/sources"><strong>CiteScore</strong></a>, <a
+href="https://plu.mx"><strong>PlumX</strong></a>, <a
+href="https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/veiculoPublicacaoQualis/listaConsultaGeralPeriodicos.jsf"><strong>Qualis</strong></a>,
+<a href="https://www.crossref.org"><strong>CrossRef</strong></a>, <a
+href="https://doaj.org"><strong>DOAJ</strong></a></p>
+<br><a style="float:right" href="#top"><b>Início  </b>
+<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
+</a><br>
+<div align="center">
+<div id="htmlwidget-5fa555ef4959c5f4af28" style="width:100%;height:50vmin;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-5fa555ef4959c5f4af28">{"x":{"visdat":{"75635a2f2b94":["function () ","plotlyVisDat"]},"cur_data":"75635a2f2b94","attrs":{"75635a2f2b94":{"x":{},"y":{},"color":"#8DD3C7","colors":"#8DD3C7","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"box"}},"layout":{"height":"50vmin","margin":{"b":60,"l":60,"t":60,"r":60},"title":{"text":"Métricas da Produção (SJR)","x":0.5,"xanchor":"center","font":{"size":"100vw","color":"white"}},"xaxis":{"domain":[0,1],"automargin":true,"title":"","titlefont":{"color":"white"},"tickfont":{"color":"white"},"tickvals":["2020","2021","2022","2023"],"range":[2020,2021,2022,2023,2024]},"yaxis":{"domain":[0,1],"automargin":true,"title":"SciMAGO Journal Rank (SJR)","titlefont":{"color":"white"},"tickfont":{"color":"white"},"tickformat":".0d","type":"log"},"plot_bgcolor":"black","paper_bgcolor":"black","font":{"color":"white"},"showlegend":false,"hovermode":"closest"},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"displayModeBar":false},"data":[{"fillcolor":"rgba(141,211,199,0.5)","x":["2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2021","2021","2021","2021","2021","2021","2021","2021","2021","2021","2021","2021","2021","2021","2021","2021","2021","2021","2021","2021","2021","2021","2021","2021","2021","2021","2021","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023"],"y":[0.47999999999999998,0.23599999999999999,0.26600000000000001,0.50900000000000001,0.76000000000000001,0.21199999999999999,0.30499999999999999,0.42699999999999999,0.59299999999999997,0.19900000000000001,0.121,1.2030000000000001,0.36299999999999999,0.42699999999999999,0.34599999999999997,0.755,0.26600000000000001,0.40100000000000002,0.63500000000000001,1.1719999999999999,0.97699999999999998,0.27900000000000003,0.252,0.77200000000000002,0.21199999999999999,0.121,0.30199999999999999,1.115,0.66000000000000003,0.73399999999999999,0.42099999999999999,0.72999999999999998,0.26600000000000001,0.30499999999999999,0.755,0.90000000000000002,0.88,0.36099999999999999,0.47999999999999998,0.19700000000000001,0.21199999999999999,0.95099999999999996,0.30399999999999999,0.32200000000000001,0.26600000000000001,0.72999999999999998,0.121,0.53400000000000003,0.80400000000000005,0.127,1.3009999999999999,0.314,0.77200000000000002,0.95099999999999996,0.13,0.89500000000000002,0.219,0.77100000000000002,0.14099999999999999,0.49199999999999999,0.33300000000000002,1.1839999999999999,0.42099999999999999,0.72999999999999998,0.33300000000000002,0.47999999999999998,0.35599999999999998,0.21199999999999999,0.95099999999999996,0.45900000000000002,0.45900000000000002,0.23599999999999999,0.91000000000000003,0.219,0.27400000000000002,0.218,0.52900000000000003,0.36699999999999999,1.083,0.97899999999999998,0.85999999999999999,0.95999999999999996,0.94899999999999995,0.18099999999999999,0.47999999999999998,0.18099999999999999,0.18099999999999999,1.167,1.167,0.16800000000000001,1.47,0.26600000000000001,0.159,0.93200000000000005,0.70399999999999996,0.21199999999999999,0.55700000000000005,0.55700000000000005,0.93600000000000005,0.19900000000000001,1.5649999999999999,0.373,1.0660000000000001,0.61199999999999999,0.76000000000000001,0.29999999999999999,0.85999999999999999,0.435,0.52900000000000003,0.36699999999999999,0.39000000000000001,0.749,0.73599999999999999,0.54500000000000004,0.76400000000000001,0.22600000000000001,0.85999999999999999,1.3400000000000001,1.167,0.52900000000000003,1.0049999999999999,0.26600000000000001,0.623,0.68300000000000005,0.26600000000000001,0.121,0.73299999999999998,0.79600000000000004,0.73399999999999999,0.34499999999999997,0.93200000000000005,0.621,0.72399999999999998,0.47999999999999998,1.008,0.80800000000000005,1.0780000000000001,1.0780000000000001,0.61299999999999999,0.13500000000000001,0.36699999999999999,0.95199999999999996,1.0249999999999999],"type":"box","name":"#8DD3C7","marker":{"color":"rgba(141,211,199,1)","line":{"color":"rgba(141,211,199,1)"}},"line":{"color":"rgba(141,211,199,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+<p><strong>Fontes</strong>: <a
+href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
+Sucupira</strong></a>, <a
+href="https://www.altmetric.com"><strong>Altmetric</strong></a>, <a
+href="https://www.dimensions.ai"><strong>Dimensions</strong></a>, <a
+href="https://www.scimagojr.com"><strong>SJR</strong></a>, <a
+href="https://www.scopus.com/sources"><strong>CiteScore</strong></a>, <a
+href="https://plu.mx"><strong>PlumX</strong></a>, <a
+href="https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/veiculoPublicacaoQualis/listaConsultaGeralPeriodicos.jsf"><strong>Qualis</strong></a>,
+<a href="https://www.crossref.org"><strong>CrossRef</strong></a>, <a
+href="https://doaj.org"><strong>DOAJ</strong></a></p>
+<br><a style="float:right" href="#top"><b>Início  </b>
+<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
+</a><br>
+<div align="center">
+<div id="htmlwidget-250f7fb8b68d610cad84" style="width:100%;height:50vmin;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-250f7fb8b68d610cad84">{"x":{"visdat":{"75634ed62fcd":["function () ","plotlyVisDat"]},"cur_data":"75634ed62fcd","attrs":{"75634ed62fcd":{"x":{},"y":{},"color":"#8DD3C7","colors":"#8DD3C7","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"box"}},"layout":{"height":"50vmin","margin":{"b":60,"l":60,"t":60,"r":60},"title":{"text":"Métricas da Produção (CiteScore)","x":0.5,"xanchor":"center","font":{"size":"100vw","color":"white"}},"xaxis":{"domain":[0,1],"automargin":true,"title":"","titlefont":{"color":"white"},"tickfont":{"color":"white"},"tickvals":["2020","2021","2022","2023"],"range":[2020,2021,2022,2023,2024]},"yaxis":{"domain":[0,1],"automargin":true,"title":"CiteScore","titlefont":{"color":"white"},"tickfont":{"color":"white"},"tickformat":".0d","type":"log"},"plot_bgcolor":"black","paper_bgcolor":"black","font":{"color":"white"},"showlegend":false,"hovermode":"closest"},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"displayModeBar":false},"data":[{"fillcolor":"rgba(141,211,199,0.5)","x":["2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2021","2021","2021","2021","2021","2021","2021","2021","2021","2021","2021","2021","2021","2021","2021","2021","2021","2021","2021","2021","2021","2021","2021","2021","2021","2021","2021","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023"],"y":[2.7999999999999998,1.1000000000000001,1.2,2.6000000000000001,5.5999999999999996,0.69999999999999996,1.8,2.8999999999999999,3.2999999999999998,1.1000000000000001,0.20000000000000001,5.7000000000000002,3.7000000000000002,2.8999999999999999,2.1000000000000001,4.0999999999999996,1.2,2.6000000000000001,3.7000000000000002,6.4000000000000004,5.7999999999999998,2.7000000000000002,2.2000000000000002,4.9000000000000004,0.69999999999999996,0.20000000000000001,1.5,6.2999999999999998,5.4000000000000004,5.0999999999999996,2.7999999999999998,4.7999999999999998,1.2,1.8,4.0999999999999996,7.5,9.5999999999999996,3.6000000000000001,2.7999999999999998,0.80000000000000004,0.69999999999999996,5.7999999999999998,2.1000000000000001,1.7,1.2,4.7999999999999998,0.20000000000000001,2.7999999999999998,6.7000000000000002,0.5,9.1999999999999993,2.2000000000000002,4.9000000000000004,5.7999999999999998,0.29999999999999999,4.7999999999999998,0.69999999999999996,4.7000000000000002,0.90000000000000002,4,2.7999999999999998,6.7999999999999998,2.7999999999999998,4.7999999999999998,2.7000000000000002,2.7999999999999998,2.1000000000000001,0.69999999999999996,5.7999999999999998,2.7000000000000002,2.7000000000000002,1.1000000000000001,10.5,0.69999999999999996,1.5,1.5,3,2.2000000000000002,5.7999999999999998,5.5999999999999996,5.2000000000000002,9.8000000000000007,4.5,0.59999999999999998,2.7999999999999998,0.59999999999999998,0.59999999999999998,6.9000000000000004,6.9000000000000004,0.69999999999999996,7.7000000000000002,1.2,0.59999999999999998,6.2000000000000002,4,0.69999999999999996,2.8999999999999999,2.8999999999999999,10.300000000000001,1.1000000000000001,12.199999999999999,2.7000000000000002,7.7999999999999998,4,5.5999999999999996,1.5,5.2000000000000002,2.7000000000000002,3,2.2000000000000002,2.2000000000000002,3.8999999999999999,4.0999999999999996,2.7000000000000002,5.5,0.80000000000000004,5.2000000000000002,10.300000000000001,6.9000000000000004,3,7.9000000000000004,1.2,4.7000000000000002,4.2999999999999998,1.2,0.20000000000000001,4.5999999999999996,4.4000000000000004,5.0999999999999996,2,6.2000000000000002,2.6000000000000001,4.7000000000000002,2.7999999999999998,6.0999999999999996,7.2999999999999998,5.5999999999999996,5.5999999999999996,3.7000000000000002,0.29999999999999999,2.2000000000000002,4.9000000000000004,7.5],"type":"box","name":"#8DD3C7","marker":{"color":"rgba(141,211,199,1)","line":{"color":"rgba(141,211,199,1)"}},"line":{"color":"rgba(141,211,199,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+<p><strong>Fontes</strong>: <a
+href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
+Sucupira</strong></a>, <a
+href="https://www.altmetric.com"><strong>Altmetric</strong></a>, <a
+href="https://www.dimensions.ai"><strong>Dimensions</strong></a>, <a
+href="https://www.scimagojr.com"><strong>SJR</strong></a>, <a
+href="https://www.scopus.com/sources"><strong>CiteScore</strong></a>, <a
+href="https://plu.mx"><strong>PlumX</strong></a>, <a
+href="https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/veiculoPublicacaoQualis/listaConsultaGeralPeriodicos.jsf"><strong>Qualis</strong></a>,
+<a href="https://www.crossref.org"><strong>CrossRef</strong></a>, <a
+href="https://doaj.org"><strong>DOAJ</strong></a></p>
+<br><a style="float:right" href="#top"><b>Início  </b>
+<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
+</a><br>
+<div align="center">
+<div id="htmlwidget-07491345adf84b6fff40" style="width:100%;height:50vmin;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-07491345adf84b6fff40">{"x":{"visdat":{"75634fdc642a":["function () ","plotlyVisDat"]},"cur_data":"75634fdc642a","attrs":{"75634fdc642a":{"x":{},"y":{},"color":"#8DD3C7","colors":"#8DD3C7","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"}},"layout":{"height":"50vmin","margin":{"b":60,"l":60,"t":60,"r":60},"title":{"text":"Top-10 Periódicos (SJR)","x":0.5,"xanchor":"center","font":{"size":"100vw","color":"white"}},"xaxis":{"domain":[0,1],"automargin":true,"title":"N","titlefont":{"color":"white"},"tickfont":{"color":"white"},"tickvals":[0,1,2,3,4,5,6,7,8,9,10]},"yaxis":{"domain":[0,1],"automargin":true,"title":"","titlefont":{"color":"white"},"tickfont":{"color":"white"},"autorange":"reversed","type":"category","categoryorder":"array","categoryarray":["(0029-6643)<br />NUTRITION REVIEWS","(0195-9131) MEDICINE AND<br />SCIENCE IN SPORTS AND EXERCISE","(0168-8227) DIABETES RESEARCH AND<br />CLINICAL PRACTICE (PRINT)","(2072-6643)<br />NUTRIENTS (BASEL)","(1471-2318) BMC<br />GERIATRICS (ONLINE)","(0031-3998)<br />PEDIATRIC RESEARCH","(1387-2877) JOURNAL OF<br />ALZHEIMER'S DISEASE","(1941-7381) SPORTS HEALTH: A<br />MULTIDISCIPLINARY APPROACH","(0264-0414) JOURNAL OF<br />SPORTS SCIENCES (PRINT)","(0960-8923)<br />OBESITY SURGERY"]},"plot_bgcolor":"black","paper_bgcolor":"black","font":{"color":"white"},"showlegend":false,"hovermode":"closest"},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"displayModeBar":false},"data":[{"x":[1.5649999999999999,1.47,1.3400000000000001,1.3009999999999999,1.2030000000000001,1.1839999999999999,1.1719999999999999,1.167,1.115,1.083],"y":["(0029-6643)<br />NUTRITION REVIEWS","(0195-9131) MEDICINE AND<br />SCIENCE IN SPORTS AND EXERCISE","(0168-8227) DIABETES RESEARCH AND<br />CLINICAL PRACTICE (PRINT)","(2072-6643)<br />NUTRIENTS (BASEL)","(1471-2318) BMC<br />GERIATRICS (ONLINE)","(0031-3998)<br />PEDIATRIC RESEARCH","(1387-2877) JOURNAL OF<br />ALZHEIMER'S DISEASE","(1941-7381) SPORTS HEALTH: A<br />MULTIDISCIPLINARY APPROACH","(0264-0414) JOURNAL OF<br />SPORTS SCIENCES (PRINT)","(0960-8923)<br />OBESITY SURGERY"],"type":"bar","orientation":"h","name":"#8DD3C7","marker":{"color":"rgba(141,211,199,1)","line":{"color":"rgba(141,211,199,1)"}},"textfont":{"color":"rgba(141,211,199,1)"},"error_y":{"color":"rgba(141,211,199,1)"},"error_x":{"color":"rgba(141,211,199,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+<p><strong>Fontes</strong>: <a
+href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
+Sucupira</strong></a>, <a
+href="https://www.altmetric.com"><strong>Altmetric</strong></a>, <a
+href="https://www.dimensions.ai"><strong>Dimensions</strong></a>, <a
+href="https://www.scimagojr.com"><strong>SJR</strong></a>, <a
+href="https://www.scopus.com/sources"><strong>CiteScore</strong></a>, <a
+href="https://plu.mx"><strong>PlumX</strong></a>, <a
+href="https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/veiculoPublicacaoQualis/listaConsultaGeralPeriodicos.jsf"><strong>Qualis</strong></a>,
+<a href="https://www.crossref.org"><strong>CrossRef</strong></a>, <a
+href="https://doaj.org"><strong>DOAJ</strong></a></p>
+<p><br><a style="float:right" href="#top"><b>Início  </b>
+<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
+</a><br></p>
+<p><br><br><img src="index_files/figure-html/sintese-artigos-1.png" width="70%" style="display: block; margin: auto;" /></p>
+<p><strong>Fontes</strong>: <a
+href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
+Sucupira</strong></a>, <a
+href="https://www.altmetric.com"><strong>Altmetric</strong></a>, <a
+href="https://www.dimensions.ai"><strong>Dimensions</strong></a>, <a
+href="https://www.scimagojr.com"><strong>SJR</strong></a>, <a
+href="https://www.scopus.com/sources"><strong>CiteScore</strong></a>, <a
+href="https://plu.mx"><strong>PlumX</strong></a>, <a
+href="https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/veiculoPublicacaoQualis/listaConsultaGeralPeriodicos.jsf"><strong>Qualis</strong></a>,
+<a href="https://www.crossref.org"><strong>CrossRef</strong></a>, <a
+href="https://doaj.org"><strong>DOAJ</strong></a></p>
+<p><br><a style="float:right" href="#top"><b>Início  </b>
+<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
+</a><br></p>
+<br><br>
+<div align="center">
+<div id="htmlwidget-3088bb8e7d9c1b5cb8bb" style="width:100%;height:50vmin;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-3088bb8e7d9c1b5cb8bb">{"x":{"visdat":{"756316179bdd":["function () ","plotlyVisDat"]},"cur_data":"756316179bdd","attrs":{"756316179bdd":{"x":{},"y":{},"color":"#8DD3C7","colors":"#8DD3C7","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"box"}},"layout":{"height":"50vmin","margin":{"b":60,"l":60,"t":60,"r":60},"title":{"text":"Atenção e Visibilidade","x":0.5,"xanchor":"center","font":{"size":"100vw","color":"white"}},"xaxis":{"domain":[0,1],"automargin":true,"title":"","titlefont":{"color":"white"},"tickfont":{"color":"white"},"tickvals":["2020","2021","2022","2023"],"range":[2020,2021,2022,2023,2024]},"yaxis":{"domain":[0,1],"automargin":true,"title":"Altmetric Attention Score","titlefont":{"color":"white"},"tickfont":{"color":"white"}},"plot_bgcolor":"black","paper_bgcolor":"black","font":{"color":"white"},"showlegend":false,"hovermode":"closest"},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"displayModeBar":false},"data":[{"fillcolor":"rgba(141,211,199,0.5)","x":["2020","2020","2020","2020","2020","2021","2021","2022","2022","2022","2022","2023","2023","2023","2023","2023"],"y":[1,2,8,3,4,54,7,1,2,1,2,2,2,1,1,1],"type":"box","name":"#8DD3C7","marker":{"color":"rgba(141,211,199,1)","line":{"color":"rgba(141,211,199,1)"}},"line":{"color":"rgba(141,211,199,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+<p><strong>Fontes</strong>: <a
+href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
+Sucupira</strong></a>, <a
+href="https://www.altmetric.com"><strong>Altmetric</strong></a>, <a
+href="https://www.dimensions.ai"><strong>Dimensions</strong></a>, <a
+href="https://www.scimagojr.com"><strong>SJR</strong></a>, <a
+href="https://www.scopus.com/sources"><strong>CiteScore</strong></a>, <a
+href="https://plu.mx"><strong>PlumX</strong></a>, <a
+href="https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/veiculoPublicacaoQualis/listaConsultaGeralPeriodicos.jsf"><strong>Qualis</strong></a>,
+<a href="https://www.crossref.org"><strong>CrossRef</strong></a>, <a
+href="https://doaj.org"><strong>DOAJ</strong></a></p>
+<br><a style="float:right" href="#top"><b>Início  </b>
+<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
+</a><br>
+<div align="center">
+<div id="htmlwidget-76196556d45bce50e896" style="width:100%;height:50vmin;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-76196556d45bce50e896">{"x":{"visdat":{"756367f9d57f":["function () ","plotlyVisDat"]},"cur_data":"756367f9d57f","attrs":{"756367f9d57f":{"x":{},"y":{},"color":{},"colors":["#8DD3C7","#FFFFB3","#BEBADA","#FB8072","#80B1D3","#FDB462","#B3DE69","#FCCDE5","#D9D9D9"],"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"}},"layout":{"height":"50vmin","margin":{"b":60,"l":60,"t":60,"r":60},"title":{"text":"Altmetric Attention Score (breakdown)","x":0.5,"xanchor":"center","font":{"size":"100vw","color":"white"}},"xaxis":{"domain":[0,1],"automargin":true,"title":"","titlefont":{"color":"white"},"tickfont":{"color":"white"},"tickvals":["2020","2021","2022","2023"],"range":[2020,2021,2022,2023,2024]},"yaxis":{"domain":[0,1],"automargin":true,"title":"N","titlefont":{"color":"white"},"tickfont":{"color":"white"},"type":"category","categoryorder":"array","categoryarray":["0","1","11","119","12","162","177","190","2","28","3","32","37","38","39","4","48","51","53","6","63","7","76"]},"legend":{"title":"Legenda","titlefont":{"color":"white"},"font":{"color":"white"},"bgcolor":"black","bordercolor":"white","borderwidth":1,"orientation":"h","xanchor":"center","x":0.5},"plot_bgcolor":"black","paper_bgcolor":"black","font":{"color":"white"},"showlegend":true,"barmode":"stack","hovermode":"closest"},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"displayModeBar":false},"data":[{"x":["2020","2020","2020","2020","2020","2021","2021","2022","2022","2022","2022","2023","2023","2023","2023","2023"],"y":["0","1","1","0","0","1","0","0","1","0","0","0","1","0","0","0"],"type":"bar","name":"Facebook","marker":{"color":"rgba(141,211,199,1)","line":{"color":"rgba(141,211,199,1)"}},"textfont":{"color":"rgba(141,211,199,1)"},"error_y":{"color":"rgba(141,211,199,1)"},"error_x":{"color":"rgba(141,211,199,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2020","2020","2020","2020","2020","2021","2021","2022","2022","2022","2022","2023","2023","2023","2023","2023"],"y":["0","0","0","0","0","1","0","0","0","0","0","0","0","0","0","0"],"type":"bar","name":"Blogs","marker":{"color":"rgba(215,238,187,1)","line":{"color":"rgba(215,238,187,1)"}},"textfont":{"color":"rgba(215,238,187,1)"},"error_y":{"color":"rgba(215,238,187,1)"},"error_x":{"color":"rgba(215,238,187,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2020","2020","2020","2020","2020","2021","2021","2022","2022","2022","2022","2023","2023","2023","2023","2023"],"y":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0"],"type":"bar","name":"Google+","marker":{"color":"rgba(241,239,189,1)","line":{"color":"rgba(241,239,189,1)"}},"textfont":{"color":"rgba(241,239,189,1)"},"error_y":{"color":"rgba(241,239,189,1)"},"error_x":{"color":"rgba(241,239,189,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2020","2020","2020","2020","2020","2021","2021","2022","2022","2022","2022","2023","2023","2023","2023","2023"],"y":["0","0","0","0","0","3","1","0","0","0","0","0","0","0","0","0"],"type":"bar","name":"Notícias","marker":{"color":"rgba(201,196,213,1)","line":{"color":"rgba(201,196,213,1)"}},"textfont":{"color":"rgba(201,196,213,1)"},"error_y":{"color":"rgba(201,196,213,1)"},"error_x":{"color":"rgba(201,196,213,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2020","2020","2020","2020","2020","2021","2021","2022","2022","2022","2022","2023","2023","2023","2023","2023"],"y":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0"],"type":"bar","name":"Reddit","marker":{"color":"rgba(225,161,169,1)","line":{"color":"rgba(225,161,169,1)"}},"textfont":{"color":"rgba(225,161,169,1)"},"error_y":{"color":"rgba(225,161,169,1)"},"error_x":{"color":"rgba(225,161,169,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2020","2020","2020","2020","2020","2021","2021","2022","2022","2022","2022","2023","2023","2023","2023","2023"],"y":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0"],"type":"bar","name":"Stack<br />Exchange","marker":{"color":"rgba(245,133,121,1)","line":{"color":"rgba(245,133,121,1)"}},"textfont":{"color":"rgba(245,133,121,1)"},"error_y":{"color":"rgba(245,133,121,1)"},"error_x":{"color":"rgba(245,133,121,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2020","2020","2020","2020","2020","2021","2021","2022","2022","2022","2022","2023","2023","2023","2023","2023"],"y":["1","2","11","0","7","38","1","2","2","1","4","2","2","1","1","1"],"type":"bar","name":"X","marker":{"color":"rgba(180,164,181,1)","line":{"color":"rgba(180,164,181,1)"}},"textfont":{"color":"rgba(180,164,181,1)"},"error_y":{"color":"rgba(180,164,181,1)"},"error_x":{"color":"rgba(180,164,181,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2020","2020","2020","2020","2020","2021","2021","2022","2022","2022","2022","2023","2023","2023","2023","2023"],"y":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0"],"type":"bar","name":"BlueSky","marker":{"color":"rgba(179,178,178,1)","line":{"color":"rgba(179,178,178,1)"}},"textfont":{"color":"rgba(179,178,178,1)"},"error_y":{"color":"rgba(179,178,178,1)"},"error_x":{"color":"rgba(179,178,178,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2020","2020","2020","2020","2020","2021","2021","2022","2022","2022","2022","2023","2023","2023","2023","2023"],"y":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0"],"type":"bar","name":"Wikipedia","marker":{"color":"rgba(246,180,108,1)","line":{"color":"rgba(246,180,108,1)"}},"textfont":{"color":"rgba(246,180,108,1)"},"error_y":{"color":"rgba(246,180,108,1)"},"error_x":{"color":"rgba(246,180,108,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2020","2020","2020","2020","2020","2021","2021","2022","2022","2022","2022","2023","2023","2023","2023","2023"],"y":["0","0","0","0","0","1","0","0","0","0","0","0","0","0","0","0"],"type":"bar","name":"Policies","marker":{"color":"rgba(217,204,102,1)","line":{"color":"rgba(217,204,102,1)"}},"textfont":{"color":"rgba(217,204,102,1)"},"error_y":{"color":"rgba(217,204,102,1)"},"error_x":{"color":"rgba(217,204,102,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2020","2020","2020","2020","2020","2021","2021","2022","2022","2022","2022","2023","2023","2023","2023","2023"],"y":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0"],"type":"bar","name":"Patentes","marker":{"color":"rgba(192,220,125,1)","line":{"color":"rgba(192,220,125,1)"}},"textfont":{"color":"rgba(192,220,125,1)"},"error_y":{"color":"rgba(192,220,125,1)"},"error_x":{"color":"rgba(192,220,125,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2020","2020","2020","2020","2020","2021","2021","2022","2022","2022","2022","2023","2023","2023","2023","2023"],"y":["0","0","0","0","0","3","0","0","0","0","0","0","0","0","0","0"],"type":"bar","name":"YouTube<br />Vimeo","marker":{"color":"rgba(237,210,201,1)","line":{"color":"rgba(237,210,201,1)"}},"textfont":{"color":"rgba(237,210,201,1)"},"error_y":{"color":"rgba(237,210,201,1)"},"error_x":{"color":"rgba(237,210,201,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2020","2020","2020","2020","2020","2021","2021","2022","2022","2022","2022","2023","2023","2023","2023","2023"],"y":["1","4","12","1","7","53","2","2","3","1","4","2","3","3","1","1"],"type":"bar","name":"Posts","marker":{"color":"rgba(239,210,224,1)","line":{"color":"rgba(239,210,224,1)"}},"textfont":{"color":"rgba(239,210,224,1)"},"error_y":{"color":"rgba(239,210,224,1)"},"error_x":{"color":"rgba(239,210,224,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2020","2020","2020","2020","2020","2021","2021","2022","2022","2022","2022","2023","2023","2023","2023","2023"],"y":["119","76","162","177","32","190","63","48","39","51","37","28","39","6","51","6"],"type":"bar","name":"Mendeley","marker":{"color":"rgba(217,217,217,1)","line":{"color":"rgba(217,217,217,1)"}},"textfont":{"color":"rgba(217,217,217,1)"},"error_y":{"color":"rgba(217,217,217,1)"},"error_x":{"color":"rgba(217,217,217,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+<p><strong>Fontes</strong>: <a
+href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
+Sucupira</strong></a>, <a
+href="https://www.altmetric.com"><strong>Altmetric</strong></a>, <a
+href="https://www.dimensions.ai"><strong>Dimensions</strong></a>, <a
+href="https://www.scimagojr.com"><strong>SJR</strong></a>, <a
+href="https://www.scopus.com/sources"><strong>CiteScore</strong></a>, <a
+href="https://plu.mx"><strong>PlumX</strong></a>, <a
+href="https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/veiculoPublicacaoQualis/listaConsultaGeralPeriodicos.jsf"><strong>Qualis</strong></a>,
+<a href="https://www.crossref.org"><strong>CrossRef</strong></a>, <a
+href="https://doaj.org"><strong>DOAJ</strong></a></p>
+<br><a style="float:right" href="#top"><b>Início  </b>
+<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
+</a><br>
+<div align="center">
+<div id="htmlwidget-c463d6ff5d296e50422d" style="width:100%;height:50vmin;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-c463d6ff5d296e50422d">{"x":{"visdat":{"7563432fba2d":["function () ","plotlyVisDat"]},"cur_data":"7563432fba2d","attrs":{"7563432fba2d":{"x":{},"y":{},"color":{},"colors":["#8DD3C7","#FFFFB3","#BEBADA"],"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"}},"layout":{"height":"50vmin","margin":{"b":60,"l":60,"t":60,"r":60},"title":{"text":"Acesso","x":0.5,"xanchor":"center","font":{"size":"100vw","color":"white"}},"xaxis":{"domain":[0,1],"automargin":true,"title":"","titlefont":{"color":"white"},"tickfont":{"color":"white"},"tickvals":[2020,2021,2022,2023],"range":[2020,2021,2022,2023,2024]},"yaxis":{"domain":[0,1],"automargin":true,"title":"%","titlefont":{"color":"white"},"tickfont":{"color":"white"}},"legend":{"title":"Legenda","titlefont":{"color":"white"},"font":{"color":"white"},"bgcolor":"black","bordercolor":"white","borderwidth":1,"orientation":"h","xanchor":"center","x":0.5},"plot_bgcolor":"black","paper_bgcolor":"black","font":{"color":"white"},"showlegend":true,"barmode":"stack","hovermode":"closest"},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"displayModeBar":false},"data":[{"x":[2020,2021,2022,2023],"y":[50,90.000000000000014,57.89473684210526,68.75],"type":"bar","name":"Paywall","marker":{"color":"rgba(141,211,199,1)","line":{"color":"rgba(141,211,199,1)"}},"textfont":{"color":"rgba(141,211,199,1)"},"error_y":{"color":"rgba(141,211,199,1)"},"error_x":{"color":"rgba(141,211,199,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[2020,2021,2022,2023],"y":[50,10,42.10526315789474,31.25],"type":"bar","name":"Open access","marker":{"color":"rgba(190,186,218,1)","line":{"color":"rgba(190,186,218,1)"}},"textfont":{"color":"rgba(190,186,218,1)"},"error_y":{"color":"rgba(190,186,218,1)"},"error_x":{"color":"rgba(190,186,218,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+<p><strong>Fontes</strong>: <a
+href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
+Sucupira</strong></a>, <a
+href="https://www.altmetric.com"><strong>Altmetric</strong></a>, <a
+href="https://www.dimensions.ai"><strong>Dimensions</strong></a>, <a
+href="https://www.scimagojr.com"><strong>SJR</strong></a>, <a
+href="https://www.scopus.com/sources"><strong>CiteScore</strong></a>, <a
+href="https://plu.mx"><strong>PlumX</strong></a>, <a
+href="https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/veiculoPublicacaoQualis/listaConsultaGeralPeriodicos.jsf"><strong>Qualis</strong></a>,
+<a href="https://www.crossref.org"><strong>CrossRef</strong></a>, <a
+href="https://doaj.org"><strong>DOAJ</strong></a></p>
+<br><a style="float:right" href="#top"><b>Início  </b>
+<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
+</a><br>
+<div align="center">
+<div id="htmlwidget-6a5fc8578c5a0a25084c" style="width:100%;height:50vmin;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-6a5fc8578c5a0a25084c">{"x":{"visdat":{"7563726802d0":["function () ","plotlyVisDat"]},"cur_data":"7563726802d0","attrs":{"7563726802d0":{"x":{},"y":{},"color":"#8DD3C7","colors":"#8DD3C7","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"}},"layout":{"height":"50vmin","margin":{"b":60,"l":60,"t":60,"r":60},"title":{"text":"Citações","x":0.5,"xanchor":"center","font":{"size":"100vw","color":"white"}},"xaxis":{"domain":[0,1],"automargin":true,"title":"","titlefont":{"color":"white"},"tickfont":{"color":"white"},"tickvals":[2020,2021,2022,2023],"range":[2020,2021,2022,2023,2024]},"yaxis":{"domain":[0,1],"automargin":true,"title":"N","titlefont":{"color":"white"},"tickfont":{"color":"white"}},"plot_bgcolor":"black","paper_bgcolor":"black","font":{"color":"white"},"showlegend":false,"hovermode":"closest"},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"displayModeBar":false},"data":[{"x":[2020,2021,2022,2023],"y":[10,9,18,14],"type":"bar","name":"#8DD3C7","marker":{"color":"rgba(141,211,199,1)","line":{"color":"rgba(141,211,199,1)"}},"textfont":{"color":"rgba(141,211,199,1)"},"error_y":{"color":"rgba(141,211,199,1)"},"error_x":{"color":"rgba(141,211,199,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+<p><strong>Fontes</strong>: <a
+href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
+Sucupira</strong></a>, <a
+href="https://www.altmetric.com"><strong>Altmetric</strong></a>, <a
+href="https://www.dimensions.ai"><strong>Dimensions</strong></a>, <a
+href="https://www.scimagojr.com"><strong>SJR</strong></a>, <a
+href="https://www.scopus.com/sources"><strong>CiteScore</strong></a>, <a
+href="https://plu.mx"><strong>PlumX</strong></a>, <a
+href="https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/veiculoPublicacaoQualis/listaConsultaGeralPeriodicos.jsf"><strong>Qualis</strong></a>,
+<a href="https://www.crossref.org"><strong>CrossRef</strong></a>, <a
+href="https://doaj.org"><strong>DOAJ</strong></a></p>
+<p><br><a style="float:right" href="#top"><b>Início  </b>
+<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
+</a><br></p>
+<p><br><br><img src="index_files/figure-html/sintese-visibilidade-1.png" width="70%" style="display: block; margin: auto;" /></p>
+<p><strong>Fontes</strong>: <a
+href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
+Sucupira</strong></a>, <a
+href="https://www.altmetric.com"><strong>Altmetric</strong></a>, <a
+href="https://www.dimensions.ai"><strong>Dimensions</strong></a>, <a
+href="https://www.scimagojr.com"><strong>SJR</strong></a>, <a
+href="https://www.scopus.com/sources"><strong>CiteScore</strong></a>, <a
+href="https://plu.mx"><strong>PlumX</strong></a>, <a
+href="https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/veiculoPublicacaoQualis/listaConsultaGeralPeriodicos.jsf"><strong>Qualis</strong></a>,
+<a href="https://www.crossref.org"><strong>CrossRef</strong></a>, <a
+href="https://doaj.org"><strong>DOAJ</strong></a></p>
+<p><br><a style="float:right" href="#top"><b>Início  </b>
+<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
+</a><br><br><br><img src="index_files/figure-html/sintese-visibilidade-2.png" width="70%" style="display: block; margin: auto;" /></p>
+<p><strong>Fontes</strong>: <a
+href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
+Sucupira</strong></a>, <a
+href="https://www.altmetric.com"><strong>Altmetric</strong></a>, <a
+href="https://www.dimensions.ai"><strong>Dimensions</strong></a>, <a
+href="https://www.scimagojr.com"><strong>SJR</strong></a>, <a
+href="https://www.scopus.com/sources"><strong>CiteScore</strong></a>, <a
+href="https://plu.mx"><strong>PlumX</strong></a>, <a
+href="https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/veiculoPublicacaoQualis/listaConsultaGeralPeriodicos.jsf"><strong>Qualis</strong></a>,
+<a href="https://www.crossref.org"><strong>CrossRef</strong></a>, <a
+href="https://doaj.org"><strong>DOAJ</strong></a></p>
+<p><br><a style="float:right" href="#top"><b>Início  </b>
+<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
+</a><br></p>
+<br><br>
+<div align="center">
+<div id="htmlwidget-322906d695e9222929bb" style="width:100%;height:50vmin;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-322906d695e9222929bb">{"x":{"visdat":{"756362e42a07":["function () ","plotlyVisDat"]},"cur_data":"756362e42a07","attrs":{"756362e42a07":{"x":{},"y":{},"color":{},"colors":["#8DD3C7","#FFFFB3","#BEBADA"],"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"}},"layout":{"height":"50vmin","margin":{"b":60,"l":60,"t":60,"r":60},"title":{"text":"Discentes","x":0.5,"xanchor":"center","font":{"size":"100vw","color":"white"}},"xaxis":{"domain":[0,1],"automargin":true,"title":"","titlefont":{"color":"white"},"tickfont":{"color":"white"},"tickvals":[2020,2021,2022,2023,2024],"range":[2020,2021,2022,2023,2024]},"yaxis":{"domain":[0,1],"automargin":true,"title":"N","titlefont":{"color":"white"},"tickfont":{"color":"white"}},"legend":{"title":"Legenda","titlefont":{"color":"white"},"font":{"color":"white"},"bgcolor":"black","bordercolor":"white","borderwidth":1,"orientation":"h","xanchor":"center","x":0.5},"plot_bgcolor":"black","paper_bgcolor":"black","font":{"color":"white"},"showlegend":true,"barmode":"stack","hovermode":"closest"},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"displayModeBar":false},"data":[{"x":[2020,2021,2022,2023,2024],"y":[14,28,38,28,29],"type":"bar","name":"Mestrado","marker":{"color":"rgba(141,211,199,1)","line":{"color":"rgba(141,211,199,1)"}},"textfont":{"color":"rgba(141,211,199,1)"},"error_y":{"color":"rgba(141,211,199,1)"},"error_x":{"color":"rgba(141,211,199,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[2020,2021,2022,2023,2024],"y":[8,17,20,37,41],"type":"bar","name":"Doutorado","marker":{"color":"rgba(190,186,218,1)","line":{"color":"rgba(190,186,218,1)"}},"textfont":{"color":"rgba(190,186,218,1)"},"error_y":{"color":"rgba(190,186,218,1)"},"error_x":{"color":"rgba(190,186,218,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+<p><strong>Fontes</strong>: <a
+href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
+Sucupira</strong></a></p>
+<br><a style="float:right" href="#top"><b>Início  </b>
+<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
+</a><br>
+<div align="center">
+<div id="htmlwidget-ae3328fcac225495a84c" style="width:100%;height:50vmin;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-ae3328fcac225495a84c">{"x":{"visdat":{"756371836449":["function () ","plotlyVisDat"]},"cur_data":"756371836449","attrs":{"756371836449":{"x":{},"y":{},"color":{},"colors":["#8DD3C7","#FFFFB3","#BEBADA","#FB8072","#80B1D3","#FDB462"],"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"}},"layout":{"height":"50vmin","margin":{"b":60,"l":60,"t":60,"r":60},"title":{"text":"Discentes","x":0.5,"xanchor":"center","font":{"size":"100vw","color":"white"}},"xaxis":{"domain":[0,1],"automargin":true,"title":"","titlefont":{"color":"white"},"tickfont":{"color":"white"},"tickvals":[2020,2021,2022,2023,2024],"range":[2020,2021,2022,2023,2024]},"yaxis":{"domain":[0,1],"automargin":true,"title":"N","titlefont":{"color":"white"},"tickfont":{"color":"white"}},"legend":{"title":"Legenda","titlefont":{"color":"white"},"font":{"color":"white"},"bgcolor":"black","bordercolor":"white","borderwidth":1,"orientation":"h","xanchor":"center","x":0.5},"plot_bgcolor":"black","paper_bgcolor":"black","font":{"color":"white"},"showlegend":true,"barmode":"stack","hovermode":"closest"},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"displayModeBar":false},"data":[{"x":[2020,2021,2022,2023,2024],"y":[22,43,40,50,67],"type":"bar","name":"Matriculado","marker":{"color":"rgba(141,211,199,1)","line":{"color":"rgba(141,211,199,1)"}},"textfont":{"color":"rgba(141,211,199,1)"},"error_y":{"color":"rgba(141,211,199,1)"},"error_x":{"color":"rgba(141,211,199,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[2020,2021,2022,2023,2024],"y":[0,0,14,9,0],"type":"bar","name":"Titulado","marker":{"color":"rgba(255,255,179,1)","line":{"color":"rgba(255,255,179,1)"}},"textfont":{"color":"rgba(255,255,179,1)"},"error_y":{"color":"rgba(255,255,179,1)"},"error_x":{"color":"rgba(255,255,179,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[2020,2021,2022,2023,2024],"y":[0,1,2,1,1],"type":"bar","name":"Desligado","marker":{"color":"rgba(190,186,218,1)","line":{"color":"rgba(190,186,218,1)"}},"textfont":{"color":"rgba(190,186,218,1)"},"error_y":{"color":"rgba(190,186,218,1)"},"error_x":{"color":"rgba(190,186,218,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[2020,2021,2022,2023,2024],"y":[0,1,2,1,0],"type":"bar","name":"Abandonou","marker":{"color":"rgba(251,128,114,1)","line":{"color":"rgba(251,128,114,1)"}},"textfont":{"color":"rgba(251,128,114,1)"},"error_y":{"color":"rgba(251,128,114,1)"},"error_x":{"color":"rgba(251,128,114,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[2020,2021,2022,2023,2024],"y":[0,0,0,4,2],"type":"bar","name":"Mudança com defesa","marker":{"color":"rgba(128,177,211,1)","line":{"color":"rgba(128,177,211,1)"}},"textfont":{"color":"rgba(128,177,211,1)"},"error_y":{"color":"rgba(128,177,211,1)"},"error_x":{"color":"rgba(128,177,211,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[2020,2021,2022,2023,2024],"y":[0,0,0,0,0],"type":"bar","name":"Mudança sem defesa","marker":{"color":"rgba(253,180,98,1)","line":{"color":"rgba(253,180,98,1)"}},"textfont":{"color":"rgba(253,180,98,1)"},"error_y":{"color":"rgba(253,180,98,1)"},"error_x":{"color":"rgba(253,180,98,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+<p><strong>Fontes</strong>: <a
+href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
+Sucupira</strong></a></p>
+<br><a style="float:right" href="#top"><b>Início  </b>
+<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
+</a><br>
+<div align="center">
+<div id="htmlwidget-d498203c2b89590c76e6" style="width:100%;height:50vmin;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-d498203c2b89590c76e6">{"x":{"visdat":{"7563692d2ed7":["function () ","plotlyVisDat"]},"cur_data":"7563692d2ed7","attrs":{"7563692d2ed7":{"x":{},"y":{},"color":{},"colors":["#8DD3C7","#FFFFB3","#BEBADA"],"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"}},"layout":{"height":"50vmin","margin":{"b":60,"l":60,"t":60,"r":60},"title":{"text":"Egressos","x":0.5,"xanchor":"center","font":{"size":"100vw","color":"white"}},"xaxis":{"domain":[0,1],"automargin":true,"title":"","titlefont":{"color":"white"},"tickfont":{"color":"white"},"tickvals":[2022,2023],"range":[2020,2021,2022,2023,2024]},"yaxis":{"domain":[0,1],"automargin":true,"title":"N","titlefont":{"color":"white"},"tickfont":{"color":"white"}},"legend":{"title":"Legenda","titlefont":{"color":"white"},"font":{"color":"white"},"bgcolor":"black","bordercolor":"white","borderwidth":1,"orientation":"h","xanchor":"center","x":0.5},"plot_bgcolor":"black","paper_bgcolor":"black","font":{"color":"white"},"showlegend":true,"barmode":"stack","hovermode":"closest"},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"displayModeBar":false},"data":[{"x":[2022,2023],"y":[0,3],"type":"bar","name":"Doutorado","marker":{"color":"rgba(141,211,199,1)","line":{"color":"rgba(141,211,199,1)"}},"textfont":{"color":"rgba(141,211,199,1)"},"error_y":{"color":"rgba(141,211,199,1)"},"error_x":{"color":"rgba(141,211,199,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[2022,2023],"y":[15,6],"type":"bar","name":"Mestrado","marker":{"color":"rgba(190,186,218,1)","line":{"color":"rgba(190,186,218,1)"}},"textfont":{"color":"rgba(190,186,218,1)"},"error_y":{"color":"rgba(190,186,218,1)"},"error_x":{"color":"rgba(190,186,218,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+<p><strong>Fontes</strong>: <a
+href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
+Sucupira</strong></a></p>
+<br><a style="float:right" href="#top"><b>Início  </b>
+<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
+</a><br>
+<div align="center">
+<div id="htmlwidget-07e12cf5793a188bd468" style="width:100%;height:50vmin;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-07e12cf5793a188bd468">{"x":{"visdat":{"7563155e5b33":["function () ","plotlyVisDat"]},"cur_data":"7563155e5b33","attrs":{"7563155e5b33":{"x":{},"y":{},"color":{},"colors":["#8DD3C7","#FFFFB3","#BEBADA"],"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"box"}},"layout":{"height":"50vmin","margin":{"b":60,"l":60,"t":60,"r":60},"title":{"text":"Tempo de Curso","x":0.5,"xanchor":"center","font":{"size":"100vw","color":"white"}},"xaxis":{"domain":[0,1],"automargin":true,"title":"","titlefont":{"color":"white"},"tickfont":{"color":"white"},"tickvals":["2022","2023"],"range":[2020,2021,2022,2023,2024]},"yaxis":{"domain":[0,1],"automargin":true,"title":"Meses","titlefont":{"color":"white"},"tickfont":{"color":"white"}},"legend":{"title":"Legenda","titlefont":{"color":"white"},"font":{"color":"white"},"bgcolor":"black","bordercolor":"white","borderwidth":1,"orientation":"h","xanchor":"center","x":0.5},"plot_bgcolor":"black","paper_bgcolor":"black","font":{"color":"white"},"showlegend":true,"hovermode":"closest"},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"displayModeBar":false},"data":[{"fillcolor":"rgba(141,211,199,0.5)","x":["2023","2023","2023"],"y":[40,30,19],"type":"box","name":"Doutorado","marker":{"color":"rgba(141,211,199,1)","line":{"color":"rgba(141,211,199,1)"}},"line":{"color":"rgba(141,211,199,1)"},"xaxis":"x","yaxis":"y","frame":null},{"fillcolor":"rgba(190,186,218,0.5)","x":["2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2023","2023","2023","2023","2023","2023"],"y":[23,21,23,23,23,23,27,22,28,22,23,22,22,23,23,30,28,25,24,24,34],"type":"box","name":"Mestrado","marker":{"color":"rgba(190,186,218,1)","line":{"color":"rgba(190,186,218,1)"}},"line":{"color":"rgba(190,186,218,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+<p><strong>Fontes</strong>: <a
+href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
+Sucupira</strong></a></p>
+<p><br><a style="float:right" href="#top"><b>Início  </b>
+<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
+</a><br></p>
+<p><br><br><img src="index_files/figure-html/sintese-pessoal-1.png" width="70%" style="display: block; margin: auto;" /></p>
+<p><strong>Fontes</strong>: <a
+href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
+Sucupira</strong></a></p>
+<p><br><a style="float:right" href="#top"><b>Início  </b>
+<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
+</a><br></p>
+<br><br>
+<div align="center">
+<div id="htmlwidget-9881fe926e837daf1b09" style="width:100%;height:50vmin;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-9881fe926e837daf1b09">{"x":{"visdat":{"7563593396d6":["function () ","plotlyVisDat"]},"cur_data":"7563593396d6","attrs":{"7563593396d6":{"x":{},"y":{},"color":{},"colors":["#8DD3C7","#FFFFB3","#BEBADA","#FB8072"],"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"}},"layout":{"height":"50vmin","margin":{"b":60,"l":60,"t":60,"r":60},"title":{"text":"Estágio Pós-Doutoral","x":0.5,"xanchor":"center","font":{"size":"100vw","color":"white"}},"xaxis":{"domain":[0,1],"automargin":true,"title":"","titlefont":{"color":"white"},"tickfont":{"color":"white"},"tickvals":[2021,2022,2023,2024],"range":[2020,2021,2022,2023,2024]},"yaxis":{"domain":[0,1],"automargin":true,"title":"N","titlefont":{"color":"white"},"tickfont":{"color":"white"},"tickvals":[0,1,2,3]},"legend":{"title":"Legenda","titlefont":{"color":"white"},"font":{"color":"white"},"bgcolor":"black","bordercolor":"white","borderwidth":1,"orientation":"h","xanchor":"center","x":0.5},"plot_bgcolor":"black","paper_bgcolor":"black","font":{"color":"white"},"showlegend":true,"barmode":"stack","hovermode":"closest"},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"displayModeBar":false},"data":[{"x":[2021,2022,2023,2024],"y":[1,1,2,3],"type":"bar","name":"Brasileiro","marker":{"color":"rgba(225,220,200,1)","line":{"color":"rgba(225,220,200,1)"}},"textfont":{"color":"rgba(225,220,200,1)"},"error_y":{"color":"rgba(225,220,200,1)"},"error_x":{"color":"rgba(225,220,200,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+<p><strong>Fontes</strong>: <a
+href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
+Sucupira</strong></a></p>
+<p><br><a style="float:right" href="#top"><b>Início  </b>
+<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
+</a><br></p>
+<p><br><br><img src="index_files/figure-html/sintese-posdoc-1.png" width="70%" style="display: block; margin: auto;" /></p>
+<p><strong>Fontes</strong>: <a
+href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
+Sucupira</strong></a></p>
+<p><br><a style="float:right" href="#top"><b>Início  </b>
+<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
+</a><br><img src="index_files/figure-html/sintese-posdoc-2.png" width="70%" style="display: block; margin: auto;" /></p>
+<p><strong>Fontes</strong>: <a
+href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
+Sucupira</strong></a></p>
+<p><br><a style="float:right" href="#top"><b>Início  </b>
+<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
+</a><br></p>
+<br><br>
+<div align="center">
+<div id="htmlwidget-fa678a69d38e33ae620f" style="width:100%;height:50vmin;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-fa678a69d38e33ae620f">{"x":{"visdat":{"75635b924331":["function () ","plotlyVisDat"]},"cur_data":"75635b924331","attrs":{"75635b924331":{"x":{},"y":{},"color":"#8DD3C7","colors":"#8DD3C7","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"}},"layout":{"height":"50vmin","margin":{"b":60,"l":60,"t":60,"r":60},"title":{"text":"Top-1 Nacionais","x":0.5,"xanchor":"center","font":{"size":"100vw","color":"white"}},"xaxis":{"domain":[0,1],"automargin":true,"title":"N","titlefont":{"color":"white"},"tickfont":{"color":"white"},"tickvals":[0,1]},"yaxis":{"domain":[0,1],"automargin":true,"title":"","titlefont":{"color":"white"},"tickfont":{"color":"white"},"autorange":"reversed","type":"category","categoryorder":"array","categoryarray":["UNIVERSIDADE<br />DE PERNAMBUCO"]},"plot_bgcolor":"black","paper_bgcolor":"black","font":{"color":"white"},"showlegend":false,"hovermode":"closest"},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"displayModeBar":false},"data":[{"x":[1],"y":["UNIVERSIDADE<br />DE PERNAMBUCO"],"type":"bar","orientation":"h","name":"#8DD3C7","marker":{"color":"rgba(141,211,199,1)","line":{"color":"rgba(141,211,199,1)"}},"textfont":{"color":"rgba(141,211,199,1)"},"error_y":{"color":"rgba(141,211,199,1)"},"error_x":{"color":"rgba(141,211,199,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+<p><strong>Fontes</strong>: <a
+href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
+Sucupira</strong></a></p>
+<br><a style="float:right" href="#top"><b>Início  </b>
+<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
+</a><br>
+<div align="center">
+<div id="htmlwidget-e19b18ab12e662a787cf" style="width:100%;height:50vmin;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-e19b18ab12e662a787cf">{"x":{"visdat":{"7563155e5b33":["function () ","plotlyVisDat"]},"cur_data":"7563155e5b33","attrs":{"7563155e5b33":{"x":{},"y":{},"color":{},"colors":["#8DD3C7","#FFFFB3","#BEBADA"],"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"box"}},"layout":{"height":"50vmin","margin":{"b":60,"l":60,"t":60,"r":60},"title":{"text":"Tempo de Curso","x":0.5,"xanchor":"center","font":{"size":"100vw","color":"white"}},"xaxis":{"domain":[0,1],"automargin":true,"title":"","titlefont":{"color":"white"},"tickfont":{"color":"white"},"tickvals":["2022","2023"],"range":[2020,2021,2022,2023,2024]},"yaxis":{"domain":[0,1],"automargin":true,"title":"Meses","titlefont":{"color":"white"},"tickfont":{"color":"white"}},"legend":{"title":"Legenda","titlefont":{"color":"white"},"font":{"color":"white"},"bgcolor":"black","bordercolor":"white","borderwidth":1,"orientation":"h","xanchor":"center","x":0.5},"plot_bgcolor":"black","paper_bgcolor":"black","font":{"color":"white"},"showlegend":true,"hovermode":"closest"},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"displayModeBar":false},"data":[{"fillcolor":"rgba(141,211,199,0.5)","x":["2023","2023","2023"],"y":[40,30,19],"type":"box","name":"Doutorado","marker":{"color":"rgba(141,211,199,1)","line":{"color":"rgba(141,211,199,1)"}},"line":{"color":"rgba(141,211,199,1)"},"xaxis":"x","yaxis":"y","frame":null},{"fillcolor":"rgba(190,186,218,0.5)","x":["2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2022","2023","2023","2023","2023","2023","2023"],"y":[23,21,23,23,23,23,27,22,28,22,23,22,22,23,23,30,28,25,24,24,34],"type":"box","name":"Mestrado","marker":{"color":"rgba(190,186,218,1)","line":{"color":"rgba(190,186,218,1)"}},"line":{"color":"rgba(190,186,218,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+<p><strong>Fontes</strong>: <a
+href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
+Sucupira</strong></a></p>
+<br><a style="float:right" href="#top"><b>Início  </b>
+<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
+</a><br>
+<div align="center">
+<div id="htmlwidget-ec392546e5af3adbb58f" style="width:100%;height:50vmin;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-ec392546e5af3adbb58f">{"x":{"visdat":{"756317de5629":["function () ","plotlyVisDat"]},"cur_data":"756317de5629","attrs":{"756317de5629":{"x":{},"y":{},"color":{},"colors":["#8DD3C7","#FFFFB3","#BEBADA","#FB8072"],"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"}},"layout":{"height":"50vmin","margin":{"b":60,"l":60,"t":60,"r":60},"title":{"text":"Categoria dos Membros dos Projetos","x":0.5,"xanchor":"center","font":{"size":"100vw","color":"white"}},"xaxis":{"domain":[0,1],"automargin":true,"title":"","titlefont":{"color":"white"},"tickfont":{"color":"white"},"tickvals":["2020","2021","2022","2023","2024"],"range":[2020,2021,2022,2023,2024]},"yaxis":{"domain":[0,1],"automargin":true,"title":"N","titlefont":{"color":"white"},"tickfont":{"color":"white"}},"legend":{"title":"Legenda","titlefont":{"color":"white"},"font":{"color":"white"},"bgcolor":"black","bordercolor":"white","borderwidth":1,"orientation":"h","xanchor":"center","x":0.5},"plot_bgcolor":"black","paper_bgcolor":"black","font":{"color":"white"},"showlegend":true,"barmode":"stack","hovermode":"closest"},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"displayModeBar":false},"data":[{"x":["2020","2021","2022","2023","2024"],"y":[52,75,98,101,94],"type":"bar","name":"Discente","marker":{"color":"rgba(141,211,199,1)","line":{"color":"rgba(141,211,199,1)"}},"textfont":{"color":"rgba(141,211,199,1)"},"error_y":{"color":"rgba(141,211,199,1)"},"error_x":{"color":"rgba(141,211,199,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2020","2021","2022","2023","2024"],"y":[13,13,15,15,15],"type":"bar","name":"Docente","marker":{"color":"rgba(255,255,179,1)","line":{"color":"rgba(255,255,179,1)"}},"textfont":{"color":"rgba(255,255,179,1)"},"error_y":{"color":"rgba(255,255,179,1)"},"error_x":{"color":"rgba(255,255,179,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2020","2021","2022","2023","2024"],"y":[19,26,27,25,25],"type":"bar","name":"Participante Externo","marker":{"color":"rgba(190,186,218,1)","line":{"color":"rgba(190,186,218,1)"}},"textfont":{"color":"rgba(190,186,218,1)"},"error_y":{"color":"rgba(190,186,218,1)"},"error_x":{"color":"rgba(190,186,218,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2021","2022","2023","2024"],"y":[1,1,1,2],"type":"bar","name":"Pós-Doc","marker":{"color":"rgba(251,128,114,1)","line":{"color":"rgba(251,128,114,1)"}},"textfont":{"color":"rgba(251,128,114,1)"},"error_y":{"color":"rgba(251,128,114,1)"},"error_x":{"color":"rgba(251,128,114,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+<p><strong>Fontes</strong>: <a
+href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
+Sucupira</strong></a></p>
+<p><br><a style="float:right" href="#top"><b>Início  </b>
+<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
+</a><br></p>
+<p><br><br><img src="index_files/figure-html/sintese-rede-1.png" width="70%" style="display: block; margin: auto;" /></p>
+<p><strong>Fontes</strong>: <a
+href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
+Sucupira</strong></a></p>
+<p><br><a style="float:right" href="#top"><b>Início  </b>
+<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
+</a><br><img src="index_files/figure-html/sintese-rede-2.png" width="70%" style="display: block; margin: auto;" /></p>
+<p><strong>Fontes</strong>: <a
+href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
+Sucupira</strong></a></p>
+<p><br><a style="float:right" href="#top"><b>Início  </b>
+<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
+</a><br></p>
+<p><br></p>
+
+<!--script for generating HORIZONTAL LINE-->
+<hr style="height:10px;border-width:0;color:black;background-color:black">
+
+<br>
+
+<div style="text-align: center; vertical-align: baseline">
+  <p>Copyright &copy; 2021-<script type="text/javascript">document.write( new Date().getFullYear() );</script> Arthur de Sá Ferreira, DSc. Todos os direitos reservados. Última atualização em <span id="datetime"></span><script>var dt = new Date().toLocaleDateString(); document.getElementById("datetime").innerHTML=dt.toLocaleString();</script>.<p/></div>
+
+<div style="text-align: center; vertical-align: baseline;">
+  <p><b>Observatório</b> por <a id="cy-effective-orcid-url" class="underline" href="https://orcid.org/0000-0001-7014-2002" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align: baseline;"> <img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width: 1em; margin-inline-start: 0.5em" alt="ORCID iD icon"/> Arthur de Sá Ferreira</a> está licenciado sob <a rel="license" data-spdx="Apache-2.0" href="https://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a></p>
+</div>
+
+<div style="text-align: center; vertical-align: baseline;">
+  <img style="vertical-align: center" width="1.5%" src="https://raw.githubusercontent.com/rstudio/hex-stickers/main/thumbs/RStudio.png"> Desenvolvido em <a href="https://www.rstudio.com/" target="_blank">RStudio</a> usando <a href="https://rmarkdown.rstudio.com" target="_blank">R Markdown</a>
+</div>
+
+<br>
+
+<!--print ZENODO citation-->
+<div style="text-align: center; vertical-align: baseline;">
+<a href="https://doi.org/10.5281/zenodo.8322622"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.8322622.svg" alt="DOI"></a>
+</div>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
