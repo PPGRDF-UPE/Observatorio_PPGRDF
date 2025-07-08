@@ -1,11 +1,11 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.6.11)  23 JUN 2025 11:19
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.6.29)  8 JUL 2025 12:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **autoavaliacao-2017-2020.tex
 (./autoavaliacao-2017-2020.tex
 LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2025-05-26>
+L3 programming layer <2025-06-09>
 (/usr/local/texlive/2025/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2025/01/22 v1.4n Standard LaTeX document class
 (/usr/local/texlive/2025/texmf-dist/tex/latex/base/bk10.clo
@@ -99,9 +99,9 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 Package: iftex 2024/12/12 v1.0g TeX engine tests
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/unicode-math/unicode-math.sty (
 /usr/local/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2025-05-26 L3 programming layer (loader) 
+Package: expl3 2025-06-09 L3 programming layer (loader) 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
-File: l3backend-xetex.def 2025-04-14 L3 backend support: XeTeX
+File: l3backend-xetex.def 2025-06-09 L3 backend support: XeTeX
 \g__graphics_track_int=\count292
 \g__pdfannot_backend_int=\count293
 \g__pdfannot_backend_link_int=\count294
@@ -739,11 +739,11 @@ Package: colortbl 2024/10/29 v1.0k Color table columns (DPC)
 \minrowclearance=\skip68
 \rownum=\count342
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/pdflscape/pdflscape.sty
-Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+Package: pdflscape 2025-06-23 v0.14 Display of landscape pages in PDF
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.st
 y
-Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
+Package: pdflscape-nometadata 2025-06-23 v0.14 Display of landscape pages in PD
 F (HO)
 (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
@@ -1462,7 +1462,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip110
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/siunitx/siunitx.sty
-Package: siunitx 2025-05-22 v3.4.12 A comprehensive (SI) units package
+Package: siunitx 2025-07-05 v3.4.13 A comprehensive (SI) units package
 \l__siunitx_number_uncert_offset_int=\count437
 \l__siunitx_number_exponent_fixed_int=\count438
 \l__siunitx_number_min_decimal_int=\count439
@@ -1955,62 +1955,62 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 [7
 
 ]
-Underfull \hbox (badness 5288) in paragraph at lines 441--441
+Underfull \hbox (badness 5288) in paragraph at lines 444--444
 \TU/lmr/bx/n/10 DISFUNÇÕES NEURO MUSCULOESQUELÉTI-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 441--441
+Underfull \hbox (badness 10000) in paragraph at lines 444--444
 []\TU/lmr/bx/n/10 AVALIAÇÃO, PRESCRIÇÃO E MONITORA-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 441--441
+Underfull \hbox (badness 10000) in paragraph at lines 444--444
 []\TU/lmr/bx/n/10 DISFUNÇÕES MUSCULOESQUELÉTICAS EM
  []
 
 
-Underfull \hbox (badness 1596) in paragraph at lines 441--441
+Underfull \hbox (badness 1596) in paragraph at lines 444--444
 []\TU/lmr/bx/n/10 EVIDÊNCIA CIENTÍFICA APLICADA À PES-
  []
 
 
-Underfull \hbox (badness 1496) in paragraph at lines 441--441
+Underfull \hbox (badness 1496) in paragraph at lines 444--444
 []\TU/lmr/bx/n/10 MECANISMOS DE ADAPTAÇÃO HEMODINÂ-
  []
 
 
-Underfull \hbox (badness 3209) in paragraph at lines 441--441
+Underfull \hbox (badness 3209) in paragraph at lines 444--444
 \TU/lmr/bx/n/10 MICA, RESPIRATÓRIA E METABÓLICA AO
  []
 
 
-Underfull \hbox (badness 5288) in paragraph at lines 441--441
+Underfull \hbox (badness 5288) in paragraph at lines 444--444
 \TU/lmr/bx/n/10 DISFUNÇÕES NEURO MUSCULOESQUELÉTI-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 441--441
+Underfull \hbox (badness 10000) in paragraph at lines 444--444
 []\TU/lmr/bx/n/10 AVALIAÇÃO, PRESCRIÇÃO E MONITORA-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 441--441
+Underfull \hbox (badness 10000) in paragraph at lines 444--444
 []\TU/lmr/bx/n/10 DISFUNÇÕES MUSCULOESQUELÉTICAS EM
  []
 
 
-Underfull \hbox (badness 1596) in paragraph at lines 441--441
+Underfull \hbox (badness 1596) in paragraph at lines 444--444
 []\TU/lmr/bx/n/10 EVIDÊNCIA CIENTÍFICA APLICADA À PES-
  []
 
 
-Underfull \hbox (badness 1496) in paragraph at lines 441--441
+Underfull \hbox (badness 1496) in paragraph at lines 444--444
 []\TU/lmr/bx/n/10 MECANISMOS DE ADAPTAÇÃO HEMODINÂ-
  []
 
 
-Underfull \hbox (badness 3209) in paragraph at lines 441--441
+Underfull \hbox (badness 3209) in paragraph at lines 444--444
 \TU/lmr/bx/n/10 MICA, RESPIRATÓRIA E METABÓLICA AO
  []
 
@@ -2019,114 +2019,114 @@ Underfull \hbox (badness 3209) in paragraph at lines 441--441
 [8
 
 ]
-Underfull \hbox (badness 5288) in paragraph at lines 480--480
+Underfull \hbox (badness 5288) in paragraph at lines 484--484
 \TU/lmr/bx/n/10 DISFUNÇÕES NEURO MUSCULOESQUELÉTI-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 480--480
+Underfull \hbox (badness 10000) in paragraph at lines 484--484
 []\TU/lmr/bx/n/10 AVALIAÇÃO, PRESCRIÇÃO E MONITORA-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 480--480
+Underfull \hbox (badness 10000) in paragraph at lines 484--484
 []\TU/lmr/bx/n/10 DISFUNÇÕES MUSCULOESQUELÉTICAS EM
  []
 
 
-Underfull \hbox (badness 1596) in paragraph at lines 480--480
+Underfull \hbox (badness 1596) in paragraph at lines 484--484
 []\TU/lmr/bx/n/10 EVIDÊNCIA CIENTÍFICA APLICADA À PES-
  []
 
 
-Underfull \hbox (badness 1496) in paragraph at lines 480--480
+Underfull \hbox (badness 1496) in paragraph at lines 484--484
 []\TU/lmr/bx/n/10 MECANISMOS DE ADAPTAÇÃO HEMODINÂ-
  []
 
 
-Underfull \hbox (badness 3209) in paragraph at lines 480--480
+Underfull \hbox (badness 3209) in paragraph at lines 484--484
 \TU/lmr/bx/n/10 MICA, RESPIRATÓRIA E METABÓLICA AO
  []
 
 
-Underfull \hbox (badness 1496) in paragraph at lines 480--480
+Underfull \hbox (badness 1496) in paragraph at lines 484--484
 []\TU/lmr/bx/n/10 MECANISMOS DE ADAPTAÇÃO HEMODINÂ-
  []
 
 
-Underfull \hbox (badness 3209) in paragraph at lines 480--480
+Underfull \hbox (badness 3209) in paragraph at lines 484--484
 \TU/lmr/bx/n/10 MICA, RESPIRATÓRIA E METABÓLICA AO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 480--480
+Underfull \hbox (badness 10000) in paragraph at lines 484--484
 []\TU/lmr/bx/n/10 MÉTODOS AVANÇADOS EM AVALIAÇÃO
  []
 
 
-Underfull \hbox (badness 5431) in paragraph at lines 480--480
+Underfull \hbox (badness 5431) in paragraph at lines 484--484
 []\TU/lmr/bx/n/10 SEMINÁRIOS AVANÇADOS EM AVALIAÇÃO
  []
 
 
-Underfull \hbox (badness 5431) in paragraph at lines 480--480
+Underfull \hbox (badness 5431) in paragraph at lines 484--484
 []\TU/lmr/bx/n/10 SEMINÁRIOS AVANÇADOS EM AVALIAÇÃO
  []
 
 
-Underfull \hbox (badness 5288) in paragraph at lines 480--480
+Underfull \hbox (badness 5288) in paragraph at lines 484--484
 \TU/lmr/bx/n/10 DISFUNÇÕES NEURO MUSCULOESQUELÉTI-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 480--480
+Underfull \hbox (badness 10000) in paragraph at lines 484--484
 []\TU/lmr/bx/n/10 AVALIAÇÃO, PRESCRIÇÃO E MONITORA-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 480--480
+Underfull \hbox (badness 10000) in paragraph at lines 484--484
 []\TU/lmr/bx/n/10 DISFUNÇÕES MUSCULOESQUELÉTICAS EM
  []
 
 
-Underfull \hbox (badness 1596) in paragraph at lines 480--480
+Underfull \hbox (badness 1596) in paragraph at lines 484--484
 []\TU/lmr/bx/n/10 EVIDÊNCIA CIENTÍFICA APLICADA À PES-
  []
 
 
-Underfull \hbox (badness 1496) in paragraph at lines 480--480
+Underfull \hbox (badness 1496) in paragraph at lines 484--484
 []\TU/lmr/bx/n/10 MECANISMOS DE ADAPTAÇÃO HEMODINÂ-
  []
 
 
-Underfull \hbox (badness 3209) in paragraph at lines 480--480
+Underfull \hbox (badness 3209) in paragraph at lines 484--484
 \TU/lmr/bx/n/10 MICA, RESPIRATÓRIA E METABÓLICA AO
  []
 
 
 
 [9]
-Underfull \hbox (badness 1496) in paragraph at lines 480--480
+Underfull \hbox (badness 1496) in paragraph at lines 484--484
 []\TU/lmr/bx/n/10 MECANISMOS DE ADAPTAÇÃO HEMODINÂ-
  []
 
 
-Underfull \hbox (badness 3209) in paragraph at lines 480--480
+Underfull \hbox (badness 3209) in paragraph at lines 484--484
 \TU/lmr/bx/n/10 MICA, RESPIRATÓRIA E METABÓLICA AO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 480--480
+Underfull \hbox (badness 10000) in paragraph at lines 484--484
 []\TU/lmr/bx/n/10 MÉTODOS AVANÇADOS EM AVALIAÇÃO
  []
 
 
-Underfull \hbox (badness 5431) in paragraph at lines 480--480
+Underfull \hbox (badness 5431) in paragraph at lines 484--484
 []\TU/lmr/bx/n/10 SEMINÁRIOS AVANÇADOS EM AVALIAÇÃO
  []
 
 
-Underfull \hbox (badness 5431) in paragraph at lines 480--480
+Underfull \hbox (badness 5431) in paragraph at lines 484--484
 []\TU/lmr/bx/n/10 SEMINÁRIOS AVANÇADOS EM AVALIAÇÃO
  []
 
@@ -2143,7 +2143,7 @@ Underfull \hbox (badness 5431) in paragraph at lines 480--480
 [13]
 
 [14]
-Overfull \hbox (7.17795pt too wide) in paragraph at lines 627--651
+Overfull \hbox (7.17795pt too wide) in paragraph at lines 631--655
  [][] 
  []
 
@@ -2225,7 +2225,7 @@ Overfull \hbox (7.17795pt too wide) in paragraph at lines 627--651
 ]
 
 [39]
-Overfull \hbox (12.64723pt too wide) in paragraph at lines 1224--1248
+Overfull \hbox (12.64723pt too wide) in paragraph at lines 1230--1254
  [][] 
  []
 
@@ -2258,62 +2258,62 @@ File: observatorio.png Graphic file (type bmp)
 [48
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1433--1433
+Underfull \hbox (badness 10000) in paragraph at lines 1440--1440
 []\TU/lmr/bx/n/10 Ano
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1433--1433
+Underfull \hbox (badness 10000) in paragraph at lines 1440--1440
 \TU/lmr/bx/n/10 (iní-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1433--1433
+Underfull \hbox (badness 10000) in paragraph at lines 1440--1440
 []\TU/lmr/bx/n/10 Ano
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1433--1433
+Underfull \hbox (badness 10000) in paragraph at lines 1440--1440
 []\TU/lmr/m/n/10 RODRIGO CAPPATO DE
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1433--1433
+Underfull \hbox (badness 10000) in paragraph at lines 1440--1440
 []\TU/lmr/m/n/10 RODRIGO CAPPATO DE
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1433--1433
+Underfull \hbox (badness 10000) in paragraph at lines 1440--1440
 []\TU/lmr/m/n/10 RODRIGO CAPPATO DE
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1433--1433
+Underfull \hbox (badness 10000) in paragraph at lines 1440--1440
 []\TU/lmr/bx/n/10 Ano
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1433--1433
+Underfull \hbox (badness 10000) in paragraph at lines 1440--1440
 \TU/lmr/bx/n/10 (iní-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1433--1433
+Underfull \hbox (badness 10000) in paragraph at lines 1440--1440
 []\TU/lmr/bx/n/10 Ano
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1433--1433
+Underfull \hbox (badness 10000) in paragraph at lines 1440--1440
 []\TU/lmr/m/n/10 RODRIGO CAPPATO DE
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1433--1433
+Underfull \hbox (badness 10000) in paragraph at lines 1440--1440
 []\TU/lmr/m/n/10 RODRIGO CAPPATO DE
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1433--1433
+Underfull \hbox (badness 10000) in paragraph at lines 1440--1440
 []\TU/lmr/m/n/10 RODRIGO CAPPATO DE
  []
 
@@ -2322,19 +2322,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 1433--1433
 [49] (./autoavaliacao-2017-2020.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2025-05-26>
+L3 programming layer <2025-06-09>
  ***********
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 45832 strings out of 468527
- 958741 string characters out of 5447700
- 1551137 words of memory out of 5000000
- 73566 multiletter control sequences out of 15000+600000
+ 45831 strings out of 468529
+ 958727 string characters out of 5447722
+ 1552304 words of memory out of 5000000
+ 73563 multiletter control sequences out of 15000+600000
  643247 words of font info for 99 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 99i,19n,114p,1212b,3314s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,19n,114p,1212b,3316s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on autoavaliacao-2017-2020.pdf (52 pages).
