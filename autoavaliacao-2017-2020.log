@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2026.2.9)  11 FEB 2026 10:32
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2026.2.16)  22 FEB 2026 16:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -597,7 +597,7 @@ Package graphics Info: Driver file: xetex.def on input line 106.
 )
 \pandoc@box=\box64
 (/usr/local/texlive/2025/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2026/01/26 v26.2 The multilingual framework for LuaLaTeX, pdfLaT
+Package: babel 2026/02/14 v26.3 The multilingual framework for LuaLaTeX, pdfLaT
 eX and XeLaTeX
 \babel@savecnt=\count327
 LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
@@ -2216,51 +2216,51 @@ Overfull \hbox (7.17795pt too wide) in paragraph at lines 627--650
 
 
 ] [39]
-Overfull \hbox (12.64723pt too wide) in paragraph at lines 1212--1235
+Overfull \hbox (12.64723pt too wide) in paragraph at lines 1214--1237
  [][] 
  []
 
 [40] [41
 
 ] [42] [43] [44]
-Underfull \hbox (badness 1097) in paragraph at lines 1386--1386
+Underfull \hbox (badness 1097) in paragraph at lines 1388--1388
 []\TU/lmr/m/n/10 Comparison Of Post-Exercise Hypotension
  []
 
 
-Underfull \hbox (badness 1097) in paragraph at lines 1386--1386
+Underfull \hbox (badness 1097) in paragraph at lines 1388--1388
 []\TU/lmr/m/n/10 Comparison Of Post-Exercise Hypotension
  []
 
 [45
 
 ]
-Underfull \hbox (badness 1097) in paragraph at lines 1422--1422
+Underfull \hbox (badness 1097) in paragraph at lines 1424--1424
 []\TU/lmr/m/n/10 Comparison Of Post-Exercise Hypotension
  []
 
 
-Underfull \hbox (badness 1097) in paragraph at lines 1422--1422
+Underfull \hbox (badness 1097) in paragraph at lines 1424--1424
 []\TU/lmr/m/n/10 Comparison Of Post-Exercise Hypotension
  []
 
 [46] [47]
-Underfull \hbox (badness 1097) in paragraph at lines 1484--1484
+Underfull \hbox (badness 1097) in paragraph at lines 1486--1486
 []\TU/lmr/m/n/10 Comparison Of Post-Exercise Hypotension
  []
 
 
-Underfull \hbox (badness 1097) in paragraph at lines 1484--1484
+Underfull \hbox (badness 1097) in paragraph at lines 1486--1486
 []\TU/lmr/m/n/10 Comparison Of Post-Exercise Hypotension
  []
 
 [48]
-Underfull \hbox (badness 1097) in paragraph at lines 1511--1511
+Underfull \hbox (badness 1097) in paragraph at lines 1513--1513
 []\TU/lmr/m/n/10 Comparison Of Post-Exercise Hypotension
  []
 
 
-Underfull \hbox (badness 1097) in paragraph at lines 1511--1511
+Underfull \hbox (badness 1097) in paragraph at lines 1513--1513
 []\TU/lmr/m/n/10 Comparison Of Post-Exercise Hypotension
  []
 
@@ -2275,62 +2275,62 @@ File: observatorio.png Graphic file (type bmp)
 [52] [53
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1574--1574
+Underfull \hbox (badness 10000) in paragraph at lines 1576--1576
 []\TU/lmr/bx/n/10 Ano
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1574--1574
+Underfull \hbox (badness 10000) in paragraph at lines 1576--1576
 \TU/lmr/bx/n/10 (iní-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1574--1574
+Underfull \hbox (badness 10000) in paragraph at lines 1576--1576
 []\TU/lmr/bx/n/10 Ano
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1574--1574
+Underfull \hbox (badness 10000) in paragraph at lines 1576--1576
 []\TU/lmr/m/n/10 RODRIGO CAPPATO DE
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1574--1574
+Underfull \hbox (badness 10000) in paragraph at lines 1576--1576
 []\TU/lmr/m/n/10 RODRIGO CAPPATO DE
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1574--1574
+Underfull \hbox (badness 10000) in paragraph at lines 1576--1576
 []\TU/lmr/m/n/10 RODRIGO CAPPATO DE
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1574--1574
+Underfull \hbox (badness 10000) in paragraph at lines 1576--1576
 []\TU/lmr/bx/n/10 Ano
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1574--1574
+Underfull \hbox (badness 10000) in paragraph at lines 1576--1576
 \TU/lmr/bx/n/10 (iní-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1574--1574
+Underfull \hbox (badness 10000) in paragraph at lines 1576--1576
 []\TU/lmr/bx/n/10 Ano
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1574--1574
+Underfull \hbox (badness 10000) in paragraph at lines 1576--1576
 []\TU/lmr/m/n/10 RODRIGO CAPPATO DE
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1574--1574
+Underfull \hbox (badness 10000) in paragraph at lines 1576--1576
 []\TU/lmr/m/n/10 RODRIGO CAPPATO DE
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1574--1574
+Underfull \hbox (badness 10000) in paragraph at lines 1576--1576
 []\TU/lmr/m/n/10 RODRIGO CAPPATO DE
  []
 
@@ -2345,8 +2345,8 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  46056 strings out of 468174
- 964758 string characters out of 5433151
- 1565548 words of memory out of 5000000
+ 964758 string characters out of 5433150
+ 1565496 words of memory out of 5000000
  74136 multiletter control sequences out of 15000+600000
  631776 words of font info for 79 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
